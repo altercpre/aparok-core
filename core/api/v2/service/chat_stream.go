@@ -13,10 +13,10 @@ import (
 	"github.com/google/uuid"
 	"go.uber.org/zap"
 
-	apicore "github.com/anyproto/anytype-heart/core/api/core"
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	apicore "github.com/altercpre/aparok-core/core/api/core"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // C10 bounds for the stream's opening window, the same shape the paginated

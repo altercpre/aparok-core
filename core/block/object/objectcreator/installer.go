@@ -6,18 +6,18 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/relationutils"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/pkg/lib/database"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/relationutils"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/pkg/lib/database"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/space/clientspace"
 )
 
 func (s *service) BundledObjectsIdsToInstall(

@@ -4,8 +4,8 @@ import (
 	"github.com/globalsign/mgo/bson"
 	"golang.org/x/exp/slices"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/slice"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/slice"
 )
 
 const DefaultViewRelationWidth = 192

@@ -9,7 +9,7 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/anyproto/anytype-heart/util/anyerror"
+	"github.com/altercpre/aparok-core/util/anyerror"
 )
 
 type Directory struct {

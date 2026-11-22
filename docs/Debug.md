@@ -1,6 +1,6 @@
 # Debug
 ## Run local gRPC server to debug
-⚠️ Make sure to update/install protobuf compiler from [this repo](https://github.com/anyproto/protobuf) using `make setup-protoc`
+⚠️ Make sure to update/install protobuf compiler from [this repo](https://github.com/altercpre/protobuf) using `make setup-protoc`
 
 Commands:
 - `make run-server` - builds proto files for grpc server, builds the binary and runs it

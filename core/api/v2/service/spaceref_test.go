@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/api/util"
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	"github.com/altercpre/aparok-core/core/api/util"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
 )
 
 // testReplKey is the eval account's replication key — the one every space

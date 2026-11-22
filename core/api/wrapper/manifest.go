@@ -1,6 +1,6 @@
 // Package wrapper is the task-tool layer over the /v2 REST surface: one
 // curated tool table, exposed
-// as CLI verbs (cmd/anytype), as a machine-readable function-calling
+// as CLI verbs (cmd/aparok), as a machine-readable function-calling
 // manifest, and as an MCP stdio server for local models (mcp.go,
 // tier-filtered per tier.go/§8.20) — ONE definition, three deliveries.
 //
@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson/filterstring"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson/filterstring"
 )
 
 // ArgType is a tool argument's JSON type (flat, C13: no recursion).

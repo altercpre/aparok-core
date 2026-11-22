@@ -5,20 +5,20 @@ import (
 	"path/filepath"
 	"testing"
 
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock/smarttest"
-	"github.com/anyproto/anytype-heart/core/block/simple"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	"github.com/anyproto/anytype-heart/space/clientspace/mock_clientspace"
-	"github.com/anyproto/anytype-heart/space/spacecore/storage/anystorage"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock/smarttest"
+	"github.com/altercpre/aparok-core/core/block/simple"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/altercpre/aparok-core/space/clientspace/mock_clientspace"
+	"github.com/altercpre/aparok-core/space/spacecore/storage/anystorage"
 )
 
 // fakeObjectGetter hands the adapter a prepared smartblock.

@@ -7,7 +7,7 @@ import (
 
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 type Progress interface {

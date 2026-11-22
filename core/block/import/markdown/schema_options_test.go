@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/schema"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pkg/lib/schema"
 )
 
 // TestSchemaImporter_CollectsOptionsFromYAML verifies that when a tag

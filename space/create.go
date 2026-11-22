@@ -6,13 +6,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/loader"
-	"github.com/anyproto/anytype-heart/space/spacedomain"
-	"github.com/anyproto/anytype-heart/space/spaceinfo"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/altercpre/aparok-core/space/internal/spaceprocess/loader"
+	"github.com/altercpre/aparok-core/space/spacedomain"
+	"github.com/altercpre/aparok-core/space/spaceinfo"
 )
 
 // for initiator (e.g. from ui avatar, qrcode)

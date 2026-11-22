@@ -3,12 +3,12 @@ package pbc
 import (
 	"github.com/gogo/protobuf/jsonpb"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/converter"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/converter"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 var log = logging.Logger("pb-converter")

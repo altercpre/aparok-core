@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/anyproto/anytype-heart/core/block/import/common/source"
-	"github.com/anyproto/anytype-heart/pkg/lib/core"
-	"github.com/anyproto/anytype-heart/util/anyerror"
+	"github.com/altercpre/aparok-core/core/block/import/common/source"
+	"github.com/altercpre/aparok-core/pkg/lib/core"
+	"github.com/altercpre/aparok-core/util/anyerror"
 )
 
 func ProvideFileName(fileName string, filesSource source.Source, path string, tempDirProvider core.TempDirProvider) (string, bool, error) {

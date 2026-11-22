@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2"
 )
 
 // ResumeCrawl is pass 2 restarted against the live source with the spool as

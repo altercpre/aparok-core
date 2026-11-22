@@ -12,7 +12,7 @@ import (
 	"github.com/srwiley/oksvg"
 	"github.com/srwiley/rasterx"
 
-	"github.com/anyproto/anytype-heart/core/files"
+	"github.com/altercpre/aparok-core/core/files"
 )
 
 const pngMedia = "image/png"

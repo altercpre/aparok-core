@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/pool"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/pool"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
+	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
 )
 
 type testPeerStore struct {

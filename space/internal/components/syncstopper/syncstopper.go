@@ -21,12 +21,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/util/periodicsync"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/util/periodicsync"
 
-	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus"
-	space "github.com/anyproto/anytype-heart/space/spacecore"
+	"github.com/altercpre/aparok-core/space/internal/components/spacestatus"
+	space "github.com/altercpre/aparok-core/space/spacecore"
 )
 
 const CName = "common.components.syncstopper"

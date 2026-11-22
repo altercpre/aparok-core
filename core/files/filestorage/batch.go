@@ -3,7 +3,7 @@ package filestorage
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore"
+	"github.com/altercpre/aparok-core/core/files/filestorage/rpcstore"
 )
 
 // BlockStoreBatch combines localStore interface with batch operations

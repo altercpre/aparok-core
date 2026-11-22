@@ -1,8 +1,8 @@
 package editor
 
 import (
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/domain"
 )
 
 // required relations for device beside the bundle.RequiredInternalRelations

@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/net"
+	"github.com/altercpre/aparok-sync/net"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
 )
 
 func (fx *fixture) localPeersChanges() []*pb.EventAccountRecoveryLocalPeersStateChanged {

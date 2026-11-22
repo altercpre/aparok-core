@@ -4,19 +4,19 @@ import (
 	"context"
 	"testing"
 
-	"github.com/anyproto/any-sync/app/ocache"
+	"github.com/altercpre/aparok-sync/app/ocache"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock/smarttest"
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/editor/template"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock/smarttest"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/editor/template"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 const (

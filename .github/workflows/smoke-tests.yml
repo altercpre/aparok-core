@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout Test Repository
-        run: git clone --depth=1 https://github.com/anyproto/anytype-test.git .
+        run: git clone --depth=1 https://github.com/altercpre/anytype-test.git .
 
       - name: Create config.yml file from secret
         run: echo "${{ secrets.ANY_SYNC_NETWORK_STAGE1 }}" > config.yml

@@ -3,9 +3,9 @@ package database
 import (
 	"time"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	timeutil "github.com/anyproto/anytype-heart/util/time"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	timeutil "github.com/altercpre/aparok-core/util/time"
 )
 
 func transformDateFilter(protoFilter FilterRequest, now time.Time) []FilterRequest {

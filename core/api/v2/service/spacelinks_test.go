@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // TestV2CrossSpaceObjectLinksExpandShortSpaceRefs: the API serves space ids

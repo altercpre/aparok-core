@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/api/wrapper"
+	"github.com/altercpre/aparok-core/core/api/wrapper"
 )
 
 // stubAPI is a minimal stand-in for the local /v2 server: enough of the

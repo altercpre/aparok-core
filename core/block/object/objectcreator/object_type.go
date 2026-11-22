@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/order"
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/relationutils"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/pkg/lib/database"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/altercpre/aparok-core/core/block/editor/order"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/relationutils"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/pkg/lib/database"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/space/clientspace"
 )
 
 func (s *service) createObjectType(ctx context.Context, space clientspace.Space, details *domain.Details) (id string, newDetails *domain.Details, err error) {

@@ -3,8 +3,8 @@ package dependencies
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/space/clientspace"
 )
 
 type BundledObjectsInstaller interface {

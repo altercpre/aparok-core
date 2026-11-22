@@ -13,13 +13,13 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	"github.com/anyproto/anytype-heart/space/internal/spacecontroller"
-	"github.com/anyproto/anytype-heart/space/internal/spacecontroller/mock_spacecontroller"
-	"github.com/anyproto/anytype-heart/space/spacefactory/mock_spacefactory"
-	"github.com/anyproto/anytype-heart/space/spaceinfo"
-	"github.com/anyproto/anytype-heart/space/techspace"
-	"github.com/anyproto/anytype-heart/space/techspace/mock_techspace"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/altercpre/aparok-core/space/internal/spacecontroller"
+	"github.com/altercpre/aparok-core/space/internal/spacecontroller/mock_spacecontroller"
+	"github.com/altercpre/aparok-core/space/spacefactory/mock_spacefactory"
+	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/altercpre/aparok-core/space/techspace"
+	"github.com/altercpre/aparok-core/space/techspace/mock_techspace"
 )
 
 func newMockTechSpaceViewExists(t *testing.T, spaceId string, exists bool, err error) *mock_techspace.MockTechSpace {

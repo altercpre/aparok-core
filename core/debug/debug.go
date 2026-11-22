@@ -8,12 +8,12 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/database"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore/spaceindex"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	utilDebug "github.com/anyproto/anytype-heart/util/debug"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/database"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore/spaceindex"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	utilDebug "github.com/altercpre/aparok-core/util/debug"
 )
 
 type debugParticipantSpace struct {

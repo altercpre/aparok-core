@@ -32,23 +32,23 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/anyproto/anytype-heart/core/block/cache"
-	"github.com/anyproto/anytype-heart/core/block/editor/fileobject"
-	sb "github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/editor/template"
-	"github.com/anyproto/anytype-heart/core/block/export/collect"
-	"github.com/anyproto/anytype-heart/core/block/export/report"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson/compose"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson/storeresolver"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/space/spacecore/typeprovider"
+	"github.com/altercpre/aparok-core/core/block/cache"
+	"github.com/altercpre/aparok-core/core/block/editor/fileobject"
+	sb "github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/editor/template"
+	"github.com/altercpre/aparok-core/core/block/export/collect"
+	"github.com/altercpre/aparok-core/core/block/export/report"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson/compose"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson/storeresolver"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/space/spacecore/typeprovider"
 )
 
 var log = logging.Logger("anytype-mw-export-anyblock")
@@ -558,7 +558,7 @@ func (e *Exporter) emitDoc(ctx context.Context, req Request, docs collect.Docs, 
 	// RELEASE GATE (design Q11): this path reaches the filed ocache
 	// TryRemove-on-loading bug GO-7333 — nil-deref/hang/race when another
 	// caller concurrently re-loads the same entry. The fix is any-sync PR
-	// https://github.com/anyproto/any-sync/pull/769 (open, green CI): the
+	// https://github.com/altercpre/aparok-sync/pull/769 (open, green CI): the
 	// any-sync bump carrying it must land before this exporter ships. Our
 	// own entry is loaded, not loading (cache.Do returned above), so the
 	// window arms only on a concurrent re-load — the identical race the

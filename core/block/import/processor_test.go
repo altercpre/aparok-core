@@ -4,19 +4,19 @@ import (
 	"context"
 	"testing"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/anyproto/anytype-heart/core/block/import/common"
-	"github.com/anyproto/anytype-heart/core/block/import/common/objectid/mock_objectid"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/import/common"
+	"github.com/altercpre/aparok-core/core/block/import/common/objectid/mock_objectid"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/domain/objectorigin"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func TestReplaceRelationKeyWithNew(t *testing.T) {

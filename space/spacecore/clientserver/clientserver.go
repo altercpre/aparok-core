@@ -9,15 +9,15 @@ import (
 	"strconv"
 	"strings"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/net/transport/quic"
-	"github.com/anyproto/any-sync/net/transport/yamux"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/net/transport/quic"
+	"github.com/altercpre/aparok-sync/net/transport/yamux"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoreprovider"
-	"github.com/anyproto/anytype-heart/util/keyvaluestore"
+	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoreprovider"
+	"github.com/altercpre/aparok-core/util/keyvaluestore"
 )
 
 const CName = "client.space.clientserver"

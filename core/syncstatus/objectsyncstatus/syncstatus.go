@@ -5,17 +5,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/spacestate"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
-	"github.com/anyproto/any-sync/commonspace/syncstatus"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/spacestate"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/commonspace/syncstatus"
 
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/nodeconf"
 	"golang.org/x/exp/slices"
 
-	"github.com/anyproto/anytype-heart/core/anytype/config"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/util/slice"
+	"github.com/altercpre/aparok-core/core/aparok/config"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/util/slice"
 )
 
 type SyncStatus int

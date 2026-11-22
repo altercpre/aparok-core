@@ -645,7 +645,7 @@ func (f *fileGCStub) RestoreOrphansOnLinksAdded(spaceId, contextId string, added
 }
 ```
 
-Add to the import block: `"github.com/anyproto/anytype-heart/core/block/objectgc"`.
+Add to the import block: `"github.com/altercpre/aparok-core/core/block/objectgc"`.
 
 - [ ] **Step 12: Fix `delete.go`** in `core/block/delete.go` (lines ~44-54). Replace the GC block with:
 

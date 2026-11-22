@@ -13,16 +13,16 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	apicore "github.com/anyproto/anytype-heart/core/api/core"
-	"github.com/anyproto/anytype-heart/core/api/core/mock_apicore"
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/database"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	apicore "github.com/altercpre/aparok-core/core/api/core"
+	"github.com/altercpre/aparok-core/core/api/core/mock_apicore"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/database"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // testAccountId feeds the §6.2 current-user placeholder substitution.

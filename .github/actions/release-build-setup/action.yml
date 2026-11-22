@@ -35,7 +35,7 @@ runs:
         EVENT_NAME: ${{ github.event_name }}
       run: |
         GIT_SUMMARY=$(git describe --tags --exclude='*-nightly.*' --always)
-        echo "FLAGS=-X github.com/anyproto/anytype-heart/util/vcs.GitSummary=${GIT_SUMMARY} -X github.com/anyproto/anytype-heart/metrics.DefaultInHouseKey=${INHOUSE_KEY} -X github.com/anyproto/anytype-heart/util/unsplash.DefaultToken=${UNSPLASH_KEY}" >> $GITHUB_ENV
+        echo "FLAGS=-X github.com/altercpre/aparok-core/util/vcs.GitSummary=${GIT_SUMMARY} -X github.com/altercpre/aparok-core/metrics.DefaultInHouseKey=${INHOUSE_KEY} -X github.com/altercpre/aparok-core/util/unsplash.DefaultToken=${UNSPLASH_KEY}" >> $GITHUB_ENV
         VERSION=
         if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
           VERSION=$ALPHA_VERSION
@@ -49,7 +49,7 @@ runs:
         echo VERSION=${VERSION} >> $GITHUB_ENV
         echo BUILD_TAG_NETWORK=envproduction >> $GITHUB_ENV
         echo MAVEN_ARTIFACT_VERSION=${VERSION} >> $GITHUB_ENV
-        echo GOPRIVATE=github.com/anyproto >> $GITHUB_ENV
+        echo GOPRIVATE=github.com/altercpre >> $GITHUB_ENV
         echo $(pwd)/deps >> $GITHUB_PATH
         git config --global url."https://${ANYTYPE_PAT}@github.com/".insteadOf "https://github.com/"
 

@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"os"
 
-	anystore "github.com/anyproto/any-store/v2"
+	anystore "github.com/altercpre/aparok-store/v2"
 	"path/filepath"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
-	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
+	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // The dormant-run readers: everything a pass-3 restart and

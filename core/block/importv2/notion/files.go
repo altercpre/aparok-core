@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/importv2/notion/client"
-	"github.com/anyproto/anytype-heart/core/domain"
-	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2/notion/client"
+	"github.com/altercpre/aparok-core/core/domain"
+	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
 )
 
 // fileRegistry dedupes file objects within the run. For Notion-hosted files

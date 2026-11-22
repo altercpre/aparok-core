@@ -5,14 +5,14 @@ import (
 	"errors"
 	"time"
 
-	"github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app/ocache"
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app/ocache"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/block/object/payloadcreator"
-	"github.com/anyproto/anytype-heart/core/block/source"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/block/object/payloadcreator"
+	"github.com/altercpre/aparok-core/core/block/source"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
 )
 
 var log = logging.Logger("anytype-mw-object-cache")

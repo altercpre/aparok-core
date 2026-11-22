@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func TestChatStatusHTTP(t *testing.T) {

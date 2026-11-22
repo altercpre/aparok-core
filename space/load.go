@@ -5,13 +5,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
 
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	"github.com/anyproto/anytype-heart/space/internal/spacecontroller"
-	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/loader"
-	"github.com/anyproto/anytype-heart/space/spaceinfo"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/altercpre/aparok-core/space/internal/spacecontroller"
+	"github.com/altercpre/aparok-core/space/internal/spaceprocess/loader"
+	"github.com/altercpre/aparok-core/space/spaceinfo"
 )
 
 type controllerWaiter struct {

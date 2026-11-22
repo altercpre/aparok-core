@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock/smarttest"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/tests/blockbuilder"
-	"github.com/anyproto/anytype-heart/tests/testutil"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock/smarttest"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/tests/blockbuilder"
+	"github.com/altercpre/aparok-core/tests/testutil"
 )
 
 // GO-7515: copying a code block and pasting it back through the HTML slot used

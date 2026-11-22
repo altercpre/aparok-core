@@ -3,7 +3,7 @@ package space
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
 )
 
 func (s *service) initMarketplaceSpace(ctx context.Context) error {

@@ -15,7 +15,7 @@ import (
 	"github.com/miolini/datacounter"
 	"github.com/zeebo/blake3"
 
-	"github.com/anyproto/anytype-heart/core/block/import/common/workerpool"
+	"github.com/altercpre/aparok-core/core/block/import/common/workerpool"
 )
 
 var hashersPool = &sync.Pool{

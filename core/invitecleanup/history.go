@@ -1,8 +1,8 @@
 package invitecleanup
 
 import (
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
 )
 
 // inviteFile is an invite file the workspace object pointed at during its lifetime.

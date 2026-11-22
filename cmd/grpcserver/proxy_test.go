@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/util/localorigin"
+	"github.com/altercpre/aparok-core/util/localorigin"
 )
 
 const proxyHost = "127.0.0.1:31008"

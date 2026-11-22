@@ -4,17 +4,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/anytype/account/mock_account"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/subscription"
-	"github.com/anyproto/anytype-heart/core/syncstatus/filesyncstatus"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/tests/testutil"
+	"github.com/altercpre/aparok-core/core/aparok/account/mock_account"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/subscription"
+	"github.com/altercpre/aparok-core/core/syncstatus/filesyncstatus"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/tests/testutil"
 )
 
 const testAccountId = "account1"

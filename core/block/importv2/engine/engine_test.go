@@ -14,14 +14,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/importv2/identity"
-	"github.com/anyproto/anytype-heart/core/block/importv2/persist"
-	"github.com/anyproto/anytype-heart/core/block/importv2/resolve"
-	"github.com/anyproto/anytype-heart/core/block/importv2/runstore"
-	"github.com/anyproto/anytype-heart/core/domain"
-	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2/identity"
+	"github.com/altercpre/aparok-core/core/block/importv2/persist"
+	"github.com/altercpre/aparok-core/core/block/importv2/resolve"
+	"github.com/altercpre/aparok-core/core/block/importv2/runstore"
+	"github.com/altercpre/aparok-core/core/domain"
+	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
 )
 
 // fakeIdentity assigns deterministic ids without store or space.

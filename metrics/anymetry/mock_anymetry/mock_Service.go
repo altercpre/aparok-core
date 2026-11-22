@@ -3,7 +3,7 @@
 package mock_anymetry
 
 import (
-	anymetry "github.com/anyproto/anytype-heart/metrics/anymetry"
+	anymetry "github.com/altercpre/aparok-core/metrics/anymetry"
 	mock "github.com/stretchr/testify/mock"
 )
 

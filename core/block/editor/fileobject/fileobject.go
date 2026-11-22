@@ -3,12 +3,12 @@ package fileobject
 import (
 	"fmt"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/files"
-	"github.com/anyproto/anytype-heart/core/files/fileobject/filemodels"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/files"
+	"github.com/altercpre/aparok-core/core/files/fileobject/filemodels"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
 )
 
 var log = logging.Logger("anytype-mw-editor-fileobject")

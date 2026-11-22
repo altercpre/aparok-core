@@ -3,10 +3,10 @@ package core
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/core/pushnotification"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/space"
-	"github.com/anyproto/anytype-heart/space/techspace"
+	"github.com/altercpre/aparok-core/core/pushnotification"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/space"
+	"github.com/altercpre/aparok-core/space/techspace"
 )
 
 func (mw *Middleware) PushNotificationRegisterToken(cctx context.Context, req *pb.RpcPushNotificationRegisterTokenRequest) *pb.RpcPushNotificationRegisterTokenResponse {

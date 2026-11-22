@@ -3,7 +3,7 @@ package filesync
 import (
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/syncstatus/filesyncstatus"
+	"github.com/altercpre/aparok-core/core/syncstatus/filesyncstatus"
 )
 
 func (s *fileSync) updateStatus(it FileInfo, status filesyncstatus.Status) error {

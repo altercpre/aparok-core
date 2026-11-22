@@ -6,10 +6,10 @@ import (
 	"slices"
 	"time"
 
-	"github.com/anyproto/any-sync/commonspace"
+	"github.com/altercpre/aparok-sync/commonspace"
 
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/space/spacedomain"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/space/spacedomain"
 )
 
 // viewGateStallBound is how many consecutive responsible tech-space diffs may

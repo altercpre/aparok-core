@@ -5,10 +5,10 @@ package smartblock
 import (
 	context "context"
 
-	objecttreebuilder "github.com/anyproto/any-sync/commonspace/objecttreebuilder"
-	domain "github.com/anyproto/anytype-heart/core/domain"
-	threads "github.com/anyproto/anytype-heart/pkg/lib/threads"
-	spacedomain "github.com/anyproto/anytype-heart/space/spacedomain"
+	objecttreebuilder "github.com/altercpre/aparok-sync/commonspace/objecttreebuilder"
+	domain "github.com/altercpre/aparok-core/core/domain"
+	threads "github.com/altercpre/aparok-core/pkg/lib/threads"
+	spacedomain "github.com/altercpre/aparok-core/space/spacedomain"
 	mock "github.com/stretchr/testify/mock"
 )
 

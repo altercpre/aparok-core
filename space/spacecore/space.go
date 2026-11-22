@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/anyproto/any-sync/commonspace"
+	"github.com/altercpre/aparok-sync/commonspace"
 
-	"github.com/anyproto/anytype-heart/space/spacecore/keyvalueobserver"
+	"github.com/altercpre/aparok-core/space/spacecore/keyvalueobserver"
 )
 
 func newAnySpace(cc commonspace.Space, kvObserver keyvalueobserver.Observer) (*AnySpace, error) {

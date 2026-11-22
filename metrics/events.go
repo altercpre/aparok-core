@@ -6,7 +6,7 @@ import (
 
 	"github.com/valyala/fastjson"
 
-	"github.com/anyproto/anytype-heart/metrics/anymetry"
+	"github.com/altercpre/aparok-core/metrics/anymetry"
 )
 
 const (

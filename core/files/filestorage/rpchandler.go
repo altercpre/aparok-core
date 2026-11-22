@@ -3,12 +3,12 @@ package filestorage
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/commonfile/fileblockstore"
-	"github.com/anyproto/any-sync/commonfile/fileproto"
-	"github.com/anyproto/any-sync/commonfile/fileproto/fileprotoerr"
+	"github.com/altercpre/aparok-sync/commonfile/fileblockstore"
+	"github.com/altercpre/aparok-sync/commonfile/fileproto"
+	"github.com/altercpre/aparok-sync/commonfile/fileproto/fileprotoerr"
 	"github.com/ipfs/go-cid"
 
-	"github.com/anyproto/anytype-heart/space/spacecore/storage"
+	"github.com/altercpre/aparok-core/space/spacecore/storage"
 )
 
 type rpcHandler struct {

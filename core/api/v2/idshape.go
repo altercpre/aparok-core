@@ -17,7 +17,7 @@ package apiv2
 import (
 	"github.com/gin-gonic/gin"
 
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
 )
 
 // ensureIdsShape validates `?ids=` (C4: compact | full) and records a full

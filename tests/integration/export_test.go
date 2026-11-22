@@ -8,14 +8,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block"
-	"github.com/anyproto/anytype-heart/core/block/export"
-	"github.com/anyproto/anytype-heart/core/block/object/objectcreator"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/session"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block"
+	"github.com/altercpre/aparok-core/core/block/export"
+	"github.com/altercpre/aparok-core/core/block/object/objectcreator"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/session"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func createPageWithFileBlock(t *testing.T, app *testApplication, filePath string) string {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/cheggaaa/mb/v3"
 
-	"github.com/anyproto/anytype-heart/metrics/anymetry"
+	"github.com/altercpre/aparok-core/metrics/anymetry"
 )
 
 var (

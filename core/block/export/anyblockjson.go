@@ -10,8 +10,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/anyproto/anytype-heart/core/block/export/anyblock"
-	"github.com/anyproto/anytype-heart/core/block/process"
+	"github.com/altercpre/aparok-core/core/block/export/anyblock"
+	"github.com/altercpre/aparok-core/core/block/process"
 )
 
 // exportAnyBlockJSON writes the native bundle through wr and returns the

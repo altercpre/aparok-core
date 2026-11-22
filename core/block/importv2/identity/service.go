@@ -12,14 +12,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/object/payloadcreator"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/object/payloadcreator"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/database"
 )
 
 // TreePayloadCreator is the space subset used to mint/derive tree ids.

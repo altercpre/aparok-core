@@ -3,11 +3,11 @@ package core
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/core/block"
-	"github.com/anyproto/anytype-heart/core/block/export"
-	"github.com/anyproto/anytype-heart/core/block/export/report"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block"
+	"github.com/altercpre/aparok-core/core/block/export"
+	"github.com/altercpre/aparok-core/core/block/export/report"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func (mw *Middleware) ObjectListExport(cctx context.Context, req *pb.RpcObjectListExportRequest) *pb.RpcObjectListExportResponse {

@@ -4,7 +4,7 @@ package v2model
 // Server-Sent Event carries.
 
 import (
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // The event vocabulary. C2: v2 names its own things in snake_case, and these

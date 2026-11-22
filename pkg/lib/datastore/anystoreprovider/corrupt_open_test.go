@@ -8,13 +8,13 @@ import (
 	"sync"
 	"testing"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-store/v2/anyenc"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/debug/debugreporter"
-	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoremigrate"
+	"github.com/altercpre/aparok-core/core/debug/debugreporter"
+	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoremigrate"
 )
 
 type recordingReporter struct {

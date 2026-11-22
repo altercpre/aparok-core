@@ -17,9 +17,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/anyproto/anytype-heart/core/api/pagination"
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
+	"github.com/altercpre/aparok-core/core/api/pagination"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
 )
 
 // maxSearchRequestBody caps the search request body. The search routes carry

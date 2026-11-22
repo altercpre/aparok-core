@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/anytype-heart/space/spacecore/peermanager"
+	"github.com/altercpre/aparok-core/space/spacecore/peermanager"
 )
 
 // The peer manager cannot import this package (import cycle via the devices

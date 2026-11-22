@@ -5,14 +5,14 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/anyproto/any-sync/commonspace/clientspaceproto"
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/clientspaceproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/util/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/wallet/mock_wallet"
-	"github.com/anyproto/anytype-heart/space/spacecore/storage/mock_storage"
+	"github.com/altercpre/aparok-core/core/wallet/mock_wallet"
+	"github.com/altercpre/aparok-core/space/spacecore/storage/mock_storage"
 )
 
 // newKeyedService builds the slice of service the exchange needs, for an

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2"
 )
 
 // fileFuture is the pending id of a file object whose final identity comes

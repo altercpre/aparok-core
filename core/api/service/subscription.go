@@ -3,7 +3,7 @@ package service
 import (
 	"github.com/cheggaaa/mb/v3"
 
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // subscriptionTracker groups subscription-related data for a single object type

@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/anyproto/any-sync/util/crypto"
-	"github.com/anyproto/go-slip10"
+	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/altercpre/go-slip10"
 )
 
 var ErrRepoExists = fmt.Errorf("repo not empty, reinitializing would overwrite your account")

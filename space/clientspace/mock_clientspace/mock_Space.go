@@ -3,22 +3,22 @@
 package mock_clientspace
 
 import (
-	anystorage "github.com/anyproto/anytype-heart/space/spacecore/storage/anystorage"
+	anystorage "github.com/altercpre/aparok-core/space/spacecore/storage/anystorage"
 
 	context "context"
 
-	commonspace "github.com/anyproto/any-sync/commonspace"
-	headsync "github.com/anyproto/any-sync/commonspace/headsync"
-	treestorage "github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
-	objecttreebuilder "github.com/anyproto/any-sync/commonspace/objecttreebuilder"
-	crypto "github.com/anyproto/any-sync/util/crypto"
-	smartblock "github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	objectcache "github.com/anyproto/anytype-heart/core/block/object/objectcache"
-	payloadcreator "github.com/anyproto/anytype-heart/core/block/object/payloadcreator"
-	domain "github.com/anyproto/anytype-heart/core/domain"
-	threads "github.com/anyproto/anytype-heart/pkg/lib/threads"
-	keyvalueservice "github.com/anyproto/anytype-heart/space/clientspace/keyvalueservice"
-	spacedomain "github.com/anyproto/anytype-heart/space/spacedomain"
+	commonspace "github.com/altercpre/aparok-sync/commonspace"
+	headsync "github.com/altercpre/aparok-sync/commonspace/headsync"
+	treestorage "github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	objecttreebuilder "github.com/altercpre/aparok-sync/commonspace/objecttreebuilder"
+	crypto "github.com/altercpre/aparok-sync/util/crypto"
+	smartblock "github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	objectcache "github.com/altercpre/aparok-core/core/block/object/objectcache"
+	payloadcreator "github.com/altercpre/aparok-core/core/block/object/payloadcreator"
+	domain "github.com/altercpre/aparok-core/core/domain"
+	threads "github.com/altercpre/aparok-core/pkg/lib/threads"
+	keyvalueservice "github.com/altercpre/aparok-core/space/clientspace/keyvalueservice"
+	spacedomain "github.com/altercpre/aparok-core/space/spacedomain"
 	mock "github.com/stretchr/testify/mock"
 )
 

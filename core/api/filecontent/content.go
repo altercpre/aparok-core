@@ -10,12 +10,12 @@ import (
 	"io"
 	"path/filepath"
 
-	apicore "github.com/anyproto/anytype-heart/core/api/core"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/files"
-	"github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore"
-	"github.com/anyproto/anytype-heart/util/constant"
-	"github.com/anyproto/anytype-heart/util/svg"
+	apicore "github.com/altercpre/aparok-core/core/api/core"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/files"
+	"github.com/altercpre/aparok-core/core/files/filestorage/rpcstore"
+	"github.com/altercpre/aparok-core/util/constant"
+	"github.com/altercpre/aparok-core/util/svg"
 )
 
 var (

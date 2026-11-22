@@ -6,12 +6,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/anyproto/any-sync/commonfile/fileproto"
+	"github.com/altercpre/aparok-sync/commonfile/fileproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore/mock_rpcstore"
+	"github.com/altercpre/aparok-core/core/files/filestorage/rpcstore/mock_rpcstore"
 )
 
 func TestSpaceLimit(t *testing.T) {

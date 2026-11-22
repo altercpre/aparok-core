@@ -11,11 +11,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 
-	apicore "github.com/anyproto/anytype-heart/core/api/core"
-	apimodel "github.com/anyproto/anytype-heart/core/api/model"
-	"github.com/anyproto/anytype-heart/core/api/service"
-	"github.com/anyproto/anytype-heart/core/api/util"
-	"github.com/anyproto/anytype-heart/pb"
+	apicore "github.com/altercpre/aparok-core/core/api/core"
+	apimodel "github.com/altercpre/aparok-core/core/api/model"
+	"github.com/altercpre/aparok-core/core/api/service"
+	"github.com/altercpre/aparok-core/core/api/util"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 const (

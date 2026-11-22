@@ -52,16 +52,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/debugstat"
-	"github.com/anyproto/any-sync/net/pool"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/debugstat"
+	"github.com/altercpre/aparok-sync/net/pool"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/device/networkkey"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/net/addrs"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/device/networkkey"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/net/addrs"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 const CName = "networkState"

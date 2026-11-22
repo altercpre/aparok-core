@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 
-	"github.com/anyproto/anytype-heart/core/application/accountdirlock"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/application/accountdirlock"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func randomAccountID(t *testing.T) string {

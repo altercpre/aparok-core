@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/gogo/protobuf/proto"
 	strip "github.com/grokify/html-strip-tags-go"
@@ -22,10 +22,10 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/net/html"
 
-	"github.com/anyproto/anytype-heart/core/wallet"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/uri"
+	"github.com/altercpre/aparok-core/core/wallet"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/uri"
 )
 
 const (
@@ -83,12 +83,12 @@ var whitelist = map[string]*regexp.Regexp{
 	"127.0.0.1":                                   regexp.MustCompile(`.*`),
 	"raw.githubusercontent.com":                   regexp.MustCompile(`^/anyproto.*`),
 	"github.com":                                  regexp.MustCompile(`^/anyproto.*`),
-	"community.anytype.io":                        regexp.MustCompile(`.*`),
-	"anytype.io":                                  regexp.MustCompile(`.*`),
+	"community.altercpre.w8n.pw":                        regexp.MustCompile(`.*`),
+	"altercpre.w8n.pw":                                  regexp.MustCompile(`.*`),
 	"gallery.any.coop":                            regexp.MustCompile(`.*`),
 	"tools.gallery.any.coop":                      regexp.MustCompile(`.*`),
 	"storage.gallery.any.coop":                    regexp.MustCompile(`.*`),
-	"stage1-anytype-spark.anytype.io":             regexp.MustCompile(`.*`),
+	"stage1-anytype-spark.altercpre.w8n.pw":             regexp.MustCompile(`.*`),
 	"stage1-anytype-spark.storage.googleapis.com": regexp.MustCompile(`.*`),
 }
 

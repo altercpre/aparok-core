@@ -1,8 +1,8 @@
 package importv2
 
 import (
-	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/domain/objectorigin"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // Request carries the engine-level parameters of one run. Format-specific

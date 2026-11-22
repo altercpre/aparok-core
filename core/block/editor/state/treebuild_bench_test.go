@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/anyproto/anytype-heart/core/block/simple"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/simple"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // Benchmarks the tree-replay cost (the un-snapshotted object open path, see

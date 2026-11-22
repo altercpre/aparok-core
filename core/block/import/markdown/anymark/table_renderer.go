@@ -10,11 +10,11 @@ import (
 	"github.com/yuin/goldmark/text"
 	"github.com/yuin/goldmark/util"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	te "github.com/anyproto/anytype-heart/core/block/editor/table"
-	"github.com/anyproto/anytype-heart/core/block/simple"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	te "github.com/altercpre/aparok-core/core/block/editor/table"
+	"github.com/altercpre/aparok-core/core/block/simple"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 type tableState struct {

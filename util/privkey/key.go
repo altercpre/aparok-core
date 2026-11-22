@@ -3,8 +3,8 @@ package privkey
 import (
 	"bytes"
 
-	"github.com/anyproto/any-sync/util/crypto"
-	"github.com/anyproto/go-slip10"
+	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/altercpre/go-slip10"
 )
 
 func DeriveFromPrivKey(path string, privKey crypto.PrivKey) (key crypto.PrivKey, err error) {

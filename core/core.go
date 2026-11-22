@@ -5,16 +5,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/core/application"
-	"github.com/anyproto/anytype-heart/core/block"
-	"github.com/anyproto/anytype-heart/core/block/collection"
-	"github.com/anyproto/anytype-heart/core/event"
-	"github.com/anyproto/anytype-heart/core/wallet"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	utildebug "github.com/anyproto/anytype-heart/util/debug"
+	"github.com/altercpre/aparok-core/core/application"
+	"github.com/altercpre/aparok-core/core/block"
+	"github.com/altercpre/aparok-core/core/block/collection"
+	"github.com/altercpre/aparok-core/core/event"
+	"github.com/altercpre/aparok-core/core/wallet"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	utildebug "github.com/altercpre/aparok-core/util/debug"
 )
 
 var log = logging.Logger("anytype-mw-api")

@@ -22,17 +22,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/peerobserver"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/peerobserver"
+	"github.com/altercpre/aparok-sync/nodeconf"
 
-	"github.com/anyproto/anytype-heart/core/anytype/config"
-	"github.com/anyproto/anytype-heart/core/event"
-	"github.com/anyproto/anytype-heart/core/session"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
-	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
+	"github.com/altercpre/aparok-core/core/aparok/config"
+	"github.com/altercpre/aparok-core/core/event"
+	"github.com/altercpre/aparok-core/core/session"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
+	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
 )
 
 const CName = "core.recovery"

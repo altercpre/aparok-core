@@ -16,17 +16,17 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/util/crypto"
 
-	"github.com/anyproto/anytype-heart/core/block/object/objectcache"
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	dependencies2 "github.com/anyproto/anytype-heart/space/internal/components/dependencies"
-	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus"
-	"github.com/anyproto/anytype-heart/space/spacecore"
-	"github.com/anyproto/anytype-heart/space/spacecore/storage"
-	"github.com/anyproto/anytype-heart/space/spacedomain"
+	"github.com/altercpre/aparok-core/core/block/object/objectcache"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	dependencies2 "github.com/altercpre/aparok-core/space/internal/components/dependencies"
+	"github.com/altercpre/aparok-core/space/internal/components/spacestatus"
+	"github.com/altercpre/aparok-core/space/spacecore"
+	"github.com/altercpre/aparok-core/space/spacecore/storage"
+	"github.com/altercpre/aparok-core/space/spacedomain"
 )
 
 const CName = "client.components.builder"

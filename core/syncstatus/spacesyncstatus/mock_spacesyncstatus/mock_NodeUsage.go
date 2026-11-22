@@ -5,9 +5,9 @@ package mock_spacesyncstatus
 import (
 	context "context"
 
-	app "github.com/anyproto/any-sync/app"
+	app "github.com/altercpre/aparok-sync/app"
 
-	filespaceusage "github.com/anyproto/anytype-heart/core/files/filespaceusage"
+	filespaceusage "github.com/altercpre/aparok-core/core/files/filespaceusage"
 
 	mock "github.com/stretchr/testify/mock"
 )

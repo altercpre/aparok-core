@@ -34,7 +34,7 @@ import (
 	"fmt"
 	"strings"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
 )
 
 // spaceShortRefLen is how many trailing characters of the CID half a served

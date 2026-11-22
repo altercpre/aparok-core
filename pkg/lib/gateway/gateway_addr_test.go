@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/altercpre/aparok-core/core/domain"
 )
 
 // assertServes proves the gateway answers on addr. An unhandled path is enough - it exercises the

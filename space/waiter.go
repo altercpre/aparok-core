@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
-	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
+	"github.com/altercpre/aparok-core/space/clientspace"
 )
 
 func (s *service) checkControllerExists(spaceId string) bool {

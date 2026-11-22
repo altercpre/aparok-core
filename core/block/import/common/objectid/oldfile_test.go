@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/anytype-heart/core/block/import/common"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
-	"github.com/anyproto/anytype-heart/core/files/fileobject/mock_fileobject"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/import/common"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/domain/objectorigin"
+	"github.com/altercpre/aparok-core/core/files/fileobject/mock_fileobject"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 	"github.com/stretchr/testify/require"
 )
 

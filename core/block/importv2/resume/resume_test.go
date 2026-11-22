@@ -4,22 +4,22 @@ import (
 	"context"
 	"path/filepath"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/query"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/query"
 	"testing"
 	"time"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/importv2/identity"
-	"github.com/anyproto/anytype-heart/core/block/importv2/report"
-	"github.com/anyproto/anytype-heart/core/block/importv2/runstore"
-	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/space/clientspace/mock_clientspace"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2/identity"
+	"github.com/altercpre/aparok-core/core/block/importv2/report"
+	"github.com/altercpre/aparok-core/core/block/importv2/runstore"
+	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/space/clientspace/mock_clientspace"
 )
 
 // interruptedRun builds a run dir imitating a crash mid-materialize:

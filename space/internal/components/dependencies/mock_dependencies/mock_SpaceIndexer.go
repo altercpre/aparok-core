@@ -3,8 +3,8 @@
 package mock_dependencies
 
 import (
-	app "github.com/anyproto/any-sync/app"
-	clientspace "github.com/anyproto/anytype-heart/space/clientspace"
+	app "github.com/altercpre/aparok-sync/app"
+	clientspace "github.com/altercpre/aparok-core/space/clientspace"
 
 	mock "github.com/stretchr/testify/mock"
 )

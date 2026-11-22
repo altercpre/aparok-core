@@ -5,11 +5,11 @@ package mock_detailservice
 import (
 	context "context"
 
-	app "github.com/anyproto/any-sync/app"
-	detailservice "github.com/anyproto/anytype-heart/core/block/detailservice"
-	domain "github.com/anyproto/anytype-heart/core/domain"
-	session "github.com/anyproto/anytype-heart/core/session"
-	pb "github.com/anyproto/anytype-heart/pb"
+	app "github.com/altercpre/aparok-sync/app"
+	detailservice "github.com/altercpre/aparok-core/core/block/detailservice"
+	domain "github.com/altercpre/aparok-core/core/domain"
+	session "github.com/altercpre/aparok-core/core/session"
+	pb "github.com/altercpre/aparok-core/pb"
 	mock "github.com/stretchr/testify/mock"
 )
 

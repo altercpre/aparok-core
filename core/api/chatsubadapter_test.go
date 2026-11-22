@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/chats/chatsubscription/mock_chatsubscription"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/chats/chatsubscription/mock_chatsubscription"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func TestChatSubAdapterChatState(t *testing.T) {

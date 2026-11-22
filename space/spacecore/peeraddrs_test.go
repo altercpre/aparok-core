@@ -7,13 +7,13 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/peerservice"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/peerservice"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/any-sync/commonspace/clientspaceproto"
-	"github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
+	"github.com/altercpre/aparok-sync/commonspace/clientspaceproto"
+	"github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
 )
 
 // recordingPeerService records SetPeerAddrs; any other call panics.

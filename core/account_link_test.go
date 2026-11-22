@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/anytype-heart/core/session"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/session"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // TestLocalLinkErrorCodesAreReachable pins the wire vocabulary of the pairing

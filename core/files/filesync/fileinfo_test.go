@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 	"github.com/ipfs/go-cid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/altercpre/aparok-core/core/domain"
 )
 
 func TestMarshalUnmarshal(t *testing.T) {

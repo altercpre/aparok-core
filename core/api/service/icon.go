@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"unicode"
 
-	apimodel "github.com/anyproto/anytype-heart/core/api/model"
+	apimodel "github.com/altercpre/aparok-core/core/api/model"
 )
 
 // isEmoji checks if the given string is a valid emoji.

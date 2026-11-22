@@ -5,13 +5,13 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/session"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/session"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func TestTracker_Begin(t *testing.T) {

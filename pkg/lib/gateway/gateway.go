@@ -16,18 +16,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 	"github.com/avast/retry-go/v4"
 	"github.com/ipfs/go-cid"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/files"
-	"github.com/anyproto/anytype-heart/core/files/filedownloader"
-	"github.com/anyproto/anytype-heart/core/files/fileobject"
-	"github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/util/constant"
-	"github.com/anyproto/anytype-heart/util/svg"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/files"
+	"github.com/altercpre/aparok-core/core/files/filedownloader"
+	"github.com/altercpre/aparok-core/core/files/fileobject"
+	"github.com/altercpre/aparok-core/core/files/filestorage/rpcstore"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/util/constant"
+	"github.com/altercpre/aparok-core/util/svg"
 )
 
 const (

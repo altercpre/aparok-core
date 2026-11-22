@@ -4,17 +4,17 @@ import (
 	"context"
 	"fmt"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/importv2/engine"
-	"github.com/anyproto/anytype-heart/core/block/importv2/identity"
-	"github.com/anyproto/anytype-heart/core/block/importv2/persist"
-	"github.com/anyproto/anytype-heart/core/block/importv2/resume"
-	"github.com/anyproto/anytype-heart/core/block/importv2/runstore"
-	"github.com/anyproto/anytype-heart/core/block/process"
-	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/space/clientspace"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2/engine"
+	"github.com/altercpre/aparok-core/core/block/importv2/identity"
+	"github.com/altercpre/aparok-core/core/block/importv2/persist"
+	"github.com/altercpre/aparok-core/core/block/importv2/resume"
+	"github.com/altercpre/aparok-core/core/block/importv2/runstore"
+	"github.com/altercpre/aparok-core/core/block/process"
+	"github.com/altercpre/aparok-core/core/domain/objectorigin"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/space/clientspace"
 )
 
 // resumeRun is the sweep's resume branch: restart pass 3 of

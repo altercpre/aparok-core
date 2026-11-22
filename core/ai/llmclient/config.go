@@ -13,7 +13,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // Config identifies one OpenAI-compatible endpoint and model.

@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/anyproto/anytype-heart/core/block/source/sourceimpl"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/space"
-	"github.com/anyproto/anytype-heart/util/dateutil"
+	"github.com/altercpre/aparok-core/core/block/source/sourceimpl"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/space"
+	"github.com/altercpre/aparok-core/util/dateutil"
 )
 
 func BuildDetailsFromTimestamp(

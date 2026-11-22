@@ -27,18 +27,18 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/debugstat"
-	tantivy "github.com/anyproto/tantivy-go"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/debugstat"
+	tantivy "github.com/altercpre/tantivy-go"
 	"github.com/valyala/fastjson"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/wallet"
-	"github.com/anyproto/anytype-heart/metrics"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/ftsearch/tantivycheck"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/util/text"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/wallet"
+	"github.com/altercpre/aparok-core/metrics"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/ftsearch/tantivycheck"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/util/text"
 )
 
 const (

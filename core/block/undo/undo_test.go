@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/simple"
-	"github.com/anyproto/anytype-heart/core/block/simple/base"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/simple"
+	"github.com/altercpre/aparok-core/core/block/simple/base"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 var _ base.Base

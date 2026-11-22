@@ -10,18 +10,18 @@ import (
 	"path/filepath"
 	"time"
 
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/anyproto/anytype-heart/core/debug/exporter"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/anonymize"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
-	"github.com/anyproto/anytype-heart/util/ziputil"
+	"github.com/altercpre/aparok-core/core/debug/exporter"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/anonymize"
+	"github.com/altercpre/aparok-core/util/pbtypes"
+	"github.com/altercpre/aparok-core/util/ziputil"
 )
 
 // treeSmartBlockType reads the smartblock type out of the tree's root change

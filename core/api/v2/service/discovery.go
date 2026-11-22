@@ -11,14 +11,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/anyproto/anytype-heart/core/api/pagination"
-	"github.com/anyproto/anytype-heart/core/api/util"
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/database"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/api/pagination"
+	"github.com/altercpre/aparok-core/core/api/util"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/database"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // ListSpaces returns minimal space rows from the tech space's space views —

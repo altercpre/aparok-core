@@ -4,15 +4,15 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
 	"github.com/gogo/protobuf/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/pbtypes"
 )
 
 var text = "-- Еh bien, mon prince. Gênes et Lucques ne sont plus que des apanages,\n  des поместья, de la famille Buonaparte.  Non, je  vous préviens, que si vous\n  ne  me dites pas, que nous avons la guerre, si vous vous permettez encore de\n  pallier  toutes les infamies, toutes les  atrocités  de cet  Antichrist  (ma\n  parole, j'y  crois) -- je  ne  vous  connais plus, vous n'êtes plus mon ami,\n  vous n'êtes  plus  мой  верный  раб,  comme  vous  dites.  [1]  Ну,\n  здравствуйте, здравствуйте.  Je vois  que  je  vous fais  peur, [2]\n  садитесь и рассказывайте.\n       Так говорила в июле 1805 года известная Анна Павловна Шерер, фрейлина и\n  приближенная  императрицы  Марии  Феодоровны,  встречая важного и  чиновного\n  князя  Василия,  первого  приехавшего  на  ее вечер. Анна  Павловна  кашляла\n  несколько  дней, у  нее был грипп, как она говорила (грипп  был тогда  новое\n  слово, употреблявшееся только  редкими).  В записочках, разосланных  утром с\n  красным лакеем, было написано без различия во всех:\n       \"Si vous n'avez rien de mieux à faire, M. le comte (или mon prince), et\n  si la perspective de passer la soirée chez une pauvre malade ne vous effraye\n  pas  trop,  je serai charmée de vous  voir chez moi  entre 7 et  10  heures.\n  Annette Scherer\".[3]"

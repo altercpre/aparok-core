@@ -10,7 +10,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/anyproto/any-sync/net"
+	"github.com/altercpre/aparok-sync/net"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -18,13 +18,13 @@ import (
 	"storj.io/drpc"
 	"storj.io/drpc/drpcconn"
 
-	psp "github.com/anyproto/any-sync/paymentservice/paymentserviceproto"
+	psp "github.com/altercpre/aparok-sync/paymentservice/paymentserviceproto"
 
-	"github.com/anyproto/anytype-heart/core/payments/cache"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoreprovider"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/keyvaluestore"
+	"github.com/altercpre/aparok-core/core/payments/cache"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoreprovider"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/keyvaluestore"
 )
 
 func statusResponse(productIds ...string) *psp.MembershipV2_GetStatusResponse {

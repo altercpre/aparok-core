@@ -40,9 +40,9 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pb/service"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pb/service"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 const (
@@ -525,7 +525,7 @@ func findRepoRoot() (string, error) {
 	start := dir
 	for {
 		data, err := os.ReadFile(filepath.Join(dir, "go.mod"))
-		if err == nil && strings.Contains(string(data), "module github.com/anyproto/anytype-heart") {
+		if err == nil && strings.Contains(string(data), "module github.com/altercpre/aparok-core") {
 			return dir, nil
 		}
 		parent := filepath.Dir(dir)

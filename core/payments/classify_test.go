@@ -12,17 +12,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/net"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/net/transport"
 	"github.com/hashicorp/yamux"
 	"github.com/stretchr/testify/assert"
 	"storj.io/drpc"
 
-	psp "github.com/anyproto/any-sync/paymentservice/paymentserviceproto"
+	psp "github.com/altercpre/aparok-sync/paymentservice/paymentserviceproto"
 
-	"github.com/anyproto/anytype-heart/core/payments/cache"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/payments/cache"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // connDeadLike mirrors any-sync's QUIC stream Read/Write normalization: the

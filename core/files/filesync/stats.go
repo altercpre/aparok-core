@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	anystore "github.com/anyproto/any-store/v2"
+	anystore "github.com/altercpre/aparok-store/v2"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/event"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoreprovider"
+	"github.com/altercpre/aparok-core/core/event"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoreprovider"
 )
 
 type NodeUsage struct {

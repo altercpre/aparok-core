@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
 )
 
 // apiV2ExcludedMember is one root member the format publishes and this API

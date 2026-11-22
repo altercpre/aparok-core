@@ -12,19 +12,19 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	apicore "github.com/anyproto/anytype-heart/core/api/core"
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/editor/template"
-	"github.com/anyproto/anytype-heart/core/block/restriction"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson/storeresolver"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
+	apicore "github.com/altercpre/aparok-core/core/api/core"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/editor/template"
+	"github.com/altercpre/aparok-core/core/block/restriction"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson/storeresolver"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/pbtypes"
 )
 
 // editBaseDoc is the base test document: a heading, a parent paragraph with
@@ -307,7 +307,7 @@ func TestPatchObject(t *testing.T) {
 
 	t.Run("an integer beyond the float64 safe range is refused in every write channel", func(t *testing.T) {
 		// The exact-integer SIDECAR was retired when the codec moved to
-		// github.com/anyproto/any-block: that repo now treats the former
+		// github.com/altercpre/aparok-block: that repo now treats the former
 		// metadata spelling as ordinary user data
 		// (TestFormerNumericSidecarKeyIsOrdinaryUserData), so nothing
 		// carries an exact token beside the lossy value any more. What

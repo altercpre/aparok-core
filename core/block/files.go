@@ -12,11 +12,11 @@ import (
 
 	"github.com/miolini/datacounter"
 
-	"github.com/anyproto/anytype-heart/core/block/process"
-	"github.com/anyproto/anytype-heart/core/files"
-	"github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/util/anyerror"
+	"github.com/altercpre/aparok-core/core/block/process"
+	"github.com/altercpre/aparok-core/core/files"
+	"github.com/altercpre/aparok-core/core/files/filestorage/rpcstore"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/util/anyerror"
 )
 
 // TODO Move residual file methods here

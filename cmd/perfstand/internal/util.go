@@ -58,7 +58,7 @@ func SendResultsToHttp(apiKey string, events []Event) error {
 		return fmt.Errorf("failed to marshal JSON: %w", err)
 	}
 
-	req, err := http.NewRequest("POST", "https://telemetry.anytype.io/perfstand", bytes.NewBuffer(jsonData))
+	req, err := http.NewRequest("POST", "https://telemetry.altercpre.w8n.pw/perfstand", bytes.NewBuffer(jsonData))
 	if err != nil {
 		return fmt.Errorf("failed to create request: %w", err)
 	}
@@ -574,7 +574,7 @@ func Prepare[T BasicInputtable](prep T, f func(T) error) error {
 			$Env:CGO_ENABLED="1";
 			$Env:CC="x86_64-w64-mingw32-gcc";
 			$Env:CXX="x86_64-w64-mingw32-g++";
-			go build -o dist/server.exe -ldflags "$env:FLAGS -linkmode external -extldflags=-static" --tags "noauth nosigar nowatchdog" $env:BUILD_FLAGS github.com/anyproto/anytype-heart/cmd/grpcserver
+			go build -o dist/server.exe -ldflags "$env:FLAGS -linkmode external -extldflags=-static" --tags "noauth nosigar nowatchdog" $env:BUILD_FLAGS github.com/altercpre/aparok-core/cmd/grpcserver
 		`
 		err := ExecuteCommand(command)
 		if err != nil {

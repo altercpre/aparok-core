@@ -1,9 +1,9 @@
 package filter
 
 import (
-	apimodel "github.com/anyproto/anytype-heart/core/api/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
+	apimodel "github.com/altercpre/aparok-core/core/api/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/pbtypes"
 )
 
 type ParsedFilters struct {

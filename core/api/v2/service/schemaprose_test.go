@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
 )
 
 // servedRouteShaped is the route spelling core/api/v2/hintroutes_test.go

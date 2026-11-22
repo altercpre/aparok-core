@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/recovery"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/recovery"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func TestService_AccountRecoveryState(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/anyproto/anytype-heart
+module github.com/altercpre/aparok-core
 
 go 1.26.5
 
@@ -6,19 +6,19 @@ require (
 	github.com/JohannesKaufmann/html-to-markdown v1.4.0
 	github.com/PuerkitoBio/goquery v1.10.2
 	github.com/ahmetb/govvv v0.3.0
-	github.com/anyproto/any-block v0.0.0-20260919082013-9906a7c36b68 // v2.0.0-rc5; upstream module path has no /v2 suffix
-	github.com/anyproto/any-store v1.0.3
-	github.com/anyproto/any-store/v2 v2.5.0
-	github.com/anyproto/any-sync v0.13.8
-	github.com/anyproto/anytype-publish-server/publishclient v0.0.0-20260925080338-0fb960f00458
-	github.com/anyproto/anytype-push-server/pushclient v0.0.0-20250801122506-553f6c085a23
-	github.com/anyproto/go-chash v0.1.0
-	github.com/anyproto/go-naturaldate/v2 v2.0.2-0.20230524105841-9829cfd13438
-	github.com/anyproto/go-slip10 v1.0.1
-	github.com/anyproto/go-sqlite v1.4.2-any
-	github.com/anyproto/goheif v0.0.0-20260216083627-c3efd00cd92e
-	github.com/anyproto/lexid v0.0.6
-	github.com/anyproto/tantivy-go v1.0.7
+	github.com/altercpre/aparok-block v0.0.0-20260919082013-9906a7c36b68 // v2.0.0-rc5; upstream module path has no /v2 suffix
+	github.com/altercpre/aparok-store v1.0.3
+	github.com/altercpre/aparok-store/v2 v2.5.0
+	github.com/altercpre/aparok-sync v0.13.8
+	github.com/altercpre/anytype-publish-server/publishclient v0.0.0-20260925080338-0fb960f00458
+	github.com/altercpre/anytype-push-server/pushclient v0.0.0-20250801122506-553f6c085a23
+	github.com/altercpre/go-chash v0.1.0
+	github.com/altercpre/go-naturaldate/v2 v2.0.2-0.20230524105841-9829cfd13438
+	github.com/altercpre/go-slip10 v1.0.1
+	github.com/altercpre/go-sqlite v1.4.2-any
+	github.com/altercpre/goheif v0.0.0-20260216083627-c3efd00cd92e
+	github.com/altercpre/lexid v0.0.6
+	github.com/altercpre/tantivy-go v1.0.7
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/avast/retry-go/v4 v4.6.1
 	github.com/awalterschulze/goderive v0.5.1
@@ -139,8 +139,8 @@ require (
 	github.com/Masterminds/sprig v2.22.0+incompatible // indirect
 	github.com/alexbrainman/goissue34681 v0.0.0-20191006012335-3fc7a47baff5 // indirect
 	github.com/andybalholm/cascadia v1.3.3 // indirect
-	github.com/anyproto/go-bip39 v1.0.0 // indirect
-	github.com/anyproto/go-slip21 v1.0.0 // indirect
+	github.com/altercpre/go-bip39 v1.0.0 // indirect
+	github.com/altercpre/go-slip21 v1.0.0 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.5 // indirect
@@ -312,23 +312,23 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/ipfs/go-ds-flatfs => github.com/anyproto/go-ds-flatfs v0.0.0-20250828183910-d49f5b2d567f
+replace github.com/ipfs/go-ds-flatfs => github.com/altercpre/go-ds-flatfs v0.0.0-20250828183910-d49f5b2d567f
 
-replace github.com/dgraph-io/badger/v4 => github.com/anyproto/badger/v4 v4.2.1-0.20240110160636-80743fa3d580
+replace github.com/dgraph-io/badger/v4 => github.com/altercpre/badger/v4 v4.2.1-0.20240110160636-80743fa3d580
 
-replace github.com/dgraph-io/ristretto => github.com/anyproto/ristretto v0.1.2-0.20240221153107-2b23839cc50c
+replace github.com/dgraph-io/ristretto => github.com/altercpre/ristretto v0.1.2-0.20240221153107-2b23839cc50c
 
-replace github.com/libp2p/zeroconf/v2 => github.com/anyproto/zeroconf/v2 v2.2.1-0.20261012094456-27dfb04e233b
+replace github.com/libp2p/zeroconf/v2 => github.com/altercpre/zeroconf/v2 v2.2.1-0.20261012094456-27dfb04e233b
 
-replace github.com/JohannesKaufmann/html-to-markdown => github.com/anyproto/html-to-markdown v0.0.0-20231025221133-830bf0a6f139
+replace github.com/JohannesKaufmann/html-to-markdown => github.com/altercpre/html-to-markdown v0.0.0-20231025221133-830bf0a6f139
 
-replace github.com/ipfs/go-log/v2 => github.com/anyproto/go-log/v2 v2.1.2-0.20220721095711-bcf09ff293b2
+replace github.com/ipfs/go-log/v2 => github.com/altercpre/go-log/v2 v2.1.2-0.20220721095711-bcf09ff293b2
 
 replace github.com/araddon/dateparse => github.com/mehanizm/dateparse v0.0.0-20210806203422-f82c8742c9f8 // use a fork to support dd.mm.yyyy date format
 
-replace github.com/multiformats/go-multiaddr => github.com/anyproto/go-multiaddr v0.8.1-0.20250307125826-51ba58e2ebc7
+replace github.com/multiformats/go-multiaddr => github.com/altercpre/go-multiaddr v0.8.1-0.20250307125826-51ba58e2ebc7
 
-replace github.com/gogo/protobuf => github.com/anyproto/protobuf v1.3.3-0.20240201225420-6e325cf0ac38
+replace github.com/gogo/protobuf => github.com/altercpre/protobuf v1.3.3-0.20240201225420-6e325cf0ac38
 
 replace google.golang.org/genproto/googleapis/rpc => google.golang.org/genproto/googleapis/rpc v0.0.0-20241021214115-324edc3d5d38
 

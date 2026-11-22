@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
 )
 
 // The package logger is created at package init, before logging is

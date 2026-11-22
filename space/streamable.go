@@ -3,7 +3,7 @@ package space
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 )
 
 func (s *service) AddStreamable(ctx context.Context, id string, guestKey crypto.PrivKey) (err error) {

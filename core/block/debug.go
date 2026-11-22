@@ -7,18 +7,18 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/objecttreebuilder"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/objecttreebuilder"
 	"github.com/go-chi/chi/v5"
 	"github.com/gogo/protobuf/jsonpb"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/block/cache"
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/block/source/sourceimpl"
-	"github.com/anyproto/anytype-heart/pkg/lib/database"
-	"github.com/anyproto/anytype-heart/tests/blockbuilder"
-	"github.com/anyproto/anytype-heart/util/debug"
+	"github.com/altercpre/aparok-core/core/block/cache"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/block/source/sourceimpl"
+	"github.com/altercpre/aparok-core/pkg/lib/database"
+	"github.com/altercpre/aparok-core/tests/blockbuilder"
+	"github.com/altercpre/aparok-core/util/debug"
 )
 
 func (s *Service) DebugRouter(r chi.Router) {

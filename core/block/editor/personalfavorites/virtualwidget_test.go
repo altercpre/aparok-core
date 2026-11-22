@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock/smarttest"
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/personalfavorites"
-	"github.com/anyproto/anytype-heart/core/block/simple"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock/smarttest"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/personalfavorites"
+	"github.com/altercpre/aparok-core/core/block/simple"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func TestDiffEntry(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/anyproto/anytype-heart/core/debug/debugreporter"
+	"github.com/altercpre/aparok-core/core/debug/debugreporter"
 )
 
 const (

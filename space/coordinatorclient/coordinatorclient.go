@@ -14,11 +14,11 @@ Scope: global
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/coordinator/coordinatorclient"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
 
-	"github.com/anyproto/anytype-heart/space/deletioncontroller"
+	"github.com/altercpre/aparok-core/space/deletioncontroller"
 )
 
 const CName = coordinatorclient.CName

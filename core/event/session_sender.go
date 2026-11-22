@@ -7,8 +7,8 @@ import (
 
 	"github.com/cheggaaa/mb/v3"
 
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
 )
 
 // log is shared by the untagged sessionSender and the build-tagged GrpcSender.

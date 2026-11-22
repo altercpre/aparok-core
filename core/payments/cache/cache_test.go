@@ -6,16 +6,16 @@ import (
 	"testing"
 	"time"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-sync/app"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-sync/app"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoreprovider"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/keyvaluestore"
+	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoreprovider"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/keyvaluestore"
 
-	psp "github.com/anyproto/any-sync/paymentservice/paymentserviceproto"
+	psp "github.com/altercpre/aparok-sync/paymentservice/paymentserviceproto"
 )
 
 const delta = 1 * time.Second

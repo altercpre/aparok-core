@@ -8,21 +8,21 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree"
-	"github.com/anyproto/any-sync/commonspace/object/tree/synctree/updatelistener"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/synctree/updatelistener"
 	"github.com/gogo/protobuf/proto"
 	"github.com/golang/snappy"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/editor/storestate"
-	"github.com/anyproto/anytype-heart/core/block/source"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/space"
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	"github.com/anyproto/anytype-heart/space/clientspace/keyvalueservice"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/editor/storestate"
+	"github.com/altercpre/aparok-core/core/block/source"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/space"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/altercpre/aparok-core/space/clientspace/keyvalueservice"
 )
 
 var _ updatelistener.UpdateListener = (*store)(nil)

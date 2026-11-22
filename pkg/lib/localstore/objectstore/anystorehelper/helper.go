@@ -8,12 +8,12 @@ import (
 	"slices"
 	"strings"
 
-	anystorev1 "github.com/anyproto/any-store"
-	anystore "github.com/anyproto/any-store/v2"
+	anystorev1 "github.com/altercpre/aparok-store"
+	anystore "github.com/altercpre/aparok-store/v2"
 	"go.uber.org/zap"
 	"zombiezen.com/go/sqlite"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
 )
 
 var log = logging.Logger("objectstore.spaceindex")

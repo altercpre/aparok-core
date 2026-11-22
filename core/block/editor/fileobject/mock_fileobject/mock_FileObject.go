@@ -3,9 +3,9 @@
 package mock_fileobject
 
 import (
-	domain "github.com/anyproto/anytype-heart/core/domain"
+	domain "github.com/altercpre/aparok-core/core/domain"
 
-	files "github.com/anyproto/anytype-heart/core/files"
+	files "github.com/altercpre/aparok-core/core/files"
 
 	mock "github.com/stretchr/testify/mock"
 )

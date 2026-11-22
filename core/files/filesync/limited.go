@@ -5,10 +5,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/query"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/files/filesync/filequeue"
+	"github.com/altercpre/aparok-core/core/files/filesync/filequeue"
 )
 
 func (s *fileSync) runLimitedUploader(ctx context.Context) {

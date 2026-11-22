@@ -3,13 +3,13 @@ package database
 import (
 	"time"
 
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/query"
 	"golang.org/x/text/collate"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	time_util "github.com/anyproto/anytype-heart/util/time"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	time_util "github.com/altercpre/aparok-core/util/time"
 )
 
 type dateOnlySort struct {

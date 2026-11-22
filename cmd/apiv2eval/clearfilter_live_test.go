@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/cmd/apiv2eval/heartboot"
-	"github.com/anyproto/anytype-heart/core/api/wrapper"
+	"github.com/altercpre/aparok-core/cmd/apiv2eval/heartboot"
+	"github.com/altercpre/aparok-core/core/api/wrapper"
 )
 
 // TestLiveClearFilter establishes what actually clears a view filter, so the

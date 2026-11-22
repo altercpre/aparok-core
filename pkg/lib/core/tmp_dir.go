@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/core/wallet"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/core/wallet"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
 )
 
 var log = logging.Logger("anytype-core")

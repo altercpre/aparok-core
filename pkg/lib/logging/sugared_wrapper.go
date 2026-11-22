@@ -3,7 +3,7 @@ package logging
 import (
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/util/anyerror"
+	"github.com/altercpre/aparok-core/util/anyerror"
 )
 
 type Sugared struct {

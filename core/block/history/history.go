@@ -3,9 +3,9 @@ package history
 import (
 	"fmt"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/migration"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/migration"
 )
 
 func ResetToVersion(sb smartblock.SmartBlock, st *state.State) error {

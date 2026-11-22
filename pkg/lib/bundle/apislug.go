@@ -9,7 +9,7 @@ import (
 	"github.com/iancoleman/strcase"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/altercpre/aparok-core/core/domain"
 )
 
 // apislug.go is the derived api-slug table for bundled keys — the authority

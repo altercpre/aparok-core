@@ -3,8 +3,8 @@ package recovery
 import (
 	"slices"
 
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
 )
 
 // peerStoreObservable is the part of peerstore.PeerStore the tracker needs.

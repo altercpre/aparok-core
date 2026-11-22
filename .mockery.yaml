@@ -4,42 +4,42 @@ disable-version-string: True
 all: False
 outpkg: "mock_{{.PackageName}}"
 packages:
-  github.com/anyproto/anytype-heart/space/spacecore/typeprovider:
+  github.com/altercpre/aparok-core/space/spacecore/typeprovider:
     interfaces:
       SmartBlockTypeProvider:
-  github.com/anyproto/anytype-heart/core/wallet:
+  github.com/altercpre/aparok-core/core/wallet:
     interfaces:
       Wallet:
-  github.com/anyproto/anytype-heart/core/nameservice:
+  github.com/altercpre/aparok-core/core/nameservice:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/event:
+  github.com/altercpre/aparok-core/core/event:
     interfaces:
       Sender:
-  github.com/anyproto/anytype-heart/core/block/cache:
+  github.com/altercpre/aparok-core/core/block/cache:
     interfaces:
       ObjectGetter:
       ObjectWaitGetter:
       CachedObjectGetter:
       ObjectGetterComponent:
       ObjectWaitGetterComponent:
-  github.com/anyproto/anytype-heart/pkg/lib/core:
+  github.com/altercpre/aparok-core/pkg/lib/core:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/pkg/lib/localstore/ftsearch:
+  github.com/altercpre/aparok-core/pkg/lib/localstore/ftsearch:
     interfaces:
       FTSearch:
-  github.com/anyproto/anytype-heart/core/block/editor/file:
+  github.com/altercpre/aparok-core/core/block/editor/file:
     interfaces:
       File:
         config:
           dir: "{{.InterfaceDir}}"
           outpkg: "{{.PackageName}}"
           inpackage: true
-  github.com/anyproto/anytype-heart/core/block/editor/fileobject:
+  github.com/altercpre/aparok-core/core/block/editor/fileobject:
     interfaces:
       FileObject:
-  github.com/anyproto/anytype-heart/core/block/editor/smartblock:
+  github.com/altercpre/aparok-core/core/block/editor/smartblock:
     interfaces:
       Indexer:
         config:
@@ -51,19 +51,19 @@ packages:
           dir: "{{.InterfaceDir}}"
           outpkg: "{{.PackageName}}"
           inpackage: true
-  github.com/anyproto/anytype-heart/core/block/import/common:
+  github.com/altercpre/aparok-core/core/block/import/common:
     interfaces:
       Converter:
-  github.com/anyproto/anytype-heart/core/block/import/web/parsers:
+  github.com/altercpre/aparok-core/core/block/import/web/parsers:
     interfaces:
       Parser:
-  github.com/anyproto/anytype-heart/core/block/restriction:
+  github.com/altercpre/aparok-core/core/block/restriction:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/files/filesync:
+  github.com/altercpre/aparok-core/core/files/filesync:
     interfaces:
       FileSync:
-  github.com/anyproto/anytype-heart/core/files/fileuploader:
+  github.com/altercpre/aparok-core/core/files/fileuploader:
     interfaces:
       Service:
         config:
@@ -75,23 +75,23 @@ packages:
           dir: "{{.InterfaceDir}}"
           outpkg: "{{.PackageName}}"
           inpackage: true
-  github.com/anyproto/anytype-heart/core/acl:
+  github.com/altercpre/aparok-core/core/acl:
     interfaces:
       participantRemover:
-  github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore:
+  github.com/altercpre/aparok-core/core/files/filestorage/rpcstore:
     interfaces:
       Service:
       RpcStore:
-  github.com/anyproto/anytype-heart/core/block/import/common/objectid:
+  github.com/altercpre/aparok-core/core/block/import/common/objectid:
     interfaces:
       IdAndKeyProvider:
-  github.com/anyproto/anytype-heart/core/block/import/common/objectcreator:
+  github.com/altercpre/aparok-core/core/block/import/common/objectcreator:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/block/import/common/syncer:
+  github.com/altercpre/aparok-core/core/block/import/common/syncer:
     interfaces:
       BlockService:
-  github.com/anyproto/anytype-heart/core/subscription:
+  github.com/altercpre/aparok-core/core/subscription:
     interfaces:
       CollectionService:
         config:
@@ -99,175 +99,175 @@ packages:
           outpkg: "{{.PackageName}}"
           inpackage: true
       Service:
-  github.com/anyproto/anytype-heart/core/block/object/objectcache:
+  github.com/altercpre/aparok-core/core/block/object/objectcache:
     interfaces:
       Cache:
-  github.com/anyproto/anytype-heart/core/block/object/objectcreator:
+  github.com/altercpre/aparok-core/core/block/object/objectcreator:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/metrics/anymetry:
+  github.com/altercpre/aparok-core/metrics/anymetry:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/invitestore:
+  github.com/altercpre/aparok-core/core/invitestore:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/invitecleanup:
+  github.com/altercpre/aparok-core/core/invitecleanup:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/indexer:
+  github.com/altercpre/aparok-core/core/indexer:
     interfaces:
       Indexer:
-  github.com/anyproto/anytype-heart/space/spacecore:
+  github.com/altercpre/aparok-core/space/spacecore:
     interfaces:
       SpaceCoreService:
-  github.com/anyproto/anytype-heart/space/spacecore/storage:
+  github.com/altercpre/aparok-core/space/spacecore/storage:
     interfaces:
       ClientStorage:
-  github.com/anyproto/anytype-heart/space/spacecore/storage/anystorage:
+  github.com/altercpre/aparok-core/space/spacecore/storage/anystorage:
     interfaces:
       ClientSpaceStorage:
-  github.com/anyproto/anytype-heart/space/techspace:
+  github.com/altercpre/aparok-core/space/techspace:
     interfaces:
       TechSpace:
       SpaceView:
       AccountObject:
-  github.com/anyproto/anytype-heart/space/spacefactory:
+  github.com/altercpre/aparok-core/space/spacefactory:
     interfaces:
       SpaceFactory:
-  github.com/anyproto/anytype-heart/space/internal/spacecontroller:
+  github.com/altercpre/aparok-core/space/internal/spacecontroller:
     interfaces:
       SpaceController:
       DeleteController:
-  github.com/anyproto/anytype-heart/space/internal/components/spaceloader:
+  github.com/altercpre/aparok-core/space/internal/components/spaceloader:
     interfaces:
       SpaceLoader:
-  github.com/anyproto/anytype-heart/space/internal/components/personalmigration:
+  github.com/altercpre/aparok-core/space/internal/components/personalmigration:
     interfaces:
       fileObjectGetter:
-  github.com/anyproto/anytype-heart/space/internal/components/participantwatcher:
+  github.com/altercpre/aparok-core/space/internal/components/participantwatcher:
     interfaces:
       ParticipantWatcher:
-  github.com/anyproto/anytype-heart/space/internal/components/aclnotifications:
+  github.com/altercpre/aparok-core/space/internal/components/aclnotifications:
     interfaces:
       AclNotification:
       NotificationSender:
-  github.com/anyproto/anytype-heart/space/internal/components/dependencies:
+  github.com/altercpre/aparok-core/space/internal/components/dependencies:
     interfaces:
       SpaceIndexer:
       IdentityService:
-  github.com/anyproto/anytype-heart/space/internal/components/spacestatus:
+  github.com/altercpre/aparok-core/space/internal/components/spacestatus:
     interfaces:
       SpaceStatus:
-  github.com/anyproto/anytype-heart/space:
+  github.com/altercpre/aparok-core/space:
     interfaces:
       Service:
       coordinatorStatusUpdater:
       NotificationSender:
-  github.com/anyproto/anytype-heart/space/clientspace:
+  github.com/altercpre/aparok-core/space/clientspace:
     interfaces:
       Space:
-  github.com/anyproto/anytype-heart/core/anytype/account:
+  github.com/altercpre/aparok-core/core/aparok/account:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/files/fileobject:
+  github.com/altercpre/aparok-core/core/files/fileobject:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/files/filedownloader:
+  github.com/altercpre/aparok-core/core/files/filedownloader:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/files:
+  github.com/altercpre/aparok-core/core/files:
     interfaces:
       Service:
       File:
       Image:
-  github.com/anyproto/anytype-heart/core/files/fileacl:
+  github.com/altercpre/aparok-core/core/files/fileacl:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/space/deletioncontroller:
+  github.com/altercpre/aparok-core/space/deletioncontroller:
     interfaces:
       SpaceManager:
       DeletionController:
-  github.com/anyproto/anytype-heart/core/domain:
+  github.com/altercpre/aparok-core/core/domain:
     interfaces:
       InviteObject:
-  github.com/anyproto/anytype-heart/core/payments/cache:
+  github.com/altercpre/aparok-core/core/payments/cache:
     interfaces:
       CacheService:
-  github.com/anyproto/anytype-heart/core/payments/emailcollector:
+  github.com/altercpre/aparok-core/core/payments/emailcollector:
     interfaces:
       EmailCollector:
-  github.com/anyproto/anytype-heart/core/block:
+  github.com/altercpre/aparok-core/core/block:
     interfaces:
       ObjectGetter:
-  github.com/anyproto/anytype-heart/core/block/source:
+  github.com/altercpre/aparok-core/core/block/source:
     interfaces:
       Service:
       Store:
-  github.com/anyproto/anytype-heart/core/block/object/idresolver:
+  github.com/altercpre/aparok-core/core/block/object/idresolver:
     interfaces:
       Resolver:
-  github.com/anyproto/anytype-heart/core/files/filestorage:
+  github.com/altercpre/aparok-core/core/files/filestorage:
     interfaces:
       FileStorage:
-  github.com/anyproto/anytype-heart/util/linkpreview:
+  github.com/altercpre/aparok-core/util/linkpreview:
     interfaces:
       LinkPreview:
-  github.com/anyproto/anytype-heart/space/spacecore/clientserver:
+  github.com/altercpre/aparok-core/space/spacecore/clientserver:
     interfaces:
       ClientServer:
-  github.com/anyproto/anytype-heart/core/peerstatus:
+  github.com/altercpre/aparok-core/core/peerstatus:
     interfaces:
       LocalDiscoveryHook:
-  github.com/anyproto/anytype-heart/core/device:
+  github.com/altercpre/aparok-core/core/device:
     interfaces:
       NetworkState:
       openedObjectRefresher:
-  github.com/anyproto/anytype-heart/space/spacecore/localdiscovery:
+  github.com/altercpre/aparok-core/space/spacecore/localdiscovery:
     interfaces:
       Notifier:
         config:
           dir: "{{.InterfaceDir}}"
           outpkg: "{{.PackageName}}"
           inpackage: true
-  github.com/anyproto/anytype-heart/core/block/object/treesyncer:
+  github.com/altercpre/aparok-core/core/block/object/treesyncer:
     interfaces:
       PeerStatusChecker:
       SyncDetailsUpdater:
-  github.com/anyproto/anytype-heart/core/syncstatus/nodestatus:
+  github.com/altercpre/aparok-core/core/syncstatus/nodestatus:
     interfaces:
       NodeStatus:
-  github.com/anyproto/anytype-heart/core/syncstatus/objectsyncstatus:
+  github.com/altercpre/aparok-core/core/syncstatus/objectsyncstatus:
     interfaces:
       Updater:
-  github.com/anyproto/anytype-heart/space/spacecore/peermanager:
+  github.com/altercpre/aparok-core/space/spacecore/peermanager:
     interfaces:
       Updater:
       PeerToPeerStatus:
-  github.com/anyproto/anytype-heart/core/syncstatus/detailsupdater:
+  github.com/altercpre/aparok-core/core/syncstatus/detailsupdater:
     interfaces:
       SpaceStatusUpdater:
-  github.com/anyproto/anytype-heart/core/syncstatus/spacesyncstatus:
+  github.com/altercpre/aparok-core/core/syncstatus/spacesyncstatus:
     interfaces:
       SpaceIdGetter:
       NodeUsage:
       NetworkConfig:
       Updater:
-  github.com/anyproto/anytype-heart/core/block/import/notion/api/files:
+  github.com/altercpre/aparok-core/core/block/import/notion/api/files:
     interfaces:
       Downloader:
-  github.com/anyproto/anytype-heart/core/block/detailservice:
+  github.com/altercpre/aparok-core/core/block/detailservice:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/kanban:
+  github.com/altercpre/aparok-core/core/kanban:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/inviteservice:
+  github.com/altercpre/aparok-core/core/inviteservice:
     interfaces:
       InviteService:
-  github.com/anyproto/anytype-heart/core/identity:
+  github.com/altercpre/aparok-core/core/identity:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/api/core:
+  github.com/altercpre/aparok-core/core/api/core:
     interfaces:
       AccountService:
       EventService:
@@ -281,28 +281,28 @@ packages:
       ObjectMutator:
       ObjectProvenance:
       Widgets:
-  github.com/anyproto/anytype-heart/core/api/filter:
+  github.com/altercpre/aparok-core/core/api/filter:
     interfaces:
       ApiService:
-  github.com/anyproto/anytype-heart/core/block/template:
+  github.com/altercpre/aparok-core/core/block/template:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/subscription/crossspacesub:
+  github.com/altercpre/aparok-core/core/subscription/crossspacesub:
     interfaces:
       Service:
-  github.com/anyproto/anytype-heart/core/block/editor/chatobject:
+  github.com/altercpre/aparok-core/core/block/editor/chatobject:
     interfaces:
       StoreObject:
-  github.com/anyproto/anytype-heart/core/block/chats/chatsubscription:
+  github.com/altercpre/aparok-core/core/block/chats/chatsubscription:
     interfaces:
       Service:
       Manager:
-  github.com/anyproto/anytype-heart/core/relationutils:
+  github.com/altercpre/aparok-core/core/relationutils:
     interfaces:
       RelationFormatFetcher:
-  github.com/anyproto/anytype-heart/core/inbox/inboxservice:
+  github.com/altercpre/aparok-core/core/inbox/inboxservice:
     interfaces:
       Sender:
-  github.com/anyproto/anytype-heart/core/inbox/inboxclient:
+  github.com/altercpre/aparok-core/core/inbox/inboxclient:
     interfaces:
       InboxClient:

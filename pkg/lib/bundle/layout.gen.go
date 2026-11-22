@@ -4,7 +4,7 @@ source: pkg/lib/bundle/layouts.json
 */
 package bundle
 
-import "github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+import "github.com/altercpre/aparok-core/pkg/lib/pb/model"
 
 const LayoutChecksum = "c136128edc84e9bf9431617756987159c53f014a286607b15382d84e443d16c2"
 

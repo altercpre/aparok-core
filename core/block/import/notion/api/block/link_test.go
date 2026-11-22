@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func Test_GetBookmarkBlock(t *testing.T) {

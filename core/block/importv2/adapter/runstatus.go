@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/importv2/resume"
-	"github.com/anyproto/anytype-heart/core/block/importv2/runstore"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2/resume"
+	"github.com/altercpre/aparok-core/core/block/importv2/runstore"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // The pull side of the observability surface: ObjectImportRunStatus /

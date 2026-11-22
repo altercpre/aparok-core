@@ -28,16 +28,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 	"github.com/globalsign/mgo/bson"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/event"
-	subscriptionservice "github.com/anyproto/anytype-heart/core/subscription"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/space"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/event"
+	subscriptionservice "github.com/altercpre/aparok-core/core/subscription"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/space"
 )
 
 var log = logging.LoggerNotSugared(CName)

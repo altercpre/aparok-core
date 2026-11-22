@@ -10,17 +10,17 @@ import (
 
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/importv2/identity"
-	notionclient "github.com/anyproto/anytype-heart/core/block/importv2/notion/client"
-	"github.com/anyproto/anytype-heart/core/block/importv2/resume"
-	"github.com/anyproto/anytype-heart/core/block/importv2/runstore"
-	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan"
-	"github.com/anyproto/anytype-heart/core/block/process"
-	"github.com/anyproto/anytype-heart/core/event"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/vcs"
+	"github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2/identity"
+	notionclient "github.com/altercpre/aparok-core/core/block/importv2/notion/client"
+	"github.com/altercpre/aparok-core/core/block/importv2/resume"
+	"github.com/altercpre/aparok-core/core/block/importv2/runstore"
+	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan"
+	"github.com/altercpre/aparok-core/core/block/process"
+	"github.com/altercpre/aparok-core/core/event"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/vcs"
 )
 
 // runLifecycle owns one engine run's durable state: the per-run store (with

@@ -3,7 +3,7 @@ package personalspace
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/loader"
+	"github.com/altercpre/aparok-core/space/internal/spaceprocess/loader"
 )
 
 type personalLoader struct {

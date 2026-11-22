@@ -3,8 +3,8 @@ package core
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/core/block/template"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/block/template"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func (mw *Middleware) TemplateCreateFromObject(ctx context.Context, req *pb.RpcTemplateCreateFromObjectRequest) *pb.RpcTemplateCreateFromObjectResponse {

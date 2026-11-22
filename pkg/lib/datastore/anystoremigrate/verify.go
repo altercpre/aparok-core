@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"slices"
 
-	anystorev1 "github.com/anyproto/any-store"
-	anystore "github.com/anyproto/any-store/v2"
+	anystorev1 "github.com/altercpre/aparok-store"
+	anystore "github.com/altercpre/aparok-store/v2"
 
-	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
+	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
 )
 
 // verify checks the v2 database against the v1 one it was built from: the same collections, the

@@ -13,7 +13,7 @@ import (
 	"unicode"
 )
 
-const anyBlockModule = "github.com/anyproto/any-block"
+const anyBlockModule = "github.com/altercpre/aparok-block"
 
 var (
 	goPackageOption = regexp.MustCompile(`(?m)\boption\s+go_package\s*=\s*"[^"]*"\s*;`)

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/anyproto/anytype-heart/core/api/util"
+	"github.com/altercpre/aparok-core/core/api/util"
 )
 
 type PropertyFormat string

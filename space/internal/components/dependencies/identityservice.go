@@ -3,11 +3,11 @@ package dependencies
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/util/crypto"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 type IdentityService interface {

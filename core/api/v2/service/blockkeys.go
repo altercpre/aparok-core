@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
 )
 
 // blockKeys resolves the property key slots blocks carry — a property block's

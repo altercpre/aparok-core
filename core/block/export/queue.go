@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/anyproto/anytype-heart/core/block/process"
+	"github.com/altercpre/aparok-core/core/block/process"
 )
 
 // Queue.Wait can return on cancellation while workers are still running.

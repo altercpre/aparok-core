@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/source/sourceimpl"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/source/sourceimpl"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/util/pbtypes"
 )
 
 var ErrCantRequestHeaderModel = errors.New("can't request header model")

@@ -20,7 +20,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/anyproto/anytype-heart/cmd/apiv2eval/heartboot"
+	"github.com/altercpre/aparok-core/cmd/apiv2eval/heartboot"
 )
 
 type ready struct {

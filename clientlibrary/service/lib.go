@@ -11,13 +11,13 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/anyproto/anytype-heart/core"
-	"github.com/anyproto/anytype-heart/core/event"
-	"github.com/anyproto/anytype-heart/metrics"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/util/conc"
-	"github.com/anyproto/anytype-heart/util/vcs"
+	"github.com/altercpre/aparok-core/core"
+	"github.com/altercpre/aparok-core/core/event"
+	"github.com/altercpre/aparok-core/metrics"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/util/conc"
+	"github.com/altercpre/aparok-core/util/vcs"
 )
 
 var log = logging.Logger("anytype-mw-library")

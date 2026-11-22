@@ -7,16 +7,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/util/crypto"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus"
-	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/initial"
-	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/mode"
-	"github.com/anyproto/anytype-heart/space/spaceinfo"
-	"github.com/anyproto/anytype-heart/space/techspace"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/space/internal/components/spacestatus"
+	"github.com/altercpre/aparok-core/space/internal/spaceprocess/initial"
+	"github.com/altercpre/aparok-core/space/internal/spaceprocess/mode"
+	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/altercpre/aparok-core/space/techspace"
 )
 
 func TestSpaceController_InvitingLoading(t *testing.T) {

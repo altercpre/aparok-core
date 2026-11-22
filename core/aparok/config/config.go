@@ -10,30 +10,30 @@ import (
 	"strings"
 	"sync"
 
-	anystore "github.com/anyproto/any-store"
-	anystorev2 "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/streampool"
-	"github.com/anyproto/anytype-publish-server/publishclient"
+	anystore "github.com/altercpre/aparok-store"
+	anystorev2 "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/streampool"
+	"github.com/altercpre/anytype-publish-server/publishclient"
 
 	//nolint:misspell
-	"github.com/anyproto/any-sync/commonspace/config"
-	"github.com/anyproto/any-sync/metric"
-	"github.com/anyproto/any-sync/net/rpc"
-	"github.com/anyproto/any-sync/net/rpc/debugserver"
-	"github.com/anyproto/any-sync/net/transport/quic"
-	"github.com/anyproto/any-sync/net/transport/yamux"
-	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/altercpre/aparok-sync/commonspace/config"
+	"github.com/altercpre/aparok-sync/metric"
+	"github.com/altercpre/aparok-sync/net/rpc"
+	"github.com/altercpre/aparok-sync/net/rpc/debugserver"
+	"github.com/altercpre/aparok-sync/net/transport/quic"
+	"github.com/altercpre/aparok-sync/net/transport/yamux"
+	"github.com/altercpre/aparok-sync/nodeconf"
 	"github.com/kelseyhightower/envconfig"
 	"gopkg.in/yaml.v3"
 
-	"github.com/anyproto/anytype-heart/core/anytype/config/loadenv"
-	"github.com/anyproto/anytype-heart/core/wallet"
-	"github.com/anyproto/anytype-heart/metrics"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/datastore/clientds"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/space/spacecore/storage"
+	"github.com/altercpre/aparok-core/core/aparok/config/loadenv"
+	"github.com/altercpre/aparok-core/core/wallet"
+	"github.com/altercpre/aparok-core/metrics"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/datastore/clientds"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/space/spacecore/storage"
 )
 
 var log = logging.Logger("anytype-config")
@@ -718,7 +718,7 @@ func (c *Config) GetNetworkMode() pb.RpcAccountNetworkMode {
 
 func (c *Config) GetPublishServer() publishclient.Config {
 	publishPeerId := "12D3KooWEQPgbxGPvkny8kikS3zqfziM7JsQBnJHXHL9ByCcATs7"
-	publishAddr := "anytype-publish-server.anytype.io:443"
+	publishAddr := "anytype-publish-server.altercpre.w8n.pw:443"
 
 	if peerId := os.Getenv("ANYTYPE_PUBLISH_PEERID"); peerId != "" {
 		if addr := os.Getenv("ANYTYPE_PUBLISH_ADDRESS"); addr != "" {
@@ -760,7 +760,7 @@ func (c *Config) GetPublishLimits() PublishLimitsConfig {
 
 func (c *Config) GetPushConfig() PushConfig {
 	pushPeerId := "12D3KooWMATrdteJNq2YvYhtq3RDeWxq6RVXDAr36MsGd5RJzXDn"
-	pushAddr := "anytype-push-server.anytype.io:443"
+	pushAddr := "anytype-push-server.altercpre.w8n.pw:443"
 
 	if peerId := os.Getenv("ANYTYPE_PUSH_PEERID"); peerId != "" {
 		if addr := os.Getenv("ANYTYPE_PUSH_ADDRESS"); addr != "" {

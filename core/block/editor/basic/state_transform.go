@@ -1,8 +1,8 @@
 package basic
 
 import (
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/simple"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/simple"
 )
 
 func CutBlocks(s *state.State, blockIds []string) (blocks []simple.Block) {

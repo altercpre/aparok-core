@@ -7,7 +7,7 @@ import (
 	"github.com/ipfs/go-cid"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/syncstatus/filesyncstatus"
+	"github.com/altercpre/aparok-core/core/syncstatus/filesyncstatus"
 )
 
 func (s *fileSync) runBatchUploader() {

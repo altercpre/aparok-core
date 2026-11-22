@@ -19,8 +19,8 @@ import (
 	"sort"
 	"strings"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson/filterstring"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson/filterstring"
 )
 
 // v2SchemaKind is one discoverable kind.

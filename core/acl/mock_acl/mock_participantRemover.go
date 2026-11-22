@@ -5,7 +5,7 @@ package mock_acl
 import (
 	context "context"
 
-	crypto "github.com/anyproto/any-sync/util/crypto"
+	crypto "github.com/altercpre/aparok-sync/util/crypto"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -3,20 +3,20 @@ package personalmigration
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/fileobject"
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
-	"github.com/anyproto/anytype-heart/core/files/fileobject/filemodels"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	"github.com/anyproto/anytype-heart/space/internal/components/spaceloader"
-	"github.com/anyproto/anytype-heart/space/techspace"
+	"github.com/altercpre/aparok-core/core/block/editor/fileobject"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/domain/objectorigin"
+	"github.com/altercpre/aparok-core/core/files/fileobject/filemodels"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/altercpre/aparok-core/space/internal/components/spaceloader"
+	"github.com/altercpre/aparok-core/space/techspace"
 )
 
 const (

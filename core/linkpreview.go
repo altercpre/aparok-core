@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/util/linkpreview"
-	"github.com/anyproto/anytype-heart/util/uri"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/util/linkpreview"
+	"github.com/altercpre/aparok-core/util/uri"
 )
 
 func (mw *Middleware) LinkPreview(cctx context.Context, req *pb.RpcLinkPreviewRequest) *pb.RpcLinkPreviewResponse {

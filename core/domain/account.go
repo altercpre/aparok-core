@@ -1,9 +1,9 @@
 package domain
 
 import (
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 const anytypeMetadataPath = "m/SLIP-0021/anytype/account/metadata"

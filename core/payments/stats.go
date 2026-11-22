@@ -19,7 +19,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // resourceStats counts one resource's network attempts and their outcomes.

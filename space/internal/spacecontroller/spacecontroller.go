@@ -3,8 +3,8 @@ package spacecontroller
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/mode"
-	"github.com/anyproto/anytype-heart/space/spaceinfo"
+	"github.com/altercpre/aparok-core/space/internal/spaceprocess/mode"
+	"github.com/altercpre/aparok-core/space/spaceinfo"
 )
 
 type SpaceController interface {

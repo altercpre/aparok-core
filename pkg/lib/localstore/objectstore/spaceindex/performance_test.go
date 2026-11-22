@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/altercpre/aparok-core/pkg/lib/database"
 )
 
 func BenchmarkQuery(b *testing.B) {

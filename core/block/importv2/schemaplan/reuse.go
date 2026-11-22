@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
 )
 
 // Reuse is the crawl-resume plan wiring both converters share. Exactly one direction is active per run: a fresh durable

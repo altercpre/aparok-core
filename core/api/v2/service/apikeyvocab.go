@@ -27,9 +27,9 @@ package v2service
 // apikeyvocab_test.go.
 
 import (
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
 )
 
 // apiKeyVocab is per-request, like the storeresolver it embeds: lazily

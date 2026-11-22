@@ -3,9 +3,9 @@ package application
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/space"
+	"github.com/altercpre/aparok-core/space"
 )
 
 func (s *Service) AccountPreloadRemainingSpaces(ctx context.Context) error {

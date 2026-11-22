@@ -15,7 +15,7 @@ jobs:
   proto-check:
     runs-on: ubuntu-latest
     env:
-      GOPRIVATE: github.com/anyproto
+      GOPRIVATE: github.com/altercpre
       GOTOOLCHAIN: local
     steps:
       - name: Install Go

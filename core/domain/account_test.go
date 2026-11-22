@@ -3,7 +3,7 @@ package domain
 import (
 	"testing"
 
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
 	"github.com/stretchr/testify/require"
 )
 

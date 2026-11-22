@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/importv2/source"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2/source"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 type recordingSink struct {
@@ -195,7 +195,7 @@ func TestFrontMatter(t *testing.T) {
 
 func TestLinks(t *testing.T) {
 	files := map[string]string{
-		"a.md":     "See [Other](other.md) inline.\n\n[Other](other.md)\n\n![pic](img.png)\n\n[Site](https://anytype.io)\n",
+		"a.md":     "See [Other](other.md) inline.\n\n[Other](other.md)\n\n![pic](img.png)\n\n[Site](https://altercpre.w8n.pw)\n",
 		"other.md": "# Other\n",
 		"img.png":  "png-bytes",
 	}
@@ -235,7 +235,7 @@ func TestLinks(t *testing.T) {
 		require.NotNil(t, fileBlock, "image becomes a file block")
 		assert.Equal(t, "img.png", fileBlock.TargetObjectId)
 		require.NotNil(t, bookmark, "whole-line url becomes a bookmark")
-		assert.Equal(t, "https://anytype.io", bookmark.Url)
+		assert.Equal(t, "https://altercpre.w8n.pw", bookmark.Url)
 
 		fileObject := sink.byKey("img.png")
 		require.NotNil(t, fileObject, "referenced file is emitted as a file object")

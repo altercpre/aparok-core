@@ -6,10 +6,10 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/net/idna"
 
-	"github.com/anyproto/any-sync/paymentservice/paymentserviceproto"
+	"github.com/altercpre/aparok-sync/paymentservice/paymentserviceproto"
 
-	"github.com/anyproto/anytype-heart/core/nameservice"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/nameservice"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 var (

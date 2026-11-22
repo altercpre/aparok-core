@@ -15,15 +15,15 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/net/peerservice"
-	"github.com/anyproto/any-sync/net/pool"
-	"github.com/anyproto/any-sync/net/rpc/rpcerr"
-	"github.com/anyproto/any-sync/net/secureservice"
-	"github.com/anyproto/anytype-push-server/pushclient/pushapi"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/net/peerservice"
+	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
+	"github.com/altercpre/aparok-sync/net/secureservice"
+	"github.com/altercpre/anytype-push-server/pushclient/pushapi"
 	"storj.io/drpc"
 
-	"github.com/anyproto/anytype-heart/core/anytype/config"
+	"github.com/altercpre/aparok-core/core/aparok/config"
 )
 
 func New() Client {

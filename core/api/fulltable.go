@@ -8,8 +8,8 @@ package api
 import (
 	"fmt"
 
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
-	"github.com/anyproto/anytype-heart/core/api/wrapper/full"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
+	"github.com/altercpre/aparok-core/core/api/wrapper/full"
 )
 
 var fullTable = full.NewLazy(deriveFullTable)

@@ -5,14 +5,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/anyproto/anytype-heart/core/block/detailservice"
-	"github.com/anyproto/anytype-heart/core/block/editor/chatobject"
-	"github.com/anyproto/anytype-heart/core/block/object/idresolver"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/session"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/anyerror"
+	"github.com/altercpre/aparok-core/core/block/detailservice"
+	"github.com/altercpre/aparok-core/core/block/editor/chatobject"
+	"github.com/altercpre/aparok-core/core/block/object/idresolver"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/session"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/anyerror"
 )
 
 // universalBadInputErrors are errors that map to BAD_INPUT across any RPC response error enum.

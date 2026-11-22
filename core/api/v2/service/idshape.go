@@ -24,7 +24,7 @@ import (
 	"context"
 	"fmt"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
 )
 
 // ParseIdsShape validates a raw `?ids=` value and reports whether the caller

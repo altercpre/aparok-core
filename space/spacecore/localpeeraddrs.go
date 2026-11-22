@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/pool"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/pool"
 
-	"github.com/anyproto/anytype-heart/net/addrs"
+	"github.com/altercpre/aparok-core/net/addrs"
 )
 
 // GO-7581: a LAN peer's dial list is put together from several sources.

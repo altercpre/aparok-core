@@ -6,11 +6,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 	"github.com/gogo/protobuf/types"
 	"golang.org/x/exp/constraints"
 
-	"github.com/anyproto/anytype-heart/util/pbtypes"
+	"github.com/altercpre/aparok-core/util/pbtypes"
 )
 
 type nullValue struct{}

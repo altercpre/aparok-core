@@ -11,13 +11,13 @@ import (
 	"go.uber.org/zap"
 	"storj.io/drpc"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace"
-	"github.com/anyproto/any-sync/commonspace/clientspaceproto"
-	"github.com/anyproto/any-sync/net/peer"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace"
+	"github.com/altercpre/aparok-sync/commonspace/clientspaceproto"
+	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/altercpre/aparok-sync/net/transport"
 
-	"github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
+	"github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
 )
 
 // PeerDiscoveryObserver receives every LAN discovery, before the peer is

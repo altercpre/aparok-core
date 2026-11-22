@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api"
 )
 
 func Test_VideoGetBlocks(t *testing.T) {

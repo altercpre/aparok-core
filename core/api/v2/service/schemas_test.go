@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson/filterstring"
+	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson/filterstring"
 )
 
 func TestV2Schemas(t *testing.T) {

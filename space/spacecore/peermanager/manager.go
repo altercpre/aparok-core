@@ -8,21 +8,21 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/net/streampool"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/net/streampool"
 	"go.uber.org/atomic"
 	"storj.io/drpc"
 
 	//nolint:misspell
-	"github.com/anyproto/any-sync/commonspace/headsync"
-	"github.com/anyproto/any-sync/commonspace/peermanager"
-	"github.com/anyproto/any-sync/net/peer"
+	"github.com/altercpre/aparok-sync/commonspace/headsync"
+	"github.com/altercpre/aparok-sync/commonspace/peermanager"
+	"github.com/altercpre/aparok-sync/net/peer"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/syncstatus/nodestatus"
-	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
+	"github.com/altercpre/aparok-core/core/syncstatus/nodestatus"
+	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
 )
 
 type contextKey string

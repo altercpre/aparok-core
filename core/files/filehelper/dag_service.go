@@ -3,7 +3,7 @@ package filehelper
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/commonfile/fileblockstore"
+	"github.com/altercpre/aparok-sync/commonfile/fileblockstore"
 	"github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"
 )

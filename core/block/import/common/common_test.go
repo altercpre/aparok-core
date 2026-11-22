@@ -3,14 +3,14 @@ package common
 import (
 	"testing"
 
-	"github.com/anyproto/any-sync/util/cidutil"
+	"github.com/altercpre/aparok-sync/util/cidutil"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/simple"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/simple"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/pbtypes"
 )
 
 func TestReplaceChunks(t *testing.T) {
@@ -396,7 +396,7 @@ func TestUpdateLinksToObjects(t *testing.T) {
 // used to log an error and leave the stale id in place.
 func TestHandleBookmarkBlock_AnAbsentObjectBecomesAUrlOnlyBookmark(t *testing.T) {
 	block := &model.Block{Id: "test", Content: &model.BlockContentOfBookmark{Bookmark: &model.BlockContentBookmark{
-		Url: "https://anytype.io", TargetObjectId: "bafyreigone",
+		Url: "https://altercpre.w8n.pw", TargetObjectId: "bafyreigone",
 	}}}
 	rootBlock := &model.Block{Id: "root", ChildrenIds: []string{"test"},
 		Content: &model.BlockContentOfSmartblock{Smartblock: &model.BlockContentSmartblock{}}}
@@ -407,5 +407,5 @@ func TestHandleBookmarkBlock_AnAbsentObjectBecomesAUrlOnlyBookmark(t *testing.T)
 
 	got := st.Pick("test").Model().GetBookmark()
 	assert.Empty(t, got.TargetObjectId, "cleared, so the syncer rebuilds the object from the URL")
-	assert.Equal(t, "https://anytype.io", got.Url)
+	assert.Equal(t, "https://altercpre.w8n.pw", got.Url)
 }

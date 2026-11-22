@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/anyproto/anytype-heart/core/api/util"
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/api/util"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // Whoami describes the authenticated CREDENTIAL, never the person.

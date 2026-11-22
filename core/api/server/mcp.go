@@ -28,10 +28,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	apicore "github.com/anyproto/anytype-heart/core/api/core"
-	"github.com/anyproto/anytype-heart/core/api/util"
-	"github.com/anyproto/anytype-heart/core/api/wrapper"
-	"github.com/anyproto/anytype-heart/core/api/wrapper/full"
+	apicore "github.com/altercpre/aparok-core/core/api/core"
+	"github.com/altercpre/aparok-core/core/api/util"
+	"github.com/altercpre/aparok-core/core/api/wrapper"
+	"github.com/altercpre/aparok-core/core/api/wrapper/full"
 )
 
 const (

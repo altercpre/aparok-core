@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/core/anytype/config"
-	"github.com/anyproto/anytype-heart/core/api"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/aparok/config"
+	"github.com/altercpre/aparok-core/core/api"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func (s *Service) AccountConfigUpdate(req *pb.RpcAccountConfigUpdateRequest) error {

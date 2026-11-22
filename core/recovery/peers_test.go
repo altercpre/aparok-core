@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/net"
-	"github.com/anyproto/any-sync/net/peerobserver"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/net"
+	"github.com/altercpre/aparok-sync/net/peerobserver"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/device"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
+	"github.com/altercpre/aparok-core/core/device"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
 )
 
 func TestDeviceNetworkStateCNameDrift(t *testing.T) {

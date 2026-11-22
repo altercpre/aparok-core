@@ -6,14 +6,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/anyproto/anytype-heart/core/block/import/common"
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api/files/mock_files"
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api/page"
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api/property"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	sb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
+	"github.com/altercpre/aparok-core/core/block/import/common"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api/files/mock_files"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api/page"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api/property"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	sb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/util/pbtypes"
 )
 
 func TestService_AddObjectsToNotionCollection(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/anyproto/anytype-heart/core/ai/llmclient"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/ai/llmclient"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func (mw *Middleware) AIWritingTools(ctx context.Context, req *pb.RpcAIWritingToolsRequest) *pb.RpcAIWritingToolsResponse {

@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fastjson"
 
-	"github.com/anyproto/anytype-heart/metrics/anymetry"
-	"github.com/anyproto/anytype-heart/metrics/anymetry/mock_anymetry"
+	"github.com/altercpre/aparok-core/metrics/anymetry"
+	"github.com/altercpre/aparok-core/metrics/anymetry/mock_anymetry"
 )
 
 type testEvent struct {

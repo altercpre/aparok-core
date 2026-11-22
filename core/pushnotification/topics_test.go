@@ -5,14 +5,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/anyproto/any-sync/util/crypto"
-	"github.com/anyproto/anytype-push-server/pushclient/pushapi"
+	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/altercpre/anytype-push-server/pushclient/pushapi"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func TestSpaceTopicsCollection(t *testing.T) {

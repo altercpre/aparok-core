@@ -8,7 +8,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
+	"github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
 )
 
 // GO-7492: a LAN peer that shares nothing at discovery time may share

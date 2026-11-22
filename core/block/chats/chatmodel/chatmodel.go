@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	textUtil "github.com/anyproto/anytype-heart/util/text"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	textUtil "github.com/altercpre/aparok-core/util/text"
 )
 
 type CounterType int

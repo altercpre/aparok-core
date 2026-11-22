@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/util/debug"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/util/debug"
 )
 
 func (s *dsObjectStore) DebugRouter(r chi.Router) {

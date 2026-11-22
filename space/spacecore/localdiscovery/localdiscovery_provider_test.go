@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/anyproto/any-sync/util/periodicsync"
+	"github.com/altercpre/aparok-sync/util/periodicsync"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/net/addrs"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/space/spacecore/clientserver"
+	"github.com/altercpre/aparok-core/net/addrs"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/space/spacecore/clientserver"
 )
 
 type stubNotifierProvider struct{}

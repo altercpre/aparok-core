@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/anyproto/any-sync/accountservice"
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/accountservice"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/core/block/object/objectcache"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	dependencies "github.com/anyproto/anytype-heart/space/internal/components/dependencies"
-	"github.com/anyproto/anytype-heart/space/internal/spacecontroller"
-	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/mode"
-	"github.com/anyproto/anytype-heart/space/spaceinfo"
-	"github.com/anyproto/anytype-heart/space/virtualspaceservice"
+	"github.com/altercpre/aparok-core/core/block/object/objectcache"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	dependencies "github.com/altercpre/aparok-core/space/internal/components/dependencies"
+	"github.com/altercpre/aparok-core/space/internal/spacecontroller"
+	"github.com/altercpre/aparok-core/space/internal/spaceprocess/mode"
+	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/altercpre/aparok-core/space/virtualspaceservice"
 )
 
 // TODO: GO-6259 MarketplaceSpace is deprecated and no longer used on clients. We need to get rid of code that installs types/relations from marketplace space and remove it

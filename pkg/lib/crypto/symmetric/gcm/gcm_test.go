@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/crypto/symmetric"
+	"github.com/altercpre/aparok-core/pkg/lib/crypto/symmetric"
 )
 
 var symmetricTestData = struct {

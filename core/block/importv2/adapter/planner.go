@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/anyproto/anytype-heart/core/ai/llmclient"
-	"github.com/anyproto/anytype-heart/core/block/importv2/llmplan"
-	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/ai/llmclient"
+	"github.com/altercpre/aparok-core/core/block/importv2/llmplan"
+	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // plannerParams is the adapter-resolved BYOK enrichment config

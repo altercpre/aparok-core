@@ -1,10 +1,10 @@
 package order
 
 import (
-	"github.com/anyproto/lexid"
+	"github.com/altercpre/lexid"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
-	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
+	"github.com/altercpre/aparok-core/core/domain"
 )
 
 var (

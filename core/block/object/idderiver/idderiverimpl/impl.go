@@ -14,11 +14,11 @@ Scope: global
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/core/block/object/idderiver"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/space"
+	"github.com/altercpre/aparok-core/core/block/object/idderiver"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/space"
 )
 
 const CName = "object-id-deriver"

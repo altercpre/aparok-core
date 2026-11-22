@@ -3,8 +3,8 @@ package metricsid
 import (
 	"testing"
 
-	"github.com/anyproto/any-sync/util/crypto"
-	"github.com/anyproto/any-sync/util/strkey"
+	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/strkey"
 	"github.com/stretchr/testify/require"
 )
 

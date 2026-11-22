@@ -4,14 +4,14 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/core/debug/debugreporter"
-	"github.com/anyproto/anytype-heart/core/debug/debugsnapshot"
-	"github.com/anyproto/anytype-heart/core/event"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/initialparams"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/core/debug/debugreporter"
+	"github.com/altercpre/aparok-core/core/debug/debugsnapshot"
+	"github.com/altercpre/aparok-core/core/event"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/initialparams"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
 )
 
 var log = logging.Logger("profiler")

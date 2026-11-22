@@ -3,16 +3,16 @@
 package mock_filestorage
 
 import (
-	app "github.com/anyproto/any-sync/app"
+	app "github.com/altercpre/aparok-sync/app"
 	blocks "github.com/ipfs/go-block-format"
 
 	cid "github.com/ipfs/go-cid"
 
 	context "context"
 
-	domain "github.com/anyproto/anytype-heart/core/domain"
+	domain "github.com/altercpre/aparok-core/core/domain"
 
-	filestorage "github.com/anyproto/anytype-heart/core/files/filestorage"
+	filestorage "github.com/altercpre/aparok-core/core/files/filestorage"
 
 	format "github.com/ipfs/go-ipld-format"
 

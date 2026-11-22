@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	apimodel "github.com/anyproto/anytype-heart/core/api/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	apimodel "github.com/altercpre/aparok-core/core/api/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func TestBidirectionalConditionMapping(t *testing.T) {

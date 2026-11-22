@@ -44,18 +44,18 @@ import (
 	"sync/atomic"
 	"time"
 
-	anystorev1 "github.com/anyproto/any-store"
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-sync/app"
+	anystorev1 "github.com/altercpre/aparok-store"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-sync/app"
 	"go.uber.org/zap"
 	"zombiezen.com/go/sqlite"
 
-	"github.com/anyproto/anytype-heart/core/debug/debugreporter"
-	"github.com/anyproto/anytype-heart/core/wallet"
-	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoremigrate"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore/anystorehelper"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/util/freespace"
+	"github.com/altercpre/aparok-core/core/debug/debugreporter"
+	"github.com/altercpre/aparok-core/core/wallet"
+	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoremigrate"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore/anystorehelper"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/util/freespace"
 )
 
 const CName = "anystore-provider"

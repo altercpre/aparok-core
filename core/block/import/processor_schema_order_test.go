@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/anytype-heart/core/block/import/common"
-	"github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/core/block/import/common"
+	"github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
 )
 
 func TestSplitSchemaSnapshots(t *testing.T) {

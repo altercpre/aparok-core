@@ -3,9 +3,9 @@ package core
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/core/device"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/device"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func (mw *Middleware) DeviceSetName(cctx context.Context, req *pb.RpcDeviceSetNameRequest) *pb.RpcDeviceSetNameResponse {

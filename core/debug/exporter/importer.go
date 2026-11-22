@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/object/accountdata"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
 
-	"github.com/anyproto/anytype-heart/util/ziputil"
+	"github.com/altercpre/aparok-core/util/ziputil"
 )
 
 type ImportResult struct {

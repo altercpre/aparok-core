@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	apicore "github.com/anyproto/anytype-heart/core/api/core"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
+	apicore "github.com/altercpre/aparok-core/core/api/core"
+	"github.com/altercpre/aparok-core/util/pbtypes"
 	"github.com/gogo/protobuf/types"
 
 	"github.com/gin-gonic/gin"
@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/api/wrapper/full"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/api/wrapper/full"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 var (

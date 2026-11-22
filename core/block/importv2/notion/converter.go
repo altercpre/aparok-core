@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"sync"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/importv2/notion/client"
-	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan"
-	"github.com/anyproto/anytype-heart/core/block/importv2/typesuggest"
-	"github.com/anyproto/anytype-heart/core/domain"
-	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2/notion/client"
+	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan"
+	"github.com/altercpre/aparok-core/core/block/importv2/typesuggest"
+	"github.com/altercpre/aparok-core/core/domain"
+	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 const rootCollectionName = "Notion Import"

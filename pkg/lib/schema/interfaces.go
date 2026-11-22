@@ -1,7 +1,7 @@
 package schema
 
 import (
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // PropertyResolver resolves property keys and formats from names.

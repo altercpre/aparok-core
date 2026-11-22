@@ -9,7 +9,7 @@ import (
 
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // JSONSchemaParser parses JSON Schema format into Schema

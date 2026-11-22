@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 	"github.com/go-chi/chi/v5"
 )
 

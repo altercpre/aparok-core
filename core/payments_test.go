@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/anyproto/any-sync/net"
+	"github.com/altercpre/aparok-sync/net"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/payments"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/payments"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // fakePaymentsService returns a fixed V2 response together with an error

@@ -5,13 +5,13 @@ package mock_personalmigration
 import (
 	context "context"
 
-	app "github.com/anyproto/any-sync/app"
+	app "github.com/altercpre/aparok-sync/app"
 
-	domain "github.com/anyproto/anytype-heart/core/domain"
+	domain "github.com/altercpre/aparok-core/core/domain"
 
-	filemodels "github.com/anyproto/anytype-heart/core/files/fileobject/filemodels"
+	filemodels "github.com/altercpre/aparok-core/core/files/fileobject/filemodels"
 
-	fileobject "github.com/anyproto/anytype-heart/core/block/editor/fileobject"
+	fileobject "github.com/altercpre/aparok-core/core/block/editor/fileobject"
 
 	mock "github.com/stretchr/testify/mock"
 )

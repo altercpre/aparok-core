@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-sync/commonspace"
-	"github.com/anyproto/any-sync/net"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-sync/commonspace"
+	"github.com/altercpre/aparok-sync/net"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/space/spacedomain"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/space/spacedomain"
 )
 
 // ready brings a fixture to LoadingSpaces with the tech space known and loaded.

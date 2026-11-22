@@ -25,7 +25,7 @@
       </ENTRIES>
     </EXTENSION>
     <kind value="PACKAGE" />
-    <package value="github.com/anyproto/anytype-heart/cmd/grpcserver" />
+    <package value="github.com/altercpre/aparok-core/cmd/grpcserver" />
     <directory value="$PROJECT_DIR$" />
     <filePath value="$PROJECT_DIR$" />
     <method v="2" />

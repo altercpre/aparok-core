@@ -22,13 +22,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/query"
-	sqlite "github.com/anyproto/go-sqlite"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/query"
+	sqlite "github.com/altercpre/go-sqlite"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore/anystorehelper"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore/anystorehelper"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
 )
 
 var log = logging.Logger("import-v2-runstore")
@@ -385,7 +385,7 @@ func IsMissingManifest(err error) bool {
 // Classification is deliberately narrow:
 //   - the fork's codes are checked directly (anystorehelper classifies by
 //     zombiezen.com/go/sqlite codes, which cannot unwrap the
-//     github.com/anyproto/go-sqlite error type any-store v0.4.7 emits);
+//     github.com/altercpre/go-sqlite error type any-store v0.4.7 emits);
 //   - only CORRUPT and NOTADB count — CANTOPEN is excluded on purpose: it
 //     also means EACCES, fd exhaustion and some disk-full paths, none of
 //     which is a damaged file (the provider's reinit path counts CANTOPEN

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/anyproto/anytype-heart/core/block/import/common"
+	"github.com/altercpre/aparok-core/core/block/import/common"
 )
 
 type NotionErrorResponse struct {

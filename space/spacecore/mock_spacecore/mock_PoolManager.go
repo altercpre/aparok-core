@@ -3,7 +3,7 @@
 package mock_spacecore
 
 import (
-	pool "github.com/anyproto/any-sync/net/pool"
+	pool "github.com/altercpre/aparok-sync/net/pool"
 	mock "github.com/stretchr/testify/mock"
 )
 

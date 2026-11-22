@@ -5,7 +5,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
 )
 
 // CreateDiscussionHandler mints an object's discussion

@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
 )
 
 // TestEchoSpaceRefKeepsHintAndReferencesAligned pins the typed-hint contract

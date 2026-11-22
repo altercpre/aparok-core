@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	apicore "github.com/anyproto/anytype-heart/core/api/core"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	apicore "github.com/altercpre/aparok-core/core/api/core"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
 )
 
 var log = logging.Logger("api-internal-service")

@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/util/keyvaluestore"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/util/keyvaluestore"
 )
 
 const testLanPort = 5555

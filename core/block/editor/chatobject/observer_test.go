@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/chats/chatsubscription"
+	"github.com/altercpre/aparok-core/core/block/chats/chatsubscription"
 )
 
 // The chat state manager's observer is what the API v2 space-wide chat stream

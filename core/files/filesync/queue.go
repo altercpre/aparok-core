@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/query"
 
-	"github.com/anyproto/anytype-heart/core/files/filesync/filequeue"
+	"github.com/altercpre/aparok-core/core/files/filesync/filequeue"
 )
 
 func (s *fileSync) process(id string, proc func(exists bool, info FileInfo) (FileInfo, bool, error)) error {

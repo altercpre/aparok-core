@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/importv2/notion/client"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2/notion/client"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
 )
 
 // discoveryWorkspace scripts the GO-5273 shape: /search returns only p1, but

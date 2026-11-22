@@ -3,7 +3,7 @@ package schemaplan
 import (
 	"testing"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

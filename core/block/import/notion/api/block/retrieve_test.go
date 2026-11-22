@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api/client"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api/client"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func Test_GetBlocksAndChildrenSuccessParagraph(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // A cross-space object reference is the platform's own two-parameter deep

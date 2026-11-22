@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	anystore "github.com/anyproto/any-store/v2"
+	anystore "github.com/altercpre/aparok-store/v2"
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/keyvaluestore"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/keyvaluestore"
 )
 
 type NotificationStore interface {

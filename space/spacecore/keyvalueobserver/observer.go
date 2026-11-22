@@ -19,9 +19,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/object/keyvalue/keyvaluestorage"
-	"github.com/anyproto/any-sync/commonspace/object/keyvalue/keyvaluestorage/innerstorage"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/object/keyvalue/keyvaluestorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/keyvalue/keyvaluestorage/innerstorage"
 	"github.com/cheggaaa/mb/v3"
 )
 

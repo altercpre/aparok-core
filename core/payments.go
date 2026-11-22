@@ -5,11 +5,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/any-sync/net"
-	proto "github.com/anyproto/any-sync/paymentservice/paymentserviceproto"
+	"github.com/altercpre/aparok-sync/net"
+	proto "github.com/altercpre/aparok-sync/paymentservice/paymentserviceproto"
 
-	"github.com/anyproto/anytype-heart/core/payments"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/payments"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // Semantics in case of NO INTERNET:

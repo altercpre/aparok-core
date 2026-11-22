@@ -1,13 +1,13 @@
 // Package compose bridges Heart's generated protobuf model to the portable
-// bundle composer in github.com/anyproto/any-block.
+// bundle composer in github.com/altercpre/aparok-block.
 package compose
 
 import (
 	"fmt"
-	external "github.com/anyproto/any-block/bundle"
-	externalmodel "github.com/anyproto/any-block/format/v1/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	external "github.com/altercpre/aparok-block/bundle"
+	externalmodel "github.com/altercpre/aparok-block/format/v1/model"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 const IssueOptionDescriptionOmitted = external.IssueOptionDescriptionOmitted

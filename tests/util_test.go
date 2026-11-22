@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/anyproto/anytype-heart/util/reflection"
+	"github.com/altercpre/aparok-core/util/reflection"
 
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"

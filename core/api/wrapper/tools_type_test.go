@@ -19,8 +19,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	apimodel "github.com/anyproto/anytype-heart/core/api/model"
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	apimodel "github.com/altercpre/aparok-core/core/api/model"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
 )
 
 // requestOrder returns every recorded request as "METHOD path", in the order

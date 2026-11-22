@@ -8,13 +8,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	apicore "github.com/anyproto/anytype-heart/core/api/core"
-	"github.com/anyproto/anytype-heart/core/api/service"
-	"github.com/anyproto/anytype-heart/core/api/util"
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
-	"github.com/anyproto/anytype-heart/core/api/wrapper/full"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	apicore "github.com/altercpre/aparok-core/core/api/core"
+	"github.com/altercpre/aparok-core/core/api/service"
+	"github.com/altercpre/aparok-core/core/api/util"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
+	"github.com/altercpre/aparok-core/core/api/wrapper/full"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // ApiSessionEntry is written once at session mint and evicted only by the

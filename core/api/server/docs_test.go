@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/api/core/mock_apicore"
-	"github.com/anyproto/anytype-heart/core/subscription"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/api/core/mock_apicore"
+	"github.com/altercpre/aparok-core/core/subscription"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // newDocsFixture builds a server carrying distinguishable bytes for each of

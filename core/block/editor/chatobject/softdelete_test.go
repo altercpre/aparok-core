@@ -7,20 +7,20 @@ import (
 	"testing"
 	"time"
 
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-store/v2/anyenc"
-	"github.com/anyproto/any-store/v2/query"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
 	"github.com/globalsign/mgo/bson"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
-	"github.com/anyproto/anytype-heart/core/block/chats/chatrepository"
-	"github.com/anyproto/anytype-heart/core/block/chats/chatsubscription"
-	"github.com/anyproto/anytype-heart/core/block/editor/storestate"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
+	"github.com/altercpre/aparok-core/core/block/chats/chatrepository"
+	"github.com/altercpre/aparok-core/core/block/chats/chatsubscription"
+	"github.com/altercpre/aparok-core/core/block/editor/storestate"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 const (

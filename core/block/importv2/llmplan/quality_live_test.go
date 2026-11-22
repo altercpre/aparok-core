@@ -14,11 +14,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/ai/llmclient"
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
-	"github.com/anyproto/anytype-heart/core/block/importv2/llmplan"
-	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan"
-	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan/planfixture"
+	"github.com/altercpre/aparok-core/core/ai/llmclient"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/altercpre/aparok-core/core/block/importv2/llmplan"
+	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan"
+	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan/planfixture"
 )
 
 // TestLiveNamingQuality scores the kinds call on naming, over two corpora at

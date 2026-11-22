@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
-	"github.com/anyproto/anytype-heart/space/spacecore/storage/mock_storage"
+	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
+	"github.com/altercpre/aparok-core/space/spacecore/storage/mock_storage"
 )
 
 type fakeKnownSpaces struct {

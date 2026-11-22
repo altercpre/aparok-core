@@ -16,10 +16,10 @@ import (
 	"github.com/yuin/goldmark/util"
 	"go.abhg.dev/goldmark/wikilink"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
-	"github.com/anyproto/anytype-heart/util/text"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/pbtypes"
+	"github.com/altercpre/aparok-core/util/text"
 )
 
 var log = logging.Logger("anytype-anymark")

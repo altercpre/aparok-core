@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
+	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
 )
 
 // prefetchInFlight bounds concurrently fetched pages. Throughput is capped by

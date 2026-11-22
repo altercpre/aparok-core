@@ -64,7 +64,7 @@ func TestMetaSchemaItself(t *testing.T) {
 
 	// Verify the $id follows our pattern
 	schemaId := metaSchema["$id"].(string)
-	require.Contains(t, schemaId, "https://schemas.anytype.io/meta/v1.0.0/schema.json")
+	require.Contains(t, schemaId, "https://schemas.altercpre.w8n.pw/meta/v1.0.0/schema.json")
 }
 
 func TestInvalidSchemaDetection(t *testing.T) {

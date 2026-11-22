@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	tantivy "github.com/anyproto/tantivy-go"
+	tantivy "github.com/altercpre/tantivy-go"
 )
 
 type AutoBatcher interface {

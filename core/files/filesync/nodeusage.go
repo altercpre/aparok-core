@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/commonfile/fileproto/fileprotoerr"
+	"github.com/altercpre/aparok-sync/commonfile/fileproto/fileprotoerr"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore"
+	"github.com/altercpre/aparok-core/core/files/filestorage/rpcstore"
 )
 
 const spaceUsageTTL = 30 * time.Second

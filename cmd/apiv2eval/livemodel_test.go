@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/api/wrapper"
+	"github.com/altercpre/aparok-core/core/api/wrapper"
 )
 
 // A real model against a stub API. This proves the one thing the scripted

@@ -3,10 +3,10 @@ package core
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/net"
+	"github.com/altercpre/aparok-sync/net"
 
-	"github.com/anyproto/anytype-heart/core/nameservice"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/nameservice"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // NameServiceResolveName does a name lookup: somename.any -> info

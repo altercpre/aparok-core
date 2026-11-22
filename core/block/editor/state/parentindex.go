@@ -3,8 +3,8 @@ package state
 import (
 	"os"
 
-	"github.com/anyproto/anytype-heart/core/block/simple"
-	"github.com/anyproto/anytype-heart/util/slice"
+	"github.com/altercpre/aparok-core/core/block/simple"
+	"github.com/altercpre/aparok-core/util/slice"
 )
 
 // parentIndexDebug enables shadow verification: every index consultation also

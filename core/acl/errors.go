@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
 
-	"github.com/anyproto/anytype-heart/core/inviteservice"
-	"github.com/anyproto/anytype-heart/space"
+	"github.com/altercpre/aparok-core/core/inviteservice"
+	"github.com/altercpre/aparok-core/space"
 )
 
 var (

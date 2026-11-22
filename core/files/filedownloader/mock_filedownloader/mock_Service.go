@@ -5,9 +5,9 @@ package mock_filedownloader
 import (
 	context "context"
 
-	app "github.com/anyproto/any-sync/app"
+	app "github.com/altercpre/aparok-sync/app"
 
-	domain "github.com/anyproto/anytype-heart/core/domain"
+	domain "github.com/altercpre/aparok-core/core/domain"
 
 	mock "github.com/stretchr/testify/mock"
 )

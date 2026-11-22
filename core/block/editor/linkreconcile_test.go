@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
-	"github.com/anyproto/any-sync/commonspace/spacestorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
 	"github.com/stretchr/testify/assert"
 )
 

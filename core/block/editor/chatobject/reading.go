@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/util/crypto"
-	"github.com/anyproto/any-sync/util/slice"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/slice"
 	"golang.org/x/exp/slices"
 
-	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
-	"github.com/anyproto/anytype-heart/core/block/source"
+	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
+	"github.com/altercpre/aparok-core/core/block/source"
 )
 
 type ReadMessagesRequest struct {

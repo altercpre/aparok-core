@@ -3,11 +3,11 @@ package core
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/core/block"
-	"github.com/anyproto/anytype-heart/core/block/process"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/block"
+	"github.com/altercpre/aparok-core/core/block/process"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func (mw *Middleware) ProcessCancel(cctx context.Context, req *pb.RpcProcessCancelRequest) *pb.RpcProcessCancelResponse {

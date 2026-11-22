@@ -9,8 +9,8 @@ import (
 	"github.com/cheggaaa/mb/v3"
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 var (

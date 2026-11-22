@@ -15,7 +15,7 @@ Scope: global
 import (
 	"sync"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 )
 
 const CName = "core.syncstatus.nodestatus"

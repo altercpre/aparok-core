@@ -5,7 +5,7 @@ package mock_inboxservice
 import (
 	context "context"
 
-	app "github.com/anyproto/any-sync/app"
+	app "github.com/altercpre/aparok-sync/app"
 
 	mock "github.com/stretchr/testify/mock"
 )

@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/anyproto/anytype-heart/core/block/import/common/workerpool"
-	"github.com/anyproto/anytype-heart/core/block/process"
+	"github.com/altercpre/aparok-core/core/block/import/common/workerpool"
+	"github.com/altercpre/aparok-core/core/block/process"
 )
 
 const (

@@ -3,8 +3,8 @@ package core
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/core/block"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/block"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func (mw *Middleware) BlockTableCreate(cctx context.Context, req *pb.RpcBlockTableCreateRequest) *pb.RpcBlockTableCreateResponse {

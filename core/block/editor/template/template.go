@@ -4,17 +4,17 @@ import (
 	"github.com/gogo/protobuf/types"
 	"golang.org/x/exp/slices"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/simple"
-	simpleDataview "github.com/anyproto/anytype-heart/core/block/simple/dataview"
-	"github.com/anyproto/anytype-heart/core/block/simple/link"
-	"github.com/anyproto/anytype-heart/core/block/simple/text"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
-	"github.com/anyproto/anytype-heart/util/slice"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/simple"
+	simpleDataview "github.com/altercpre/aparok-core/core/block/simple/dataview"
+	"github.com/altercpre/aparok-core/core/block/simple/link"
+	"github.com/altercpre/aparok-core/core/block/simple/text"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/pbtypes"
+	"github.com/altercpre/aparok-core/util/slice"
 )
 
 // duplicate constants stored at core/block/editor/state/state.go

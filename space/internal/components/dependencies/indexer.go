@@ -1,9 +1,9 @@
 package dependencies
 
 import (
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/altercpre/aparok-core/space/clientspace"
 )
 
 type SpaceIndexer interface {

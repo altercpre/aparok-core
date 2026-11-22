@@ -45,7 +45,7 @@ func Test_injectArtistIntoExif(t *testing.T) {
 			args: args{
 				filePath:   "../../core/block/testdata/testdir/a.jpg",
 				artistName: "anytype",
-				artistUrl:  "https://anytype.io",
+				artistUrl:  "https://altercpre.w8n.pw",
 			},
 			wantErr: false,
 		},

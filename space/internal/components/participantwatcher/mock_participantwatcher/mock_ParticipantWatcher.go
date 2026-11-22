@@ -5,10 +5,10 @@ package mock_participantwatcher
 import (
 	context "context"
 
-	app "github.com/anyproto/any-sync/app"
-	clientspace "github.com/anyproto/anytype-heart/space/clientspace"
+	app "github.com/altercpre/aparok-sync/app"
+	clientspace "github.com/altercpre/aparok-core/space/clientspace"
 
-	list "github.com/anyproto/any-sync/commonspace/object/acl/list"
+	list "github.com/altercpre/aparok-sync/commonspace/object/acl/list"
 
 	mock "github.com/stretchr/testify/mock"
 )

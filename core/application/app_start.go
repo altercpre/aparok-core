@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/core/anytype"
-	"github.com/anyproto/anytype-heart/core/recovery"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/space"
+	"github.com/altercpre/aparok-core/core/aparok"
+	"github.com/altercpre/aparok-core/core/recovery"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/space"
 )
 
 // Start/stop protocol.

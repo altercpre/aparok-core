@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/dnaeon/go-vcr.v4/pkg/cassette"
 
-	"github.com/anyproto/anytype-heart/core/block/importv2/notion/client"
+	"github.com/altercpre/aparok-core/core/block/importv2/notion/client"
 )
 
 // TestDecodeRecordedSearch decodes the committed cassette's real API bodies

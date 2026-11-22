@@ -6,7 +6,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/anyproto/anytype-heart/core/files"
+	"github.com/altercpre/aparok-core/core/files"
 )
 
 const svgMedia = "image/svg+xml"

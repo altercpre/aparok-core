@@ -10,10 +10,10 @@ import (
 	"github.com/cheggaaa/mb/v3"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/event"
-	subscriptionservice "github.com/anyproto/anytype-heart/core/subscription"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/event"
+	subscriptionservice "github.com/altercpre/aparok-core/core/subscription"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 type Predicate func(details *domain.Details) bool

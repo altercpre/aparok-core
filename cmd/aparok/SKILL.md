@@ -100,5 +100,5 @@ underscores (`Due_date` for "Due date"); a name no identifier can spell
   intended delivery for them; `mcp` exists for hosts that cannot run
   commands. Session state is in-memory for the server's lifetime.
 - `anytype help` — the verb list; `anytype <verb> --help` — its flags.
-- Spec: `core/api/APIV2.md` §7 (the wrapper contract), `github.com/anyproto/any-block/format/v2/SPEC.md`
+- Spec: `core/api/APIV2.md` §7 (the wrapper contract), `github.com/altercpre/aparok-block/format/v2/SPEC.md`
   (the document format the full-read mode returns).

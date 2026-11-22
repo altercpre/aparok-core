@@ -17,7 +17,7 @@ Scope: global
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 	"github.com/dgraph-io/badger/v4"
 )
 

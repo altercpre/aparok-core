@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/core/domain"
+	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
 )
 
 // PayloadDerivationParams is a struct for deriving a payload

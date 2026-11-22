@@ -3,7 +3,7 @@ package apicore
 import (
 	"fmt"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // The per-space chat hub port (ChatSubscriptionService.OpenSpaceChats). One

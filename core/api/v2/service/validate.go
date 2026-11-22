@@ -10,8 +10,8 @@ import (
 	"errors"
 	"fmt"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
 )
 
 // ValidateDocument checks an AnyBlock document and returns the issue list

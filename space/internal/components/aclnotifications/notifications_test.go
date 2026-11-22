@@ -4,20 +4,20 @@ import (
 	"context"
 	"testing"
 
-	"github.com/anyproto/any-sync/commonspace/object/acl/aclrecordproto"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
-	"github.com/anyproto/any-sync/consensus/consensusproto"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/aclrecordproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 	"github.com/cheggaaa/mb/v3"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/space/internal/components/aclnotifications/mock_aclnotifications"
-	"github.com/anyproto/anytype-heart/space/internal/components/dependencies/mock_dependencies"
-	"github.com/anyproto/anytype-heart/space/spaceinfo"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/space/internal/components/aclnotifications/mock_aclnotifications"
+	"github.com/altercpre/aparok-core/space/internal/components/dependencies/mock_dependencies"
+	"github.com/altercpre/aparok-core/space/spaceinfo"
 )
 
 func TestAclNotificationSender_AddRecords(t *testing.T) {

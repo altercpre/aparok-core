@@ -10,16 +10,16 @@ import (
 	"github.com/globalsign/mgo/bson"
 	"github.com/samber/lo"
 
-	"github.com/anyproto/anytype-heart/core/block/import/common"
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api/block"
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api/files"
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api/property"
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
-	"github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/import/common"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api/block"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api/files"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api/property"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 type DataObject struct {

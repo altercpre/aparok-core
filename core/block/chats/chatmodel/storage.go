@@ -3,7 +3,7 @@ package chatmodel
 import (
 	"strings"
 
-	anystore "github.com/anyproto/any-store/v2"
+	anystore "github.com/altercpre/aparok-store/v2"
 )
 
 // The layout of a chat's messages collection in the per-space CRDT database. The chat repository

@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/anyproto/anytype-heart/net/addrs"
+	"github.com/altercpre/aparok-core/net/addrs"
 )
 
 // GO-7581: an interface with no IPv4 at all (a phone joined to a Mac by a

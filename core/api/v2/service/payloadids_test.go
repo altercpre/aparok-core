@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
 )
 
 // editMintedTableDoc is a 2x2 table whose table, row and column ids are all

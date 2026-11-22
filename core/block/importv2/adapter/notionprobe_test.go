@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	notionclient "github.com/anyproto/anytype-heart/core/block/importv2/notion/client"
-	"github.com/anyproto/anytype-heart/pb"
+	notionclient "github.com/altercpre/aparok-core/core/block/importv2/notion/client"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // The probe must hit /users/me, not /users. /users lists workspace members

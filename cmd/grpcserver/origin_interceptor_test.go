@@ -12,7 +12,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/anyproto/anytype-heart/util/localorigin"
+	"github.com/altercpre/aparok-core/util/localorigin"
 )
 
 // TestOriginInterceptorCarriesOriginIntoContext pins the wiring that gives a

@@ -3,10 +3,10 @@ package domain
 import (
 	"testing"
 
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func TestConvertParticipantPermissions_Admin(t *testing.T) {

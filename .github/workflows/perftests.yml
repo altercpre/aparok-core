@@ -44,7 +44,7 @@ jobs:
           echo $(go env GOPATH)/bin >> $GITHUB_PATH
       - name: Set env vars
         run: |
-          echo GOPRIVATE=github.com/anyproto >> $GITHUB_ENV
+          echo GOPRIVATE=github.com/altercpre >> $GITHUB_ENV
           echo $(pwd)/deps >> $GITHUB_PATH
           git config --global url."https://${{ secrets.ANYTYPE_PAT }}@github.com/".insteadOf "https://github.com/"
       - name: Go mod download
@@ -143,7 +143,7 @@ jobs:
   #         INHOUSE_KEY: ${{ secrets.INHOUSE_KEY }}
   #       run: |
   #         $GIT_SUMMARY = git describe --tags --exclude='*-nightly.*' --always
-  #         echo "FLAGS=-X github.com/anyproto/anytype-heart/util/vcs.GitSummary=$GIT_SUMMARY -X github.com/anyproto/anytype-heart/metrics.DefaultInHouseKey=$env:INHOUSE_KEY -X github.com/anyproto/anytype-heart/util/unsplash.DefaultToken=$env:UNSPLASH_KEY" >> $env:GITHUB_ENV
+  #         echo "FLAGS=-X github.com/altercpre/aparok-core/util/vcs.GitSummary=$GIT_SUMMARY -X github.com/altercpre/aparok-core/metrics.DefaultInHouseKey=$env:INHOUSE_KEY -X github.com/altercpre/aparok-core/util/unsplash.DefaultToken=$env:UNSPLASH_KEY" >> $env:GITHUB_ENV
   #         if ($env:GITHUB_EVENT_NAME -eq "workflow_dispatch") {
   #           $VERSION = ${{ github.event.inputs.alpha_version }}
   #           if (-not $VERSION) {
@@ -155,7 +155,7 @@ jobs:
   #         }
   #         echo "VERSION=$VERSION" >> $env:GITHUB_ENV
   #         echo "MAVEN_ARTIFACT_VERSION=$VERSION" >> $env:GITHUB_ENV
-  #         echo "GOPRIVATE=github.com/anyproto" >> $env:GITHUB_ENV
+  #         echo "GOPRIVATE=github.com/altercpre" >> $env:GITHUB_ENV
   #         echo "$(Get-Location)\deps" >> $env:GITHUB_PATH
   #         echo "$env:GOBIN" >> $env:GITHUB_PATH
   #         git config --global url."https://${{ secrets.ANYTYPE_PAT }}@github.com/".insteadOf "https://github.com/"
@@ -166,7 +166,7 @@ jobs:
 
   #     - name: Setup network config
   #       env:
-  #         CUSTOM_NETWORK_FILE: ./core/anytype/config/nodes/custom.yml
+  #         CUSTOM_NETWORK_FILE: ./core/aparok/config/nodes/custom.yml
   #       run: |
   #         if (-not $env:ANY_SYNC_NETWORK) {
   #             echo "Using the default production Any Sync Network"
@@ -184,7 +184,7 @@ jobs:
   #         OUTPUT_DIR: deps/libs
   #         REPO: anyproto/tantivy-go
   #       run: |
-  #         $TANTIVY_VERSION = (Get-Content go.mod | Select-String "github.com/anyproto/tantivy-go" | ForEach-Object { ($_ -split " ")[1] }).Trim()
+  #         $TANTIVY_VERSION = (Get-Content go.mod | Select-String "github.com/altercpre/tantivy-go" | ForEach-Object { ($_ -split " ")[1] }).Trim()
 
   #         $TANTIVY_LIBS = @(
   #           "windows-amd64.tar.gz"

@@ -4,16 +4,16 @@ import (
 	"context"
 	"testing"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/anyproto/anytype-heart/core/anytype/config"
-	"github.com/anyproto/anytype-heart/core/block/source/mock_source"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
-	"github.com/anyproto/anytype-heart/space/clientspace/mock_clientspace"
-	"github.com/anyproto/anytype-heart/tests/testutil"
+	"github.com/altercpre/aparok-core/core/aparok/config"
+	"github.com/altercpre/aparok-core/core/block/source/mock_source"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/space/clientspace/mock_clientspace"
+	"github.com/altercpre/aparok-core/tests/testutil"
 )
 
 func Test_registerBuiltin(t *testing.T) {

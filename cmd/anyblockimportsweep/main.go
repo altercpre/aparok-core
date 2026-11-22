@@ -17,9 +17,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/anyproto/anytype-heart/cmd/apiv2eval/heartboot"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/cmd/apiv2eval/heartboot"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 	"github.com/gogo/protobuf/types"
 )
 

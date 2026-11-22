@@ -11,7 +11,7 @@ import (
 
 	"github.com/rwcarlsen/goexif/exif"
 
-	"github.com/anyproto/anytype-heart/util/jsonutil"
+	"github.com/altercpre/aparok-core/util/jsonutil"
 )
 
 type ImageExifSchema struct {

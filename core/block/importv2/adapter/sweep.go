@@ -7,9 +7,9 @@ import (
 	"os"
 	"runtime/debug"
 
-	"github.com/anyproto/anytype-heart/core/block/importv2/persist"
-	"github.com/anyproto/anytype-heart/core/block/importv2/runstore"
-	"github.com/anyproto/anytype-heart/space"
+	"github.com/altercpre/aparok-core/core/block/importv2/persist"
+	"github.com/altercpre/aparok-core/core/block/importv2/runstore"
+	"github.com/altercpre/aparok-core/space"
 )
 
 // The startup sweep: every run dir left behind

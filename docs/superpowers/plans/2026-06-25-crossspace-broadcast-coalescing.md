@@ -6,7 +6,7 @@
 
 **Architecture:** Separate the buffering *policy* from the delivery *mechanism*. A pure, synchronous `coalescer` (timestamps passed in, no goroutines, no real time) owns the window/grace/size-cap/counters-last-wins logic and is exhaustively unit-tested. A thin run-loop (a drainer goroutine feeding a `select` over the message channel and an injected-clock timer) drives the coalescer and calls `eventSender.Broadcast`. Only the `internalQueue == nil` (broadcast) path is changed; the nested-forward path is untouched.
 
-**Tech Stack:** Go; `github.com/cheggaaa/mb/v3` (message buffer queue); `github.com/anyproto/anytype-heart/pb` (event protos); testify (`assert`/`require`/`mock`); existing `mock_event.MockSender` and `mock_subscription.MockService`.
+**Tech Stack:** Go; `github.com/cheggaaa/mb/v3` (message buffer queue); `github.com/altercpre/aparok-core/pb` (event protos); testify (`assert`/`require`/`mock`); existing `mock_event.MockSender` and `mock_subscription.MockService`.
 
 ## Global Constraints
 
@@ -45,7 +45,7 @@
   - `func (c *coalescer) nextDeadline() time.Time` (zero value when buffer empty)
   - `func coalesceCounters(msgs []*pb.EventMessage) []*pb.EventMessage`
   - `func laterOf(a, b time.Time) time.Time`
-- Consumes: `*pb.EventMessage`, `pb.EventMessageValueOfSubscriptionCounters` from `github.com/anyproto/anytype-heart/pb`.
+- Consumes: `*pb.EventMessage`, `pb.EventMessageValueOfSubscriptionCounters` from `github.com/altercpre/aparok-core/pb`.
 
 - [ ] **Step 1: Write the failing test for `coalesceCounters`**
 
@@ -61,8 +61,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/event"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/event"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func addMsg(id string) *pb.EventMessage {
@@ -119,7 +119,7 @@ package crossspacesub
 import (
 	"time"
 
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // coalescer is the pure, synchronous buffering policy for the client-facing

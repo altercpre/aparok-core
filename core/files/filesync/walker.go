@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anyproto/any-sync/commonfile/fileblockstore"
-	"github.com/anyproto/any-sync/commonfile/fileproto/fileprotoerr"
-	"github.com/anyproto/any-sync/commonfile/fileservice"
+	"github.com/altercpre/aparok-sync/commonfile/fileblockstore"
+	"github.com/altercpre/aparok-sync/commonfile/fileproto/fileprotoerr"
+	"github.com/altercpre/aparok-sync/commonfile/fileservice"
 	"github.com/ipfs/boxo/ipld/merkledag"
 	"github.com/ipfs/boxo/ipld/unixfs"
 	"github.com/ipfs/boxo/ipld/unixfs/importer/helpers"
@@ -17,7 +17,7 @@ import (
 	ipld "github.com/ipfs/go-ipld-format"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/altercpre/aparok-core/core/domain"
 )
 
 var errBlockNotFound = errors.New("block not found")

@@ -5,16 +5,16 @@ import (
 	"errors"
 	gonet "net"
 
-	anystorev1 "github.com/anyproto/any-store"
-	anystore "github.com/anyproto/any-store/v2"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
-	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
-	"github.com/anyproto/any-sync/net"
-	"github.com/anyproto/any-sync/net/peerservice"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
+	anystorev1 "github.com/altercpre/aparok-store"
+	anystore "github.com/altercpre/aparok-store/v2"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
+	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/net"
+	"github.com/altercpre/aparok-sync/net/peerservice"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
 
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // debugMessageMax bounds the raw error text carried for logs.

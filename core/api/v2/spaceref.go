@@ -25,7 +25,7 @@ package apiv2
 import (
 	"github.com/gin-gonic/gin"
 
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
 )
 
 // resolveSpaceRef rewrites :space_id in place when the caller used a short

@@ -1,6 +1,6 @@
 package domain
 
-import "github.com/anyproto/anytype-heart/pb"
+import "github.com/altercpre/aparok-core/pb"
 
 type CompState int
 

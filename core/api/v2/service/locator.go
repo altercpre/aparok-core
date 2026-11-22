@@ -31,8 +31,8 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
 )
 
 // maxLocatorCandidates bounds how many candidate blocks an ambiguity

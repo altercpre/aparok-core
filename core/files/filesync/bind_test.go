@@ -14,10 +14,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	rpcstore2 "github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore"
-	"github.com/anyproto/anytype-heart/core/files/filesync/filequeue"
-	"github.com/anyproto/anytype-heart/core/syncstatus/filesyncstatus"
+	"github.com/altercpre/aparok-core/core/domain"
+	rpcstore2 "github.com/altercpre/aparok-core/core/files/filestorage/rpcstore"
+	"github.com/altercpre/aparok-core/core/files/filesync/filequeue"
+	"github.com/altercpre/aparok-core/core/syncstatus/filesyncstatus"
 )
 
 // Reproducers for the "Notion-imported files stuck in Syncing forever" bug

@@ -3,8 +3,8 @@ package invitecleanup
 import (
 	"testing"
 
-	"github.com/anyproto/any-sync/commonspace/object/acl/aclrecordproto"
-	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/aclrecordproto"
+	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

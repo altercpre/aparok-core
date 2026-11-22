@@ -29,8 +29,8 @@ import (
 	"strings"
 	"sync"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	"github.com/anyproto/anytype-heart/core/api/wrapper"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	"github.com/altercpre/aparok-core/core/api/wrapper"
 )
 
 // toolSpec is one tool as the model sees it.

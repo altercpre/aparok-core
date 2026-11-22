@@ -27,7 +27,7 @@ import (
 	"strings"
 	"time"
 
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
 )
 
 // probeOps are the two ops the payload-id question is about: insert_blocks

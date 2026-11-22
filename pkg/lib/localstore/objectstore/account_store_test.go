@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

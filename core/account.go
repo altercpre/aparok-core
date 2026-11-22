@@ -3,17 +3,17 @@ package core
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/net"
+	"github.com/altercpre/aparok-sync/net"
 
-	"github.com/anyproto/anytype-heart/core/anytype/config"
-	"github.com/anyproto/anytype-heart/core/application"
-	"github.com/anyproto/anytype-heart/core/session"
-	walletComp "github.com/anyproto/anytype-heart/core/wallet"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoremigrate"
-	"github.com/anyproto/anytype-heart/space/spacecore/storage/migrator"
-	"github.com/anyproto/anytype-heart/util/grpcprocess"
-	"github.com/anyproto/anytype-heart/util/localorigin"
+	"github.com/altercpre/aparok-core/core/aparok/config"
+	"github.com/altercpre/aparok-core/core/application"
+	"github.com/altercpre/aparok-core/core/session"
+	walletComp "github.com/altercpre/aparok-core/core/wallet"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoremigrate"
+	"github.com/altercpre/aparok-core/space/spacecore/storage/migrator"
+	"github.com/altercpre/aparok-core/util/grpcprocess"
+	"github.com/altercpre/aparok-core/util/localorigin"
 )
 
 func (mw *Middleware) AccountCreate(cctx context.Context, req *pb.RpcAccountCreateRequest) *pb.RpcAccountCreateResponse {

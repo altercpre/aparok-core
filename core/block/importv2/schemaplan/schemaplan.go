@@ -11,8 +11,8 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // ContainerSchema is everything a converter shares about one container of

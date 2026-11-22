@@ -16,14 +16,14 @@ import (
 	"context"
 	"errors"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/nameservice/nameserviceclient"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/nameservice/nameserviceclient"
 
-	"github.com/anyproto/anytype-heart/core/wallet"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/wallet"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 
-	proto "github.com/anyproto/any-sync/nameservice/nameserviceproto"
+	proto "github.com/altercpre/aparok-sync/nameservice/nameserviceproto"
 )
 
 const CName = "nameservice"

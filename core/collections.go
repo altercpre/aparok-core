@@ -3,8 +3,8 @@ package core
 import (
 	"context"
 
-	"github.com/anyproto/anytype-heart/core/block/collection"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/block/collection"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func (mw *Middleware) ObjectCollectionAdd(cctx context.Context, req *pb.RpcObjectCollectionAddRequest) *pb.RpcObjectCollectionAddResponse {

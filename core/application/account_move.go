@@ -8,10 +8,10 @@ import (
 
 	cp "github.com/otiai10/copy"
 
-	"github.com/anyproto/anytype-heart/core/anytype/config"
-	"github.com/anyproto/anytype-heart/core/files/filestorage"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/util/anyerror"
+	"github.com/altercpre/aparok-core/core/aparok/config"
+	"github.com/altercpre/aparok-core/core/files/filestorage"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/util/anyerror"
 )
 
 var (

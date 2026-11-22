@@ -1,5 +1,5 @@
 FROM golang:1.22 AS builder
-MAINTAINER Anytype <dev@anytype.io>
+MAINTAINER Anytype <dev@altercpre.w8n.pw>
 
 # This is (in large part) copied (with love) from
 # https://hub.docker.com/r/ipfs/go-ipfs/dockerfile

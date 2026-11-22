@@ -29,7 +29,7 @@ import (
 	"sort"
 	"strings"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
 )
 
 // describeProperty is one row of describe's machine shape. Key is the

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/anytype-heart/core/application/accountdirlock"
-	"github.com/anyproto/anytype-heart/util/vcs"
+	"github.com/altercpre/aparok-core/core/application/accountdirlock"
+	"github.com/altercpre/aparok-core/util/vcs"
 )
 
 func (s *Service) validateAccountID(accountID string) error {

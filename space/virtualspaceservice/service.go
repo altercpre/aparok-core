@@ -16,9 +16,9 @@ Scope: global
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
 )
 
 const CName = "common.space.virtualspaceservice"

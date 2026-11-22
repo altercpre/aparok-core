@@ -12,7 +12,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
 )
 
 type fragment struct {

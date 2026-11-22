@@ -13,17 +13,17 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/exp/slices"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
-	"github.com/anyproto/anytype-heart/util/strutil"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
+	"github.com/altercpre/aparok-core/util/strutil"
 
 	. "github.com/dave/jennifer/jen"
 )
 
 const (
-	relPbPkg  = "github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	addrPkg   = "github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
-	domainPkg = "github.com/anyproto/anytype-heart/core/domain"
+	relPbPkg  = "github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	addrPkg   = "github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
+	domainPkg = "github.com/altercpre/aparok-core/core/domain"
 
 	pkgPrefix = "pkg/lib/bundle/"
 	jsonExt   = ".json"

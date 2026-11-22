@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 //go:embed testdata/schema.json
@@ -32,10 +32,10 @@ func TestIsInWhitelist(t *testing.T) {
 	assert.True(t, IsInWhitelist("https://raw.githubusercontent.com/anyproto/secretrepo/blob/README.md"))
 	assert.False(t, IsInWhitelist("https://raw.githubusercontent.com/fakeany/anyproto/secretrepo/blob/README.md"))
 	assert.True(t, IsInWhitelist("ftp://raw.githubusercontent.com/anyproto/ftpserver/README.md"))
-	assert.True(t, IsInWhitelist("http://github.com/anyproto/othersecretrepo/virus.exe"))
-	assert.False(t, IsInWhitelist("ftp://github.com/anygroto/othersecretrepoclone/notAvirus.php?breakwhitelist=github.com/anyproto"))
-	assert.True(t, IsInWhitelist("http://community.anytype.io/localstorage/knowledge_base.zip"))
-	assert.True(t, IsInWhitelist("anytype://anytype.io/localstorage/knowledge_base.zip"))
+	assert.True(t, IsInWhitelist("http://github.com/altercpre/othersecretrepo/virus.exe"))
+	assert.False(t, IsInWhitelist("ftp://github.com/anygroto/othersecretrepoclone/notAvirus.php?breakwhitelist=github.com/altercpre"))
+	assert.True(t, IsInWhitelist("http://community.altercpre.w8n.pw/localstorage/knowledge_base.zip"))
+	assert.True(t, IsInWhitelist("anytype://altercpre.w8n.pw/localstorage/knowledge_base.zip"))
 	assert.True(t, IsInWhitelist("anytype://gallery.any.coop/"))
 	assert.True(t, IsInWhitelist("anytype://tools.gallery.any.coop/somethingveryimportant.zip"))
 	assert.True(t, IsInWhitelist("http://storage.gallery.any.coop/img_with_kitten.jpeg"))
@@ -141,12 +141,12 @@ func buildInfo(serverURL, name string) *model.ManifestInfo {
 		Schema:       serverURL + "/schema.json",
 		Id:           name,
 		Name:         name,
-		Author:       "https://github.com/anyproto",
+		Author:       "https://github.com/altercpre",
 		License:      "MIT",
 		Title:        name,
 		Description:  "Description of usecase",
-		Screenshots:  []string{"https://anytype.io/assets/usecases/Knowledge%20base.jpg", "https://anytype.io/assets/usecases/Knowledge%20base_movie.jpg"},
-		DownloadLink: "https://github.com/anyproto/gallery/raw/main/experiences/knowledge_base/knowledge_base.zip",
+		Screenshots:  []string{"https://altercpre.w8n.pw/assets/usecases/Knowledge%20base.jpg", "https://altercpre.w8n.pw/assets/usecases/Knowledge%20base_movie.jpg"},
+		DownloadLink: "https://github.com/altercpre/gallery/raw/main/experiences/knowledge_base/knowledge_base.zip",
 		FileSize:     42,
 		Categories:   []string{"Education", "Work"},
 		Language:     "hi-IN",

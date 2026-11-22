@@ -7,7 +7,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/crypto/symmetric"
+	"github.com/altercpre/aparok-core/pkg/lib/crypto/symmetric"
 )
 
 type Sizable interface {

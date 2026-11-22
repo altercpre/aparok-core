@@ -8,15 +8,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/commonfile/fileproto"
+	"github.com/altercpre/aparok-sync/commonfile/fileproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/anyproto/anytype-heart/core/event"
-	"github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore/mock_rpcstore"
-	"github.com/anyproto/anytype-heart/pb"
-	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoreprovider"
-	"github.com/anyproto/anytype-heart/util/keyvaluestore"
+	"github.com/altercpre/aparok-core/core/event"
+	"github.com/altercpre/aparok-core/core/files/filestorage/rpcstore/mock_rpcstore"
+	"github.com/altercpre/aparok-core/pb"
+	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoreprovider"
+	"github.com/altercpre/aparok-core/util/keyvaluestore"
 )
 
 func newNodeUsageStore(t *testing.T) keyvaluestore.Store[NodeUsage] {

@@ -3,9 +3,9 @@ package service
 import (
 	"testing"
 
-	"github.com/anyproto/anytype-heart/core/api/core/mock_apicore"
-	apimodel "github.com/anyproto/anytype-heart/core/api/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/altercpre/aparok-core/core/api/core/mock_apicore"
+	apimodel "github.com/altercpre/aparok-core/core/api/model"
+	"github.com/altercpre/aparok-core/pkg/lib/bundle"
 )
 
 const (

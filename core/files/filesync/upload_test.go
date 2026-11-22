@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-store/v2/query"
+	"github.com/altercpre/aparok-store/v2/query"
 	"github.com/globalsign/mgo/bson"
 	"github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"
@@ -18,9 +18,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/core/files/filesync/filequeue"
-	"github.com/anyproto/anytype-heart/core/syncstatus/filesyncstatus"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/core/files/filesync/filequeue"
+	"github.com/altercpre/aparok-core/core/syncstatus/filesyncstatus"
 )
 
 func TestFileSync_AddFile(t *testing.T) {

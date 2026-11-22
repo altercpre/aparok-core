@@ -1,8 +1,8 @@
 package filter
 
 import (
-	apimodel "github.com/anyproto/anytype-heart/core/api/model"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	apimodel "github.com/altercpre/aparok-core/core/api/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // BiDirectionalConditionMap handles bidirectional mapping between API and internal conditions

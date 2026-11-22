@@ -14,8 +14,8 @@ import (
 
 	"github.com/gosimple/slug"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/mill"
-	"github.com/anyproto/anytype-heart/util/anyerror"
+	"github.com/altercpre/aparok-core/pkg/lib/mill"
+	"github.com/altercpre/aparok-core/util/anyerror"
 )
 
 type writer interface {

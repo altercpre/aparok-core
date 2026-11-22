@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 
-	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/altercpre/aparok-core/core/domain"
 )
 
 func keyValueItem(arena *anyenc.Arena, key string, value any) (*anyenc.Value, error) {

@@ -4,17 +4,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/commonspace/acl/aclclient/mock_aclclient"
-	"github.com/anyproto/any-sync/coordinator/coordinatorclient/mock_coordinatorclient"
-	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/commonspace/acl/aclclient/mock_aclclient"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient/mock_coordinatorclient"
+	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/anytype-heart/space/deletioncontroller/mock_deletioncontroller"
-	"github.com/anyproto/anytype-heart/space/spacecore/mock_spacecore"
-	"github.com/anyproto/anytype-heart/space/spaceinfo"
-	"github.com/anyproto/anytype-heart/tests/testutil"
+	"github.com/altercpre/aparok-core/space/deletioncontroller/mock_deletioncontroller"
+	"github.com/altercpre/aparok-core/space/spacecore/mock_spacecore"
+	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/altercpre/aparok-core/tests/testutil"
 )
 
 var ctx = context.Background()

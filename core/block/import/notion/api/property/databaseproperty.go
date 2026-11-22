@@ -3,8 +3,8 @@ package property
 import (
 	"encoding/json"
 
-	"github.com/anyproto/anytype-heart/core/domain"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // DatabaseProperties represent database properties (their structure is different from pages properties)

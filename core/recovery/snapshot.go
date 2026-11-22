@@ -3,7 +3,7 @@ package recovery
 import (
 	"sort"
 
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // buildSnapshotLocked is the ONE builder behind both the RecoveryState RPC and

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anyproto/anytype-heart/core/files/mock_files"
+	"github.com/altercpre/aparok-core/core/files/mock_files"
 )
 
 func TestProcessSvg(t *testing.T) {

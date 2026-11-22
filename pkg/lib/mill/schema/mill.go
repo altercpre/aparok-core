@@ -3,9 +3,9 @@ package schema
 import (
 	"fmt"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/pkg/lib/mill"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/storage"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pkg/lib/mill"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/storage"
 )
 
 var log = logging.Logger("anytype-core-mill")

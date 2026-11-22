@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
 )
 
 var log = logging.Logger("debug")

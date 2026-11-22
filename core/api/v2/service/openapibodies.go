@@ -28,7 +28,7 @@ import (
 	"sort"
 	"strings"
 
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
 )
 
 // OpenAPIBodies is the composition: one request-body schema per operationId,

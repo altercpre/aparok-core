@@ -3,10 +3,10 @@ package core
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/core/device"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/device"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func (mw *Middleware) DeviceNetworkStateSet(cctx context.Context, req *pb.RpcDeviceNetworkStateSetRequest) *pb.RpcDeviceNetworkStateSetResponse {

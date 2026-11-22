@@ -1,6 +1,6 @@
 package bundle
 
-import "github.com/anyproto/anytype-heart/core/domain"
+import "github.com/altercpre/aparok-core/core/domain"
 
 // DefaultStrippedKeys are high-churn local relation keys excluded from
 // subscription events by default. They reach the client only when explicitly

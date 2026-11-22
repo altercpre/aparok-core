@@ -3,10 +3,10 @@ package joiner
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 
-	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus"
-	"github.com/anyproto/anytype-heart/space/spaceinfo"
+	"github.com/altercpre/aparok-core/space/internal/components/spacestatus"
+	"github.com/altercpre/aparok-core/space/spaceinfo"
 )
 
 const statusChangerCName = "joiner.statuschanger"

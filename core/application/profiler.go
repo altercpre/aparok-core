@@ -16,16 +16,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/app/debugstat"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/app/debugstat"
 	"github.com/klauspost/compress/flate"
 	exptrace "golang.org/x/exp/trace"
 
-	"github.com/anyproto/anytype-heart/core/debug/debugsnapshot"
-	walletComp "github.com/anyproto/anytype-heart/core/wallet"
-	"github.com/anyproto/anytype-heart/pkg/lib/initialparams"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/util/debug"
+	"github.com/altercpre/aparok-core/core/debug/debugsnapshot"
+	walletComp "github.com/altercpre/aparok-core/core/wallet"
+	"github.com/altercpre/aparok-core/pkg/lib/initialparams"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/util/debug"
 )
 
 var ErrNoFolder = fmt.Errorf("no folder provided")

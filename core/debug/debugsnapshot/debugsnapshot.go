@@ -22,8 +22,8 @@ import (
 	"github.com/shirou/gopsutil/v4/mem"
 	"github.com/shirou/gopsutil/v4/process"
 
-	"github.com/anyproto/anytype-heart/util/debug"
-	"github.com/anyproto/anytype-heart/util/vcs"
+	"github.com/altercpre/aparok-core/util/debug"
+	"github.com/altercpre/aparok-core/util/vcs"
 )
 
 // Info is serialized as info.json inside every snapshot archive.

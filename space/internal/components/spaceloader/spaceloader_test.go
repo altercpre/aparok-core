@@ -8,16 +8,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/anyproto/any-sync/app"
+	"github.com/altercpre/aparok-sync/app"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus/mock_spacestatus"
-	spaceservice "github.com/anyproto/anytype-heart/space/spacecore"
-	"github.com/anyproto/anytype-heart/space/spacecore/storage/mock_storage"
-	"github.com/anyproto/anytype-heart/space/spaceinfo"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/altercpre/aparok-core/space/internal/components/spacestatus/mock_spacestatus"
+	spaceservice "github.com/altercpre/aparok-core/space/spacecore"
+	"github.com/altercpre/aparok-core/space/spacecore/storage/mock_storage"
+	"github.com/altercpre/aparok-core/space/spaceinfo"
 )
 
 // stubSpace is a minimal clientspace.Space used only as a non-nil sentinel return value.

@@ -14,12 +14,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	apicore "github.com/anyproto/anytype-heart/core/api/core"
-	"github.com/anyproto/anytype-heart/core/api/core/mock_apicore"
-	"github.com/anyproto/anytype-heart/core/api/util"
-	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
-	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	apicore "github.com/altercpre/aparok-core/core/api/core"
+	"github.com/altercpre/aparok-core/core/api/core/mock_apicore"
+	"github.com/altercpre/aparok-core/core/api/util"
+	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 const spaceStreamRoute = "/v2/spaces/space1/chats/stream"

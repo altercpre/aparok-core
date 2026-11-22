@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/anyproto/any-sync/commonfile/fileblockstore"
-	"github.com/anyproto/any-sync/commonfile/fileservice"
+	"github.com/altercpre/aparok-sync/commonfile/fileblockstore"
+	"github.com/altercpre/aparok-sync/commonfile/fileservice"
 	ufsio "github.com/ipfs/boxo/ipld/unixfs/io"
 	"github.com/ipfs/boxo/path"
 	"github.com/ipfs/go-cid"
 	ipld "github.com/ipfs/go-ipld-format"
 
-	"github.com/anyproto/anytype-heart/core/files/filehelper"
-	"github.com/anyproto/anytype-heart/pkg/lib/crypto/symmetric"
-	"github.com/anyproto/anytype-heart/pkg/lib/ipfs/helpers"
+	"github.com/altercpre/aparok-core/core/files/filehelper"
+	"github.com/altercpre/aparok-core/pkg/lib/crypto/symmetric"
+	"github.com/altercpre/aparok-core/pkg/lib/ipfs/helpers"
 )
 
 // dagServiceForSpace returns a DAGService that is namespaced for the given spaceID.

@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-sync/app/logger"
-	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	"github.com/anyproto/anytype-heart/space/spacedomain"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/altercpre/aparok-core/space/spacedomain"
 )
 
 var (

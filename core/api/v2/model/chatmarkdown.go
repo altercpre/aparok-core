@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
+	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
 )
 
 // MarkdownParagraph is the block type of a line that is plain prose.

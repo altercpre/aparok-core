@@ -1,8 +1,8 @@
 package application
 
 import (
-	"github.com/anyproto/anytype-heart/core/recovery"
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/core/recovery"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // AccountRecoveryState serves the folded account start-up status

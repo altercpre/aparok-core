@@ -8,7 +8,7 @@ Memory and cpu pprof is collected for each test run and stored in the build arti
 
 ## Run tests
 
-https://github.com/anyproto/anytype-heart/actions/workflows/build.yml
+https://github.com/altercpre/aparok-core/actions/workflows/build.yml
 
 Runner: `self-hosted`
 

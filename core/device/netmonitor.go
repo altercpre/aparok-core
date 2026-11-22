@@ -37,7 +37,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/net/addrs"
+	"github.com/altercpre/aparok-core/net/addrs"
 )
 
 const (

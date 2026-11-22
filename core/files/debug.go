@@ -10,7 +10,7 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/ipfs/go-cid"
 
-	"github.com/anyproto/anytype-heart/util/debug"
+	"github.com/altercpre/aparok-core/util/debug"
 )
 
 func (s *service) DebugRouter(r chi.Router) {

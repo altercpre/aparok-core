@@ -1,8 +1,8 @@
 package block
 
 import (
-	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/import/notion/api"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 type MapResponse struct {

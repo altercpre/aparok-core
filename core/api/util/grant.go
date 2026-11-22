@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // Grant permission levels. The vocabulary matches the wallet's persisted

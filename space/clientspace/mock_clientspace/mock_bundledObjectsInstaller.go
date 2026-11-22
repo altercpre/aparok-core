@@ -5,7 +5,7 @@ package mock_clientspace
 import (
 	context "context"
 
-	clientspace "github.com/anyproto/anytype-heart/space/clientspace"
+	clientspace "github.com/altercpre/aparok-core/space/clientspace"
 
 	mock "github.com/stretchr/testify/mock"
 

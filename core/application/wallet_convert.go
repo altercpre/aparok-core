@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/util/crypto"
 
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 // WalletConvert converts mnemonic to base64 representation of mnemonic's entropy and vice versa.

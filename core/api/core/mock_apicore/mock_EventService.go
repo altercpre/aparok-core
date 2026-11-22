@@ -3,7 +3,7 @@
 package mock_apicore
 
 import (
-	pb "github.com/anyproto/anytype-heart/pb"
+	pb "github.com/altercpre/aparok-core/pb"
 	mock "github.com/stretchr/testify/mock"
 )
 

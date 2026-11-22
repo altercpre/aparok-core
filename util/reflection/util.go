@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 func GetError(obj any) (code int64, description string, err error) {

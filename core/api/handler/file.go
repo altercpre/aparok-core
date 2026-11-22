@@ -12,8 +12,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/anyproto/anytype-heart/core/api/service"
-	"github.com/anyproto/anytype-heart/core/api/util"
+	"github.com/altercpre/aparok-core/core/api/service"
+	"github.com/altercpre/aparok-core/core/api/util"
 )
 
 // DownloadFileHandler streams a file's bytes back to the caller. For image

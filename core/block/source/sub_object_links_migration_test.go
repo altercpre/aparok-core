@@ -3,7 +3,7 @@ package source
 import (
 	"testing"
 
-	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/altercpre/aparok-core/core/domain"
 )
 
 func TestSubObjectIdToUniqueKey(t *testing.T) {

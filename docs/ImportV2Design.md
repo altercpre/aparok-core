@@ -796,7 +796,7 @@ These are settled and load-bearing; a change to any of them is a design change, 
 ## 14. Coexistence with v1
 
 **v2 is the default engine** for Markdown, Obsidian and Notion: `ImportV2Markdown` and `ImportV2Notion`
-both default to `true` (`core/anytype/config/config.go:272-273`) and `adapter.Handles`
+both default to `true` (`core/aparok/config/config.go:272-273`) and `adapter.Handles`
 (`importv2/adapter/adapter.go:216-224`) routes those three types to the engine. The kill switches are
 `ANYTYPE_IMPORTV2MARKDOWN=false` and `ANYTYPE_IMPORTV2NOTION=false` — env-only, no build needed.
 

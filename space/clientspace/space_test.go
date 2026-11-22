@@ -5,16 +5,16 @@ import (
 	"errors"
 	"testing"
 
-	anystore "github.com/anyproto/any-store"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
-	"github.com/anyproto/any-sync/commonspace/headsync/headstorage/mock_headstorage"
-	"github.com/anyproto/any-sync/commonspace/mock_commonspace"
+	anystore "github.com/altercpre/aparok-store"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage/mock_headstorage"
+	"github.com/altercpre/aparok-sync/commonspace/mock_commonspace"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/threads"
-	"github.com/anyproto/anytype-heart/space/spacecore/storage/anystorage/mock_anystorage"
-	"github.com/anyproto/anytype-heart/space/spacedomain"
+	"github.com/altercpre/aparok-core/pkg/lib/threads"
+	"github.com/altercpre/aparok-core/space/spacecore/storage/anystorage/mock_anystorage"
+	"github.com/altercpre/aparok-core/space/spacedomain"
 )
 
 func TestMissingMandatoryObjects(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan"
-	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan/planfixture"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan"
+	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan/planfixture"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 func TestLoad(t *testing.T) {

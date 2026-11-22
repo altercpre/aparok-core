@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/anyproto/anytype-heart/core/event/mock_event"
-	"github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore"
+	"github.com/altercpre/aparok-core/core/event/mock_event"
+	"github.com/altercpre/aparok-core/core/files/filestorage/rpcstore"
 )
 
 func TestCacheStore_Add(t *testing.T) {

@@ -9,13 +9,13 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/anyproto/any-sync/net"
-	"github.com/anyproto/any-sync/net/secureservice/handshake"
-	"github.com/anyproto/any-sync/net/transport"
+	"github.com/altercpre/aparok-sync/net"
+	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
+	"github.com/altercpre/aparok-sync/net/transport"
 	"github.com/hashicorp/yamux"
 	"storj.io/drpc"
 
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
 )
 
 // errCallBudget is the cause of a budget-bounded payment call's context

@@ -3,18 +3,18 @@ package loader
 import (
 	"context"
 
-	"github.com/anyproto/any-sync/app"
-	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/altercpre/aparok-sync/app"
+	"github.com/altercpre/aparok-sync/util/crypto"
 
-	"github.com/anyproto/anytype-heart/space/clientspace"
-	"github.com/anyproto/anytype-heart/space/internal/components/aclnotifications"
-	"github.com/anyproto/anytype-heart/space/internal/components/aclobjectmanager"
-	"github.com/anyproto/anytype-heart/space/internal/components/builder"
-	"github.com/anyproto/anytype-heart/space/internal/components/invitecleaner"
-	"github.com/anyproto/anytype-heart/space/internal/components/migration"
-	"github.com/anyproto/anytype-heart/space/internal/components/participantwatcher"
-	"github.com/anyproto/anytype-heart/space/internal/components/spaceloader"
-	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/mode"
+	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/altercpre/aparok-core/space/internal/components/aclnotifications"
+	"github.com/altercpre/aparok-core/space/internal/components/aclobjectmanager"
+	"github.com/altercpre/aparok-core/space/internal/components/builder"
+	"github.com/altercpre/aparok-core/space/internal/components/invitecleaner"
+	"github.com/altercpre/aparok-core/space/internal/components/migration"
+	"github.com/altercpre/aparok-core/space/internal/components/participantwatcher"
+	"github.com/altercpre/aparok-core/space/internal/components/spaceloader"
+	"github.com/altercpre/aparok-core/space/internal/spaceprocess/mode"
 )
 
 type loader struct {

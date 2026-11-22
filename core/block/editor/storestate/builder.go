@@ -3,10 +3,10 @@ package storestate
 import (
 	"encoding/json"
 
-	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/altercpre/aparok-store/v2/anyenc"
 	"github.com/valyala/fastjson"
 
-	"github.com/anyproto/anytype-heart/pb"
+	"github.com/altercpre/aparok-core/pb"
 )
 
 type Builder struct {

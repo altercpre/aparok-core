@@ -11,14 +11,14 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/editor/table"
-	"github.com/anyproto/anytype-heart/core/block/simple"
-	"github.com/anyproto/anytype-heart/core/files/fileobject"
-	"github.com/anyproto/anytype-heart/pkg/lib/logging"
-	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
-	"github.com/anyproto/anytype-heart/util/pbtypes"
-	utf16 "github.com/anyproto/anytype-heart/util/text"
+	"github.com/altercpre/aparok-core/core/block/editor/state"
+	"github.com/altercpre/aparok-core/core/block/editor/table"
+	"github.com/altercpre/aparok-core/core/block/simple"
+	"github.com/altercpre/aparok-core/core/files/fileobject"
+	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/altercpre/aparok-core/util/pbtypes"
+	utf16 "github.com/altercpre/aparok-core/util/text"
 )
 
 var log = logging.LoggerNotSugared("html-converter")
@@ -167,7 +167,7 @@ func (h *HTML) renderFile(b *model.Block) {
 	}
 	goToAnytypeMsg := `<div class="message">
 		<div class="header">This content is available in Anytype.</div>
-		Follow <a href="https://anytype.io">link</a> to ask a permission to get the content
+		Follow <a href="https://altercpre.w8n.pw">link</a> to ask a permission to get the content
 	</div>`
 
 	switch file.Type {
@@ -271,7 +271,7 @@ func (h *HTML) renderLink(b *model.Block) {
 	}
 	h.buf.WriteString(`<div class="message">
 		<div class="header">This content is available in Anytype.</div>
-		Follow <a href="https://anytype.io">link</a> to ask a permission to get the content
+		Follow <a href="https://altercpre.w8n.pw">link</a> to ask a permission to get the content
 	</div>`)
 	if len(b.ChildrenIds) > 0 {
 		h.renderChildren(b)
