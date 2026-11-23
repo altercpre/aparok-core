@@ -13,12 +13,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/files/fileuploader"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/util/pbtypes"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/files/fileuploader"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
 )
 
 func TestV2UploadFile(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/space"
+	"github.com/anyproto/anytype-heart/space"
 )
 
 // The space service looks the block service up by a copied name (importing

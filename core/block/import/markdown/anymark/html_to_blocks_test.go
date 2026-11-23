@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 type TestCase struct {

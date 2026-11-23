@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/anyproto/any-store/v2/query"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/files/filesync/filequeue"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/files/filesync/filequeue"
 )
 
 func (s *fileSync) DeleteFile(objectId string, fileId domain.FullFileId) error {

@@ -11,14 +11,14 @@ import (
 	"github.com/hashicorp/golang-lru/v2/expirable"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
-	"github.com/altercpre/aparok-core/core/block/chats/chatrepository"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/core/session"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore/spaceindex"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatrepository"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/core/session"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore/spaceindex"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // sseSendTimeout bounds how long Flush will wait to deliver an event to a slow

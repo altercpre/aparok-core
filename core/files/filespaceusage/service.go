@@ -15,11 +15,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 
-	"github.com/altercpre/aparok-core/core/files/filestorage"
-	filesync2 "github.com/altercpre/aparok-core/core/files/filesync"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/files/filestorage"
+	filesync2 "github.com/anyproto/anytype-heart/core/files/filesync"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 const CName = "core.files.filespaceusage"

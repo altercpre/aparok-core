@@ -3,7 +3,7 @@ package invitecleanup
 import (
 	"context"
 
-	"github.com/altercpre/aparok-core/space/techspace"
+	"github.com/anyproto/anytype-heart/space/techspace"
 )
 
 // certificate reads the revocation a space was last certified clean for. An empty value means it has

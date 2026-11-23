@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/application"
-	"github.com/altercpre/aparok-core/core/session"
-	walletComp "github.com/altercpre/aparok-core/core/wallet"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoremigrate"
+	"github.com/anyproto/anytype-heart/core/application"
+	"github.com/anyproto/anytype-heart/core/session"
+	walletComp "github.com/anyproto/anytype-heart/core/wallet"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoremigrate"
 )
 
 // TestAccountLocalLinkNewChallengeErrorCode pins the challenge RPC's error

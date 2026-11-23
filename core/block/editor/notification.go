@@ -1,11 +1,11 @@
 package editor
 
 import (
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
-	"github.com/altercpre/aparok-core/core/block/editor/state"
-	"github.com/altercpre/aparok-core/core/block/editor/template"
-	"github.com/altercpre/aparok-core/core/block/migration"
-	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
+	"github.com/anyproto/anytype-heart/core/block/editor/state"
+	"github.com/anyproto/anytype-heart/core/block/editor/template"
+	"github.com/anyproto/anytype-heart/core/block/migration"
+	"github.com/anyproto/anytype-heart/core/domain"
 )
 
 type NotificationObject struct {

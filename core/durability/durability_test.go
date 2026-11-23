@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	anystore "github.com/altercpre/aparok-store"
-	anystorev2 "github.com/altercpre/aparok-store/v2"
+	anystore "github.com/anyproto/any-store"
+	anystorev2 "github.com/anyproto/any-store/v2"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain"
 )
 
 type flushCall struct {

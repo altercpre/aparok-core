@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/anyenc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

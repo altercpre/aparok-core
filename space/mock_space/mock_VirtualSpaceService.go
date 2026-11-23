@@ -5,7 +5,7 @@ package mock_space
 import (
 	context "context"
 
-	app "github.com/altercpre/aparok-sync/app"
+	app "github.com/anyproto/any-sync/app"
 
 	mock "github.com/stretchr/testify/mock"
 )

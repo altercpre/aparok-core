@@ -5,14 +5,14 @@ import (
 
 	"github.com/gogo/protobuf/types"
 
-	"github.com/altercpre/aparok-core/core/block/editor/state"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/domain/objectorigin"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/mill/schema"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/storage"
-	"github.com/altercpre/aparok-core/util/pbtypes"
+	"github.com/anyproto/anytype-heart/core/block/editor/state"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/mill/schema"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/storage"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
 )
 
 const OriginalImagePath = "/0/" + schema.LinkImageOriginal + "/"

@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock/smarttest"
-	"github.com/altercpre/aparok-core/core/block/simple"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock/smarttest"
+	"github.com/anyproto/anytype-heart/core/block/simple"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 func TestAnyBlockWarningsReachReportAndNotification(t *testing.T) {

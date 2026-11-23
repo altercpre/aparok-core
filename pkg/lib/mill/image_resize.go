@@ -16,7 +16,7 @@ import (
 	"github.com/dsoprea/go-exif/v3"
 	"github.com/kovidgoyal/imaging"
 
-	"github.com/altercpre/aparok-core/pkg/lib/mill/ico"
+	"github.com/anyproto/anytype-heart/pkg/lib/mill/ico"
 
 	// Import for image.DecodeConfig to support .webp format
 	_ "golang.org/x/image/webp"

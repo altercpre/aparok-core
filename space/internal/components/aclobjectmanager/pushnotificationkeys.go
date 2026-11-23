@@ -3,9 +3,9 @@ package aclobjectmanager
 import (
 	"errors"
 
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/util/crypto"
 
-	"github.com/altercpre/aparok-core/util/privkey"
+	"github.com/anyproto/anytype-heart/util/privkey"
 )
 
 const (

@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-store/v2/anyenc"
-	"github.com/altercpre/aparok-store/v2/query"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/query"
 
-	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain"
 )
 
 const bindKey = "b"

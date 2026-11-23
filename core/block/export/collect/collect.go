@@ -15,9 +15,9 @@ package collect
 import (
 	"context"
 
-	"github.com/altercpre/aparok-core/core/block/editor/state"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/core/block/editor/state"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 // Closure names which dependency closure a collection runs.

@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	apimodel "github.com/altercpre/aparok-core/core/api/model"
-	"github.com/altercpre/aparok-core/core/api/util"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	apimodel "github.com/anyproto/anytype-heart/core/api/model"
+	"github.com/anyproto/anytype-heart/core/api/util"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 var (

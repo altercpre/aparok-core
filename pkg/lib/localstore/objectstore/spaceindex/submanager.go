@@ -3,7 +3,7 @@ package spaceindex
 import (
 	"sync"
 
-	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain"
 )
 
 type SubscriptionManager struct {

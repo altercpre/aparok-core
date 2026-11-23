@@ -19,7 +19,7 @@ jobs:
           go-version: 1.26
           cache: false
         env:
-          GOPRIVATE: "github.com/altercpre"
+          GOPRIVATE: "github.com/anyproto"
       - name: git config
         run: git config --global url.https://${{ secrets.ANYTYPE_PAT }}@github.com/.insteadOf https://github.com/
       - uses: actions/checkout@v7

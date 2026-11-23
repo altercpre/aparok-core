@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/altercpre/aparok-core/core/block/editor/state"
-	"github.com/altercpre/aparok-core/core/block/editor/template"
-	"github.com/altercpre/aparok-core/core/block/importv2"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/editor/state"
+	"github.com/anyproto/anytype-heart/core/block/editor/template"
+	"github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // adoptKeys rewrites detail keys, relation-link keys and the object type key

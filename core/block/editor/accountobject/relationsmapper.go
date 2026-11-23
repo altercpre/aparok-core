@@ -3,10 +3,10 @@ package accountobject
 import (
 	"fmt"
 
-	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/anyenc"
 	"github.com/gogo/protobuf/types"
 
-	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain"
 )
 
 type KeyType int

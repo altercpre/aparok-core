@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonspace"
-	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
-	"github.com/altercpre/aparok-sync/net"
+	"github.com/anyproto/any-sync/commonspace"
+	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
+	"github.com/anyproto/any-sync/net"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 const techSpaceId = "tech.space"

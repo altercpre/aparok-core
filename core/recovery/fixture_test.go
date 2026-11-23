@@ -5,15 +5,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/net/peerobserver"
-	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/net/peerobserver"
+	"github.com/anyproto/any-sync/nodeconf"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/session"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
-	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
+	"github.com/anyproto/anytype-heart/core/session"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
+	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
 )
 
 // recordingSender captures everything the tracker sends, in order.

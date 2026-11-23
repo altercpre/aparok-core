@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
-	"github.com/altercpre/aparok-core/core/block/process"
-	"github.com/altercpre/aparok-core/pb"
+	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/anyproto/anytype-heart/core/block/process"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 // The legacy process scalar is the compatibility path the redesign promised to

@@ -3,7 +3,7 @@ package property
 import (
 	"fmt"
 
-	"github.com/altercpre/aparok-core/core/block/import/common"
+	"github.com/anyproto/anytype-heart/core/block/import/common"
 )
 
 type UniqueKey string

@@ -3,8 +3,8 @@
 package mock_objectsyncstatus
 
 import (
-	app "github.com/altercpre/aparok-sync/app"
-	domain "github.com/altercpre/aparok-core/core/domain"
+	app "github.com/anyproto/any-sync/app"
+	domain "github.com/anyproto/anytype-heart/core/domain"
 	mock "github.com/stretchr/testify/mock"
 )
 

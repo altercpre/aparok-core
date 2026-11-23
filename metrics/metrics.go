@@ -11,8 +11,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"github.com/altercpre/aparok-core/core/aparok/config/loadenv"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/core/anytype/config/loadenv"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
 )
 
 var log = logging.Logger("anytype-telemetry")

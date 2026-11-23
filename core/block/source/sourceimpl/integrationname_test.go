@@ -8,15 +8,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree/mock_objecttree"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree/mock_objecttree"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/altercpre/aparok-core/core/block/editor/state"
-	"github.com/altercpre/aparok-core/core/block/source"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/block/editor/state"
+	"github.com/anyproto/anytype-heart/core/block/source"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func TestBuildChange_IntegrationName(t *testing.T) {

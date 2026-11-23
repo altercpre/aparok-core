@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"strings"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
 )
 
 // defaultFindLimit is find's page size when no limit is given.

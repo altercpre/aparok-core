@@ -7,17 +7,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	apicore "github.com/altercpre/aparok-core/core/api/core"
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock/smarttest"
-	"github.com/altercpre/aparok-core/core/block/editor/state"
-	"github.com/altercpre/aparok-core/core/block/editor/template"
-	"github.com/altercpre/aparok-core/core/block/restriction"
-	"github.com/altercpre/aparok-core/core/block/simple"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock/smarttest"
+	"github.com/anyproto/anytype-heart/core/block/editor/state"
+	"github.com/anyproto/anytype-heart/core/block/editor/template"
+	"github.com/anyproto/anytype-heart/core/block/restriction"
+	"github.com/anyproto/anytype-heart/core/block/simple"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // allAxes is what the PATCH tests below use unless they are specifically

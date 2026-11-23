@@ -17,20 +17,20 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
 	"github.com/gogo/protobuf/types"
 
-	"github.com/altercpre/aparok-core/core/api/util"
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
-	"github.com/altercpre/aparok-core/core/block/editor/chatobject"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/util/pbtypes"
-	textutil "github.com/altercpre/aparok-core/util/text"
+	"github.com/anyproto/anytype-heart/core/api/util"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
+	"github.com/anyproto/anytype-heart/core/block/editor/chatobject"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
+	textutil "github.com/anyproto/anytype-heart/util/text"
 )
 
 // v2MarkupHint is the D′1 caveat, stated wherever message text fails to

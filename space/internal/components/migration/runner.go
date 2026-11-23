@@ -6,17 +6,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
-	"github.com/altercpre/aparok-core/space/clientspace"
-	"github.com/altercpre/aparok-core/space/internal/components/dependencies"
-	"github.com/altercpre/aparok-core/space/internal/components/migration/apiobjectkey"
-	"github.com/altercpre/aparok-core/space/internal/components/migration/readonlyfixer"
-	"github.com/altercpre/aparok-core/space/internal/components/migration/systemobjectreviser"
-	"github.com/altercpre/aparok-core/space/internal/components/spaceloader"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
+	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/anyproto/anytype-heart/space/internal/components/dependencies"
+	"github.com/anyproto/anytype-heart/space/internal/components/migration/apiobjectkey"
+	"github.com/anyproto/anytype-heart/space/internal/components/migration/readonlyfixer"
+	"github.com/anyproto/anytype-heart/space/internal/components/migration/systemobjectreviser"
+	"github.com/anyproto/anytype-heart/space/internal/components/spaceloader"
 )
 
 const (

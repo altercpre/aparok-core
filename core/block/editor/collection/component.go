@@ -1,13 +1,13 @@
 package collection
 
 import (
-	"github.com/altercpre/aparok-core/core/block/backlinks"
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
-	"github.com/altercpre/aparok-core/core/block/editor/template"
-	"github.com/altercpre/aparok-core/core/session"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/util/internalflag"
-	"github.com/altercpre/aparok-core/util/slice"
+	"github.com/anyproto/anytype-heart/core/block/backlinks"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
+	"github.com/anyproto/anytype-heart/core/block/editor/template"
+	"github.com/anyproto/anytype-heart/core/session"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/util/internalflag"
+	"github.com/anyproto/anytype-heart/util/slice"
 )
 
 type component struct {

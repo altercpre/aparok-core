@@ -11,7 +11,7 @@ import (
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/pb"
 
 	_ "net/http/pprof"
 )

@@ -22,15 +22,15 @@ import (
 	"errors"
 	"time"
 
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
-	proto "github.com/altercpre/aparok-sync/paymentservice/paymentserviceproto"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
+	proto "github.com/anyproto/any-sync/paymentservice/paymentserviceproto"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoreprovider"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/util/keyvaluestore"
+	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoreprovider"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/util/keyvaluestore"
 )
 
 const CName = "cache"

@@ -3,7 +3,7 @@ package initial
 import (
 	"context"
 
-	"github.com/altercpre/aparok-core/space/internal/spaceprocess/mode"
+	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/mode"
 )
 
 type initial struct {

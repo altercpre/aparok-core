@@ -3,10 +3,10 @@ package credentialprovider
 import (
 	"context"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/commonspace/credentialprovider"
-	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
-	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/commonspace/credentialprovider"
+	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
+	"github.com/anyproto/any-sync/coordinator/coordinatorclient"
 	"github.com/gogo/protobuf/proto"
 )
 

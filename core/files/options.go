@@ -5,10 +5,10 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/altercpre/aparok-sync/commonfile/fileservice"
+	"github.com/anyproto/any-sync/commonfile/fileservice"
 	"github.com/gabriel-vasile/mimetype"
 
-	m "github.com/altercpre/aparok-core/pkg/lib/mill"
+	m "github.com/anyproto/anytype-heart/pkg/lib/mill"
 )
 
 type AddOption func(*AddOptions)

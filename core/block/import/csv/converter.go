@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/altercpre/aparok-core/core/block/collection"
-	te "github.com/altercpre/aparok-core/core/block/editor/table"
-	"github.com/altercpre/aparok-core/core/block/import/common"
-	"github.com/altercpre/aparok-core/core/block/import/common/source"
-	"github.com/altercpre/aparok-core/core/block/process"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/collection"
+	te "github.com/anyproto/anytype-heart/core/block/editor/table"
+	"github.com/anyproto/anytype-heart/core/block/import/common"
+	"github.com/anyproto/anytype-heart/core/block/import/common/source"
+	"github.com/anyproto/anytype-heart/core/block/process"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 const (

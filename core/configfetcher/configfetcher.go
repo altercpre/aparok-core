@@ -21,19 +21,19 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
-	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient"
-	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
-	"github.com/altercpre/aparok-sync/net"
-	"github.com/altercpre/aparok-sync/util/periodicsync"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
+	"github.com/anyproto/any-sync/coordinator/coordinatorclient"
+	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
+	"github.com/anyproto/any-sync/net"
+	"github.com/anyproto/any-sync/util/periodicsync"
 
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/space/clientspace"
-	"github.com/altercpre/aparok-core/space/spacecore"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/anyproto/anytype-heart/space/spacecore"
 )
 
 var log = logging.Logger("anytype-mw-configfetcher")

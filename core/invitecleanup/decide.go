@@ -3,9 +3,9 @@ package invitecleanup
 import (
 	"fmt"
 
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/util/crypto"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // disposition is what cleaning up one invite means for the space it belongs to.

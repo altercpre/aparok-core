@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/altercpre/aparok-core/core/block/importv2/notion/client"
+	"github.com/anyproto/anytype-heart/core/block/importv2/notion/client"
 )
 
 const searchPageSize = 100

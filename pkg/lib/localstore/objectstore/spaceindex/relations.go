@@ -5,13 +5,13 @@ import (
 
 	ds "github.com/ipfs/go-datastore"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/relationutils"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/util/pbtypes"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/relationutils"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
 )
 
 func (s *dsObjectStore) GetRelationLink(key string) (*model.RelationLink, error) {

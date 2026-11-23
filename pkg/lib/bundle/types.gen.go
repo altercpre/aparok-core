@@ -5,8 +5,8 @@ source: pkg/lib/bundle/types.json
 package bundle
 
 import (
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 const TypeChecksum = "71f6229d94c4bdf847dcab52efd4f85affaff2648d2a9b671cab46141b5c2902"

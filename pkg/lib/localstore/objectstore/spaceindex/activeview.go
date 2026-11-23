@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-store/v2/anyenc"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-store/v2/anyenc"
 )
 
 // SetActiveViews accepts map of active views by blocks, as objects can handle multiple dataview blocks

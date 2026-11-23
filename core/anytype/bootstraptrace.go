@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 )
 
 /*
@@ -50,7 +50,7 @@ func (cc *componentCollector) printGraph() {
 	graph := map[string][]string{}
 	nogo := []string{
 		"anytype-heart/core/block.Service",
-		"anytype-heart/core/aparok/config.Config",
+		"anytype-heart/core/anytype/config.Config",
 		"anytype-heart/core/wallet.wallet",
 		"anytype-heart/core/block.Service",
 		"anytype-heart/pkg/lib/localstore/objectstore.dsObjectStore",
@@ -94,8 +94,8 @@ func (cc *componentCollector) collectInference(found app.Component) {
 		calledFrom := runtime.FuncForPC(details.Entry()).Name()
 		calledForType := fullTypeName
 
-		calledFrom = strings.TrimPrefix(calledFrom, "github.com/altercpre/")
-		calledForType = strings.TrimPrefix(calledForType, "github.com/altercpre/")
+		calledFrom = strings.TrimPrefix(calledFrom, "github.com/anyproto/")
+		calledForType = strings.TrimPrefix(calledForType, "github.com/anyproto/")
 
 		if strings.Contains(calledFrom, ".(*") {
 			calledFrom = strings.Split(calledFrom, ".(*")[0] + "." + strings.Split(strings.Split(calledFrom, ".(*")[1], ").")[0]

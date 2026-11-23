@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-core/core"
+	"github.com/anyproto/anytype-heart/core"
 )
 
 const (

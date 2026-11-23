@@ -7,10 +7,10 @@ import (
 	"slices"
 	"strconv"
 
-	"github.com/altercpre/aparok-sync/commonspace"
-	"github.com/altercpre/aparok-sync/commonspace/clientspaceproto"
-	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
-	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/anyproto/any-sync/commonspace"
+	"github.com/anyproto/any-sync/commonspace/clientspaceproto"
+	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
+	"github.com/anyproto/any-sync/net/peer"
 	"go.uber.org/zap"
 )
 

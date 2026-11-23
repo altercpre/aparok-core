@@ -6,9 +6,9 @@ import (
 	"github.com/globalsign/mgo/bson"
 	"github.com/samber/lo"
 
-	"github.com/altercpre/aparok-core/core/block/import/notion/api"
-	"github.com/altercpre/aparok-core/core/block/simple"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
+	"github.com/anyproto/anytype-heart/core/block/simple"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 type ColumnListBlock struct {

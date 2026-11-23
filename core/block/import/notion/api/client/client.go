@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
 )
 
 var log = logging.Logger("notion-api-client")

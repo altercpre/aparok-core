@@ -30,12 +30,12 @@ import (
 	"path/filepath"
 	"time"
 
-	anystorev1 "github.com/altercpre/aparok-store"
-	anystore "github.com/altercpre/aparok-store/v2"
+	anystorev1 "github.com/anyproto/any-store"
+	anystore "github.com/anyproto/any-store/v2"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/util/freespace"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/util/freespace"
 )
 
 var log = logging.LoggerNotSugared("anystore-migrate")

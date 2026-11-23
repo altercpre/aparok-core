@@ -4,7 +4,7 @@ batch of edits. It is designed for agents, scripts, and integrations that
 need to work with whole documents.
 
 > **Pre-release:** API v2 can change without a new API version. Use
-> [API v1](https://developers.altercpre.w8n.pw/docs/reference) for production
+> [API v1](https://developers.anytype.io/docs/reference) for production
 > integrations that need a stable contract.
 
 ## Connect and authenticate
@@ -186,11 +186,11 @@ Resource bodies reject unknown fields with `400` and name the offending
 field. Document bodies are capped at 10 MiB; structured bodies at 1 MiB.
 
 Deleting an object, type, or property archives it in Bin. The
-[restore operation](https://developers.altercpre.w8n.pw/docs/reference/v2/restore-object)
+[restore operation](https://developers.anytype.io/docs/reference/v2/restore-object)
 brings an archived object back; types and properties are restored in the
 Anytype app. An archived object cannot be edited until it is restored. With
 `permanent=true`, the
-[delete operation](https://developers.altercpre.w8n.pw/docs/reference/v2/delete-object)
+[delete operation](https://developers.anytype.io/docs/reference/v2/delete-object)
 removes an object for good, but only one the calling key created. From then
 on, a request that addresses the object answers `410` with code
 `object_deleted`, and nothing restores it; a `404` means no object has that

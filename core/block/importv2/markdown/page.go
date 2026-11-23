@@ -10,19 +10,19 @@ import (
 
 	"github.com/gogo/protobuf/types"
 
-	"github.com/altercpre/aparok-core/core/block/editor/template"
-	"github.com/altercpre/aparok-core/core/block/import/common/filetime"
-	"github.com/altercpre/aparok-core/core/block/import/markdown/anymark"
-	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
-	"github.com/altercpre/aparok-core/core/block/importv2/source"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/pkg/lib/schema"
-	"github.com/altercpre/aparok-core/pkg/lib/schema/yaml"
-	"github.com/altercpre/aparok-core/util/pbtypes"
-	textutil "github.com/altercpre/aparok-core/util/text"
+	"github.com/anyproto/anytype-heart/core/block/editor/template"
+	"github.com/anyproto/anytype-heart/core/block/import/common/filetime"
+	"github.com/anyproto/anytype-heart/core/block/import/markdown/anymark"
+	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/anyproto/anytype-heart/core/block/importv2/source"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/schema"
+	"github.com/anyproto/anytype-heart/pkg/lib/schema/yaml"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
+	textutil "github.com/anyproto/anytype-heart/util/text"
 )
 
 // convertPage converts one markdown file and emits, in order: new property

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 // coalesceWindow is the coalescing period: repeats of the same state for the

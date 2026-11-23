@@ -22,11 +22,11 @@ import (
 
 	"github.com/cheggaaa/mb/v3"
 
-	apicore "github.com/altercpre/aparok-core/core/api/core"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/subscription"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/subscription"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 // objectSearchSubIdPrefix starts every subscription id the adapter mints.

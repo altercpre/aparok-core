@@ -16,9 +16,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/api/util"
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
+	"github.com/anyproto/anytype-heart/core/api/util"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
 )
 
 func TestIdempotencyReservation(t *testing.T) {

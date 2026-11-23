@@ -14,13 +14,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
-	"github.com/altercpre/aparok-core/core/block/importv2/engine"
-	"github.com/altercpre/aparok-core/core/block/importv2/identity"
-	"github.com/altercpre/aparok-core/core/block/importv2/persist"
-	"github.com/altercpre/aparok-core/core/block/importv2/report"
-	"github.com/altercpre/aparok-core/core/block/importv2/runstore"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/anyproto/anytype-heart/core/block/importv2/engine"
+	"github.com/anyproto/anytype-heart/core/block/importv2/identity"
+	"github.com/anyproto/anytype-heart/core/block/importv2/persist"
+	"github.com/anyproto/anytype-heart/core/block/importv2/report"
+	"github.com/anyproto/anytype-heart/core/block/importv2/runstore"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
 )
 
 var log = logging.Logger("import-v2-resume")

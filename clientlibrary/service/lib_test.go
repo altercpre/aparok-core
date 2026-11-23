@@ -6,7 +6,7 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func TestUnpack(t *testing.T) {

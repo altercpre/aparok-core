@@ -14,10 +14,10 @@ import (
 	"github.com/valyala/fastjson"
 	"google.golang.org/grpc"
 
-	"github.com/altercpre/aparok-core/core/debug/debugreporter"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/util/debug"
-	"github.com/altercpre/aparok-core/util/reflection"
+	"github.com/anyproto/anytype-heart/core/debug/debugreporter"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/util/debug"
+	"github.com/anyproto/anytype-heart/util/reflection"
 )
 
 const (

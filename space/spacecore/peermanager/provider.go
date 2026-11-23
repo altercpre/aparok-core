@@ -22,15 +22,15 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/debugstat"
-	"github.com/altercpre/aparok-sync/app/logger"
-	"github.com/altercpre/aparok-sync/commonspace/peermanager"
-	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/debugstat"
+	"github.com/anyproto/any-sync/app/logger"
+	"github.com/anyproto/any-sync/commonspace/peermanager"
+	"github.com/anyproto/any-sync/net/pool"
 	"github.com/samber/lo"
 	"go.uber.org/atomic"
 
-	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
+	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
 )
 
 // DeviceNetworkStateCName mirrors core/device.CName; importing the package

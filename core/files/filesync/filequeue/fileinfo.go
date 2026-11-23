@@ -3,9 +3,9 @@ package filequeue
 import (
 	"time"
 
-	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/anyenc"
 
-	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain"
 )
 
 // Code just for tests

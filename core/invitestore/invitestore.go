@@ -17,10 +17,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/commonfile/fileservice"
-	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/commonfile/fileservice"
+	"github.com/anyproto/any-sync/coordinator/coordinatorclient"
+	"github.com/anyproto/any-sync/util/crypto"
 	"github.com/gogo/protobuf/proto"
 	"github.com/ipfs/boxo/ipld/merkledag"
 	"github.com/ipfs/boxo/ipld/unixfs/pb"
@@ -28,8 +28,8 @@ import (
 	"github.com/ipfs/go-cid"
 	mh "github.com/multiformats/go-multihash"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/space"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/space"
 )
 
 const CName = "invitestore"

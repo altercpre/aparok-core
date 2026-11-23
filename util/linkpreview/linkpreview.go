@@ -15,17 +15,17 @@ import (
 	"unicode/utf8"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	"github.com/go-shiori/go-readability"
 	"github.com/microcosm-cc/bluemonday"
 	"github.com/otiai10/opengraph/v2"
 	"golang.org/x/net/html/charset"
 
-	"github.com/altercpre/aparok-core/metrics"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/util/text"
-	"github.com/altercpre/aparok-core/util/uri"
+	"github.com/anyproto/anytype-heart/metrics"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/util/text"
+	"github.com/anyproto/anytype-heart/util/uri"
 )
 
 const (
@@ -247,7 +247,7 @@ type proxyRoundTripper struct {
 }
 
 func (p *proxyRoundTripper) RoundTrip(req *http.Request) (*http.Response, error) {
-	req.Header.Set("User-Agent", "WhatsApp/2 (compatible; AnytypeBot/1.0; +https://altercpre.w8n.pw/bot)")
+	req.Header.Set("User-Agent", "WhatsApp/2 (compatible; AnytypeBot/1.0; +https://anytype.io/bot)")
 	resp, err := p.RoundTripper.RoundTrip(req)
 	if err == nil {
 		p.lastResponse = resp

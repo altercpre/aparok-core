@@ -9,7 +9,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/net/addrs"
+	"github.com/anyproto/anytype-heart/net/addrs"
 )
 
 // GO-7580: the addresses a LAN peer is told to dial us at. Every address in

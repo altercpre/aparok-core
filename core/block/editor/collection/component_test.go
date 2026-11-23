@@ -5,13 +5,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock/smarttest"
-	"github.com/altercpre/aparok-core/core/block/editor/template"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock/smarttest"
+	"github.com/anyproto/anytype-heart/core/block/editor/template"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 type testFlusher struct{}

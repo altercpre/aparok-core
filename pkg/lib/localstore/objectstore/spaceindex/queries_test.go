@@ -8,18 +8,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/anyenc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 	"golang.org/x/text/collate"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/ftsearch"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/ftsearch"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 func removeScoreFromRecords(records []database.Record) []database.Record {

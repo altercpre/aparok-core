@@ -9,8 +9,8 @@ import (
 
 	"github.com/cheggaaa/mb/v3"
 
-	"github.com/altercpre/aparok-core/metrics/anymetry"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/metrics/anymetry"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
 )
 
 var (
@@ -28,7 +28,7 @@ const (
 	inhouse anymetry.MetricsBackend = iota
 )
 
-const inHouseEndpoint = "https://telemetry.altercpre.w8n.pw/2/httpapi"
+const inHouseEndpoint = "https://telemetry.anytype.io/2/httpapi"
 
 type SamplableEvent interface {
 	anymetry.Event

@@ -6,21 +6,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/net/peer/mock_peer"
-	"github.com/altercpre/aparok-sync/net/rpc/rpctest"
-	"github.com/altercpre/aparok-sync/nodeconf/mock_nodeconf"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/net/peer/mock_peer"
+	"github.com/anyproto/any-sync/net/rpc/rpctest"
+	"github.com/anyproto/any-sync/nodeconf/mock_nodeconf"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/mock/gomock"
 
-	"github.com/altercpre/aparok-core/core/event/mock_event"
-	"github.com/altercpre/aparok-core/core/peerstatus/mock_peerstatus"
-	"github.com/altercpre/aparok-core/core/session"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
-	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
-	"github.com/altercpre/aparok-core/tests/testutil"
+	"github.com/anyproto/anytype-heart/core/event/mock_event"
+	"github.com/anyproto/anytype-heart/core/peerstatus/mock_peerstatus"
+	"github.com/anyproto/anytype-heart/core/session"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
+	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
+	"github.com/anyproto/anytype-heart/tests/testutil"
 )
 
 type fixture struct {

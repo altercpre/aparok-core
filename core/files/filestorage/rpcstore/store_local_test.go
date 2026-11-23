@@ -12,15 +12,15 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/ocache"
-	"github.com/altercpre/aparok-sync/commonfile/fileblockstore"
-	"github.com/altercpre/aparok-sync/commonfile/fileproto"
-	"github.com/altercpre/aparok-sync/commonfile/fileproto/fileprotoerr"
-	"github.com/altercpre/aparok-sync/net"
-	"github.com/altercpre/aparok-sync/net/peer"
-	"github.com/altercpre/aparok-sync/net/rpc/rpcerr"
-	"github.com/altercpre/aparok-sync/net/transport"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/ocache"
+	"github.com/anyproto/any-sync/commonfile/fileblockstore"
+	"github.com/anyproto/any-sync/commonfile/fileproto"
+	"github.com/anyproto/any-sync/commonfile/fileproto/fileprotoerr"
+	"github.com/anyproto/any-sync/net"
+	"github.com/anyproto/any-sync/net/peer"
+	"github.com/anyproto/any-sync/net/rpc/rpcerr"
+	"github.com/anyproto/any-sync/net/transport"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	format "github.com/ipfs/go-ipld-format"
@@ -29,7 +29,7 @@ import (
 	"storj.io/drpc"
 	"storj.io/drpc/drpcerr"
 
-	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
+	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
 )
 
 // Unit tests for the local peer path run under testing/synctest with the

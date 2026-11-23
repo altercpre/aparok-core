@@ -3,9 +3,9 @@ package spacedomain
 import (
 	"errors"
 
-	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
+	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 type SpaceType string

@@ -16,13 +16,13 @@ import (
 	"context"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	"github.com/samber/lo"
 
-	"github.com/altercpre/aparok-core/core/aparok/account"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/subscription"
-	"github.com/altercpre/aparok-core/core/subscription/objectsubscription"
+	"github.com/anyproto/anytype-heart/core/anytype/account"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/subscription"
+	"github.com/anyproto/anytype-heart/core/subscription/objectsubscription"
 )
 
 const CName = "client.syncstatus.syncsubscriptions"

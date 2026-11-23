@@ -8,17 +8,17 @@ import (
 	"github.com/cheggaaa/mb/v3"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/block/cache"
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/subscription"
-	"github.com/altercpre/aparok-core/core/subscription/crossspacesub"
-	"github.com/altercpre/aparok-core/core/subscription/objectsubscription"
-	"github.com/altercpre/aparok-core/core/syncstatus/filesyncstatus"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/cache"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/subscription"
+	"github.com/anyproto/anytype-heart/core/subscription/crossspacesub"
+	"github.com/anyproto/anytype-heart/core/subscription/objectsubscription"
+	"github.com/anyproto/anytype-heart/core/syncstatus/filesyncstatus"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 type downloadTask struct {

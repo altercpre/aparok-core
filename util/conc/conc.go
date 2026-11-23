@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/samber/lo/parallel"
 
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
 )
 
 var log = logging.Logger("anytype-mw-panic")

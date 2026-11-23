@@ -3,8 +3,8 @@ package space
 import (
 	"context"
 
-	"github.com/altercpre/aparok-core/space/internal/spaceprocess/mode"
-	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/mode"
+	"github.com/anyproto/anytype-heart/space/spaceinfo"
 )
 
 func (s *service) Join(ctx context.Context, id, aclHeadId string) error {

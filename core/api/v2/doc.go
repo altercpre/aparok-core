@@ -36,12 +36,12 @@
 //	@tag.description				The sidebar: which objects a space pins for every member, and which this account keeps for itself.
 //	@tag.name						Schemas
 //	@tag.description				The format itself: what a valid document looks like, what each PATCH op accepts, and a validator to check one against them. Read these before writing.
-//	@termsOfService					https://altercpre.w8n.pw/terms_of_use
+//	@termsOfService					https://anytype.io/terms_of_use
 //	@contact.name					Anytype Support
-//	@contact.url					https://altercpre.w8n.pw/contact
-//	@contact.email					support@altercpre.w8n.pw
+//	@contact.url					https://anytype.io/contact
+//	@contact.email					support@anytype.io
 //	@license.name					Any Source Available License 1.0
-//	@license.url					https://github.com/altercpre/anytype-api/blob/main/LICENSE.md
+//	@license.url					https://github.com/anyproto/anytype-api/blob/main/LICENSE.md
 //	@host							http://127.0.0.1:31009
 //	@securitydefinitions.bearerauth	BearerAuth
 //	@externalDocs.description		OpenAPI

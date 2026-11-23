@@ -8,8 +8,8 @@ import (
 
 	"github.com/mr-tron/base58/base58"
 
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/util/bufferpool"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/util/bufferpool"
 )
 
 var log = logging.Logger("tex-mill")

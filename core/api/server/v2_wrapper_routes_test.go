@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/api/wrapper"
+	"github.com/anyproto/anytype-heart/core/api/wrapper"
 )
 
 // TestWrapperRoutesRegistered walks the task-tool wrapper's hard-coded

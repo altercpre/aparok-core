@@ -5,15 +5,15 @@ import (
 	"strings"
 	"testing"
 
-	codec "github.com/altercpre/aparok-block/codec/anyblockjson"
+	codec "github.com/anyproto/any-block/codec/anyblockjson"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/block/export/report"
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson/compose"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/export/report"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson/compose"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 func TestWrappedValidationIssuesPreserveFields(t *testing.T) {

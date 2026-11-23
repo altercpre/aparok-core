@@ -4,14 +4,14 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/net/peerservice"
-	"github.com/altercpre/aparok-sync/net/quicdemotion"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/net/peerservice"
+	"github.com/anyproto/any-sync/net/quicdemotion"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/device"
-	"github.com/altercpre/aparok-core/net/transportpenalty"
+	"github.com/anyproto/anytype-heart/core/device"
+	"github.com/anyproto/anytype-heart/net/transportpenalty"
 )
 
 // registeredNames returns the component list Bootstrap produces. Bootstrap

@@ -4,7 +4,7 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	mock2 "github.com/stretchr/testify/mock"
 )
 

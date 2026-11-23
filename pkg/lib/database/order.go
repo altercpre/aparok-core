@@ -4,15 +4,15 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/altercpre/aparok-store/v2/anyenc"
-	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/query"
 	"golang.org/x/text/collate"
 	"golang.org/x/text/language"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	timeutil "github.com/altercpre/aparok-core/util/time"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	timeutil "github.com/anyproto/anytype-heart/util/time"
 )
 
 type Order interface {

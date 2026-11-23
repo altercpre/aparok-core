@@ -27,7 +27,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/altercpre/aparok-core/core/api/wrapper"
+	"github.com/anyproto/anytype-heart/core/api/wrapper"
 )
 
 func main() {

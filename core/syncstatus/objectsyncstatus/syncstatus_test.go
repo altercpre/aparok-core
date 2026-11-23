@@ -4,20 +4,20 @@ import (
 	"context"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/commonspace/headsync/statestorage/mock_statestorage"
-	"github.com/altercpre/aparok-sync/commonspace/spacestate"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage/mock_spacestorage"
-	"github.com/altercpre/aparok-sync/nodeconf/mock_nodeconf"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/commonspace/headsync/statestorage/mock_statestorage"
+	"github.com/anyproto/any-sync/commonspace/spacestate"
+	"github.com/anyproto/any-sync/commonspace/spacestorage/mock_spacestorage"
+	"github.com/anyproto/any-sync/nodeconf/mock_nodeconf"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/altercpre/aparok-core/core/aparok/config"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/syncstatus/nodestatus"
-	"github.com/altercpre/aparok-core/core/syncstatus/objectsyncstatus/mock_objectsyncstatus"
-	"github.com/altercpre/aparok-core/tests/testutil"
+	"github.com/anyproto/anytype-heart/core/anytype/config"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/syncstatus/nodestatus"
+	"github.com/anyproto/anytype-heart/core/syncstatus/objectsyncstatus/mock_objectsyncstatus"
+	"github.com/anyproto/anytype-heart/tests/testutil"
 )
 
 const (

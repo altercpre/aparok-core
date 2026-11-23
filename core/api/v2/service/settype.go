@@ -18,14 +18,14 @@ import (
 	"strings"
 	"time"
 
-	apicore "github.com/altercpre/aparok-core/core/api/core"
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	"github.com/altercpre/aparok-core/core/block/editor/converter"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/util/pbtypes"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	"github.com/anyproto/anytype-heart/core/block/editor/converter"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
 )
 
 // v2MaxCompatibleTypesInHint bounds the alternatives a layout refusal lists;

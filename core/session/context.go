@@ -1,7 +1,7 @@
 package session
 
 import (
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 type Context interface {

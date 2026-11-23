@@ -9,8 +9,8 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // Collector is safe for concurrent export workers. Its zero value is ready to use.

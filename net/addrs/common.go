@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/util/slice"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/util/slice"
 )
 
 var log = logging.Logger("anytype-net")

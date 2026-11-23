@@ -30,16 +30,16 @@ import (
 	"github.com/cheggaaa/mb/v3"
 	"go.uber.org/zap"
 
-	apicore "github.com/altercpre/aparok-core/core/api/core"
-	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
-	"github.com/altercpre/aparok-core/core/block/chats/chatrepository"
-	"github.com/altercpre/aparok-core/core/block/chats/chatsubscription"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/subscription"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatrepository"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatsubscription"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/subscription"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // spaceChatBackfillLimit is how many of a chat's newest messages follow its

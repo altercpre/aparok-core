@@ -15,13 +15,13 @@ import (
 	"slices"
 	"strings"
 
-	bundleconvert "github.com/altercpre/aparok-block/bundle/convert"
+	bundleconvert "github.com/anyproto/any-block/bundle/convert"
 
-	"github.com/altercpre/aparok-core/core/block/import/common"
-	"github.com/altercpre/aparok-core/core/block/import/common/source"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/core/block/import/common"
+	"github.com/anyproto/anytype-heart/core/block/import/common/source"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
 )
 
 var anyBlockLog = logging.Logger("import-anyblock")

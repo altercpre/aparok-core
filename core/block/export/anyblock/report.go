@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/altercpre/aparok-core/core/block/export/report"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson/compose"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/export/report"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson/compose"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 func codecIssue(objectId string, issue anyblockjson.Issue, severity model.ExportReportIssueSeverity) model.ExportReportIssue {

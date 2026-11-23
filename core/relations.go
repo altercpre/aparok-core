@@ -4,11 +4,11 @@ import (
 	"context"
 	"errors"
 
-	"github.com/altercpre/aparok-core/core/block"
-	"github.com/altercpre/aparok-core/core/block/detailservice"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/order"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/block"
+	"github.com/anyproto/anytype-heart/core/block/detailservice"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/order"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func (mw *Middleware) ObjectTypePropertyAdd(cctx context.Context, req *pb.RpcObjectTypePropertyAddRequest) *pb.RpcObjectTypePropertyAddResponse {

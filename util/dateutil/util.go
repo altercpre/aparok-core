@@ -4,7 +4,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
 )
 
 const (

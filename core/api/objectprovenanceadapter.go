@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
-	"github.com/altercpre/aparok-sync/commonspace/objecttreebuilder"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/anyproto/any-sync/commonspace/objecttreebuilder"
 
-	apicore "github.com/altercpre/aparok-core/core/api/core"
-	"github.com/altercpre/aparok-core/core/block/source/sourceimpl"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/space"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
+	"github.com/anyproto/anytype-heart/core/block/source/sourceimpl"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/space"
 )
 
 // objectProvenanceAdapter implements apicore.ObjectProvenance — the DELETE

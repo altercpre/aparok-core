@@ -7,7 +7,7 @@ import (
 
 	"github.com/iancoleman/strcase"
 
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 // Key transformation from Internal to API format:

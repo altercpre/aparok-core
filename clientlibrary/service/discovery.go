@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
+	"github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
 )
 
 // The LAN discovery bridge: the mobile app runs discovery on the platform

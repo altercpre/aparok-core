@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/space/clientspace"
-	"github.com/altercpre/aparok-core/space/clientspace/mock_clientspace"
-	"github.com/altercpre/aparok-core/space/techspace"
-	"github.com/altercpre/aparok-core/space/techspace/mock_techspace"
+	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/anyproto/anytype-heart/space/clientspace/mock_clientspace"
+	"github.com/anyproto/anytype-heart/space/techspace"
+	"github.com/anyproto/anytype-heart/space/techspace/mock_techspace"
 )
 
 func TestWaiter_Wait(t *testing.T) {

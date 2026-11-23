@@ -53,8 +53,8 @@ categories: ["Work", "Personal"]
 
 ### URLs and Emails
 ```yaml
-website: https://altercpre.w8n.pw
-contact: support@altercpre.w8n.pw
+website: https://anytype.io
+contact: support@anytype.io
 ```
 
 ## Special Properties

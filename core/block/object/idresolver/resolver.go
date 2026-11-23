@@ -18,11 +18,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	"github.com/avast/retry-go/v4"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
 )
 
 const CName = "block.object.resolver"

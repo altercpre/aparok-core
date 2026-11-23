@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/block/import/common/source"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/import/common/source"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 func TestConvertError(t *testing.T) {

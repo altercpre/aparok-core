@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/recovery"
-	"github.com/altercpre/aparok-core/space"
+	"github.com/anyproto/anytype-heart/core/recovery"
+	"github.com/anyproto/anytype-heart/space"
 )
 
 func TestStartFailure(t *testing.T) {

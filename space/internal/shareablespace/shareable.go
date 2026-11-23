@@ -4,19 +4,19 @@ import (
 	"context"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/space/deletioncontroller"
-	"github.com/altercpre/aparok-core/space/internal/components/spacestatus"
-	"github.com/altercpre/aparok-core/space/internal/spacecontroller"
-	"github.com/altercpre/aparok-core/space/internal/spaceprocess/initial"
-	"github.com/altercpre/aparok-core/space/internal/spaceprocess/joiner"
-	"github.com/altercpre/aparok-core/space/internal/spaceprocess/loader"
-	"github.com/altercpre/aparok-core/space/internal/spaceprocess/mode"
-	"github.com/altercpre/aparok-core/space/internal/spaceprocess/offloader"
-	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/anyproto/anytype-heart/space/deletioncontroller"
+	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus"
+	"github.com/anyproto/anytype-heart/space/internal/spacecontroller"
+	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/initial"
+	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/joiner"
+	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/loader"
+	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/mode"
+	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/offloader"
+	"github.com/anyproto/anytype-heart/space/spaceinfo"
 )
 
 var log = logger.NewNamed("common.space.shareablespace")

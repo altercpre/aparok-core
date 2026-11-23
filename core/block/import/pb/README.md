@@ -7,7 +7,7 @@ Use the existing `ObjectImport` RPC with `type: Pb` and `pbParams.path` for:
 - AnyBlock v2 authored bundles and full space exports, as directories or ZIPs.
   ZIPs may wrap the bundle in one directory.
 
-`github.com/altercpre/aparok-block/bundle/convert.Bundle` validates and converts the
+`github.com/anyproto/any-block/bundle/convert.Bundle` validates and converts the
 bundle to native snapshots. Heart then uses its existing ID remapping and object
 creation pipeline. Conversion covers stored property and option definitions,
 built-in and custom types, templates, participant references, object links,

@@ -4,15 +4,15 @@ import (
 	"github.com/globalsign/mgo/bson"
 	"github.com/google/uuid"
 
-	"github.com/altercpre/aparok-core/core/block/editor/state"
-	te "github.com/altercpre/aparok-core/core/block/editor/table"
-	"github.com/altercpre/aparok-core/core/block/import/common"
-	"github.com/altercpre/aparok-core/core/block/process"
-	"github.com/altercpre/aparok-core/core/block/simple"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/editor/state"
+	te "github.com/anyproto/anytype-heart/core/block/editor/table"
+	"github.com/anyproto/anytype-heart/core/block/import/common"
+	"github.com/anyproto/anytype-heart/core/block/process"
+	"github.com/anyproto/anytype-heart/core/block/simple"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 type TableStrategy struct {

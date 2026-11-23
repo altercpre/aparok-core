@@ -9,10 +9,10 @@ import (
 	"github.com/globalsign/mgo/bson"
 	"golang.org/x/exp/slices"
 
-	"github.com/altercpre/aparok-core/core/block/editor/template"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	textUtil "github.com/altercpre/aparok-core/util/text"
+	"github.com/anyproto/anytype-heart/core/block/editor/template"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	textUtil "github.com/anyproto/anytype-heart/util/text"
 )
 
 const (

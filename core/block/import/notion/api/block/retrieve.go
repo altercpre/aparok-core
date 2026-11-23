@@ -11,12 +11,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/block/import/common"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api/client"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/import/common"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api/client"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 var log = logging.Logger("notion-get-blocks")

@@ -7,15 +7,15 @@ import (
 
 	"time"
 
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-sync/commonspace"
-	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
-	"github.com/altercpre/aparok-sync/net"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-sync/commonspace"
+	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
+	"github.com/anyproto/any-sync/net"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
 )
 
 // clientModel is what a client folds the event log into. The replay property

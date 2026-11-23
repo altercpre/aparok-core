@@ -25,12 +25,12 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/space/clientspace"
-	"github.com/altercpre/aparok-core/space/internal/components/spaceloader"
+	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/anyproto/anytype-heart/space/internal/components/spaceloader"
 )
 
 const CName = "client.components.invitecleaner"

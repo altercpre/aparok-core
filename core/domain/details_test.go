@@ -4,11 +4,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/altercpre/aparok-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/anyenc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/util/pbtypes"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
 )
 
 func TestStructDiff(t *testing.T) {

@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/anyproto/any-sync/app/logger"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/altercpre/aparok-core/pkg/lib/initialparams"
+	"github.com/anyproto/anytype-heart/pkg/lib/initialparams"
 )
 
 const DefaultLogLevels = "common.commonspace.headsync=INFO;core.block.editor.spaceview=INFO;anytype-app=INFO;anytype-core-account=INFO;client.space.clientserver=INFO;client.space.localdiscovery=INFO;*=WARN"

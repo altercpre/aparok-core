@@ -5,11 +5,11 @@ import (
 	"slices"
 	"sort"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore/spaceindex"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore/spaceindex"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // OrphanReason explains why a root is orphaned. It is set on roots only; descendants carry

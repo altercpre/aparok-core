@@ -5,21 +5,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/altercpre/aparok-core/core/block/import/common"
-	"github.com/altercpre/aparok-core/core/block/object/payloadcreator"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/domain/objectorigin"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/space/clientspace/mock_clientspace"
-	"github.com/altercpre/aparok-core/space/mock_space"
+	"github.com/anyproto/anytype-heart/core/block/import/common"
+	"github.com/anyproto/anytype-heart/core/block/object/payloadcreator"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/space/clientspace/mock_clientspace"
+	"github.com/anyproto/anytype-heart/space/mock_space"
 )
 
 func TestDerivedObject_GetIDAndPayload(t *testing.T) {

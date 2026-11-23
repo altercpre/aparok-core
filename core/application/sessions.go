@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/util/crypto"
 
-	"github.com/altercpre/aparok-core/core/api"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/core/session"
-	walletComp "github.com/altercpre/aparok-core/core/wallet"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/core"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/api"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/core/session"
+	walletComp "github.com/anyproto/anytype-heart/core/wallet"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/core"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // CreateSessionResult carries the minted session token plus the attributes of

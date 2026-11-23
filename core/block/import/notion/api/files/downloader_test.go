@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/block/process"
+	"github.com/anyproto/anytype-heart/core/block/process"
 )
 
 func TestFileDownloader_Init(t *testing.T) {

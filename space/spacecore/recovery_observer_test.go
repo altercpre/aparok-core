@@ -3,11 +3,11 @@ package spacecore
 import (
 	"testing"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/commonspace"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/commonspace"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/recovery"
+	"github.com/anyproto/anytype-heart/core/recovery"
 )
 
 type fakeRecovery struct {

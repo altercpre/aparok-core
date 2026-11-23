@@ -12,11 +12,11 @@ Scope: global
 */
 
 import (
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
-	"github.com/altercpre/aparok-sync/net/pool"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
+	"github.com/anyproto/any-sync/net/pool"
 
-	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
+	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
 )
 
 const CName = "common.commonfile.rpcstore"

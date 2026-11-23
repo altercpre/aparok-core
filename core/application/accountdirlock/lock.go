@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/util/crypto"
 	"github.com/gofrs/flock"
 	"github.com/google/uuid"
 
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
 )
 
 const (

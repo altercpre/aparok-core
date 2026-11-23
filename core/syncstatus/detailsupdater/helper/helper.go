@@ -3,9 +3,9 @@ package helper
 import (
 	"time"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
 )
 
 func InjectsSyncDetails(details *domain.Details, status domain.ObjectSyncStatus, syncError domain.SyncError) *domain.Details {

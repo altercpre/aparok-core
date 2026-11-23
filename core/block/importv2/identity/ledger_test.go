@@ -10,17 +10,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/block/importv2"
-	"github.com/altercpre/aparok-core/core/block/object/payloadcreator"
-	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
-	"github.com/altercpre/aparok-core/space/clientspace/mock_clientspace"
+	"github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/anyproto/anytype-heart/core/block/object/payloadcreator"
+	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
+	"github.com/anyproto/anytype-heart/space/clientspace/mock_clientspace"
 )
 
 type fakeClaimLedger struct {

@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/application/accountdirlock"
-	"github.com/altercpre/aparok-core/core/event/mock_event"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/core"
+	"github.com/anyproto/anytype-heart/core/application/accountdirlock"
+	"github.com/anyproto/anytype-heart/core/event/mock_event"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/core"
 )
 
 func TestService_AccountSelect(t *testing.T) {

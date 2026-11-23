@@ -1,9 +1,9 @@
 package space
 
 import (
-	"github.com/altercpre/aparok-core/core/subscription"
-	"github.com/altercpre/aparok-core/space/dedupqueue"
-	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/anyproto/anytype-heart/core/subscription"
+	"github.com/anyproto/anytype-heart/space/dedupqueue"
+	"github.com/anyproto/anytype-heart/space/spaceinfo"
 )
 
 type spaceViewUpdater interface {

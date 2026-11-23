@@ -13,17 +13,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/accountservice"
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/nodeconf"
-	"github.com/altercpre/aparok-sync/util/periodicsync"
+	"github.com/anyproto/any-sync/accountservice"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/anyproto/any-sync/util/periodicsync"
 	"github.com/libp2p/zeroconf/v2"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/aparok/config"
-	"github.com/altercpre/aparok-core/net/addrs"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/space/spacecore/clientserver"
+	"github.com/anyproto/anytype-heart/core/anytype/config"
+	"github.com/anyproto/anytype-heart/net/addrs"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/space/spacecore/clientserver"
 )
 
 type Hook int

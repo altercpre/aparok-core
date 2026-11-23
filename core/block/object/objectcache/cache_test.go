@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app/ocache"
+	"github.com/anyproto/any-sync/app/ocache"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

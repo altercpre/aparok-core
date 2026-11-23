@@ -27,7 +27,7 @@ import (
 	"strconv"
 	"strings"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
 )
 
 //

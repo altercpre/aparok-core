@@ -5,18 +5,18 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
-	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
-	"github.com/altercpre/aparok-sync/coordinator/inboxclient/mock_inboxclient"
+	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
+	"github.com/anyproto/any-sync/coordinator/inboxclient/mock_inboxclient"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/altercpre/aparok-core/core/wallet/mock_wallet"
-	"github.com/altercpre/aparok-core/space/clientspace"
-	"github.com/altercpre/aparok-core/space/techspace"
-	"github.com/altercpre/aparok-core/space/techspace/mock_techspace"
+	"github.com/anyproto/anytype-heart/core/wallet/mock_wallet"
+	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/anyproto/anytype-heart/space/techspace"
+	"github.com/anyproto/anytype-heart/space/techspace/mock_techspace"
 )
 
 type fixture struct {

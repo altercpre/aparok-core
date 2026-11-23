@@ -24,12 +24,12 @@ import (
 	"strconv"
 	"strings"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	textblock "github.com/altercpre/aparok-core/core/block/simple/text"
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/util/pbtypes"
-	textutil "github.com/altercpre/aparok-core/util/text"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	textblock "github.com/anyproto/anytype-heart/core/block/simple/text"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
+	textutil "github.com/anyproto/anytype-heart/util/text"
 )
 
 type chatLineKind int

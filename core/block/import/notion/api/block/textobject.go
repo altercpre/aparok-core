@@ -5,10 +5,10 @@ import (
 
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/altercpre/aparok-core/core/block/import/notion/api"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/util/dateutil"
-	textUtil "github.com/altercpre/aparok-core/util/text"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/util/dateutil"
+	textUtil "github.com/anyproto/anytype-heart/util/text"
 )
 
 const DateMentionTimeFormat = "2006-01-02"

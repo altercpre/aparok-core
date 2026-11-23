@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/altercpre/aparok-core/core/api/core/mock_apicore"
-	"github.com/altercpre/aparok-core/core/api/service"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/api/core/mock_apicore"
+	"github.com/anyproto/anytype-heart/core/api/service"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func TestToggleChatReactionHandler(t *testing.T) {

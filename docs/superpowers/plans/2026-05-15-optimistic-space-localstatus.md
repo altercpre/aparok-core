@@ -191,7 +191,7 @@ In `space/internal/components/spaceloader/spaceloader.go`, add to the import blo
 existing `space/...` imports):
 
 ```go
-	"github.com/altercpre/aparok-core/space/spacecore/storage"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage"
 ```
 
 - [ ] **Step 2: Add the field to the struct**
@@ -246,10 +246,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/space/clientspace"
-	"github.com/altercpre/aparok-core/space/internal/components/spacestatus/mock_spacestatus"
-	"github.com/altercpre/aparok-core/space/spacecore/storage/mock_storage"
-	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus/mock_spacestatus"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage/mock_storage"
+	"github.com/anyproto/anytype-heart/space/spaceinfo"
 )
 
 // blockingBuilder is a SpaceBuilder stub whose BuildSpace blocks until released, so the
@@ -324,7 +324,7 @@ func TestStartLoad_FastPath(t *testing.T) {
 ```
 
 Add the missing `app` import to the test file's import block:
-`"github.com/altercpre/aparok-sync/app"`.
+`"github.com/anyproto/any-sync/app"`.
 
 - [ ] **Step 2: Run the test to verify it fails**
 

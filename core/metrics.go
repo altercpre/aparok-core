@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/altercpre/aparok-core/metrics"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/initialparams"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/metrics"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/initialparams"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
 )
 
 func (mw *Middleware) InitialSetParameters(cctx context.Context, req *pb.RpcInitialSetParametersRequest) *pb.RpcInitialSetParametersResponse {

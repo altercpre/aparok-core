@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/space/spaceinfo"
-	"github.com/altercpre/aparok-core/space/techspace/mock_techspace"
-	"github.com/altercpre/aparok-core/tests/testutil"
+	"github.com/anyproto/anytype-heart/space/spaceinfo"
+	"github.com/anyproto/anytype-heart/space/techspace/mock_techspace"
+	"github.com/anyproto/anytype-heart/tests/testutil"
 )
 
 type fixture struct {

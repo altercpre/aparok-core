@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://schemas.altercpre.w8n.pw/meta/v1.0.0/schema.json",
+  "$id": "https://schemas.anytype.io/meta/v1.0.0/schema.json",
   "title": "Anytype Schema Meta-Schema",
   "description": "Meta-schema for validating Anytype type schemas",
   "type": "object",

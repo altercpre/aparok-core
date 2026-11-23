@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan"
+	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan"
 )
 
 // The property order in the emitted schema is the model's generation order

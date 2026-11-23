@@ -5,7 +5,7 @@ package mock_files
 import (
 	context "context"
 
-	files "github.com/altercpre/aparok-core/core/block/import/notion/api/files"
+	files "github.com/anyproto/anytype-heart/core/block/import/notion/api/files"
 	mock "github.com/stretchr/testify/mock"
 )
 

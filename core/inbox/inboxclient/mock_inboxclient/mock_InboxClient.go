@@ -5,11 +5,11 @@ package mock_inboxclient
 import (
 	context "context"
 
-	app "github.com/altercpre/aparok-sync/app"
+	app "github.com/anyproto/any-sync/app"
 
-	coordinatorproto "github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	coordinatorproto "github.com/anyproto/any-sync/coordinator/coordinatorproto"
 
-	crypto "github.com/altercpre/aparok-sync/util/crypto"
+	crypto "github.com/anyproto/any-sync/util/crypto"
 
 	mock "github.com/stretchr/testify/mock"
 )

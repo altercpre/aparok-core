@@ -3,7 +3,7 @@
 package mock_database
 
 import (
-	model "github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	model "github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 	mock "github.com/stretchr/testify/mock"
 )
 

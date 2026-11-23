@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"sync/atomic"
 
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-store/v2/anyenc"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-store/v2/anyenc"
 
-	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
-	coresb "github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
+	coresb "github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 const (

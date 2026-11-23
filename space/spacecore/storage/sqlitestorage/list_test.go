@@ -3,8 +3,8 @@ package sqlitestorage
 import (
 	"testing"
 
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage/oldstorage"
-	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/anyproto/any-sync/commonspace/spacestorage/oldstorage"
+	"github.com/anyproto/any-sync/consensus/consensusproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/files"
-	"github.com/altercpre/aparok-core/core/files/mock_files"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/storage"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/files"
+	"github.com/anyproto/anytype-heart/core/files/mock_files"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/storage"
 )
 
 func TestGetImage_SVG(t *testing.T) {

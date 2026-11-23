@@ -5,8 +5,8 @@ package mock_chatsubscription
 import (
 	context "context"
 
-	app "github.com/altercpre/aparok-sync/app"
-	chatsubscription "github.com/altercpre/aparok-core/core/block/chats/chatsubscription"
+	app "github.com/anyproto/any-sync/app"
+	chatsubscription "github.com/anyproto/anytype-heart/core/block/chats/chatsubscription"
 
 	mock "github.com/stretchr/testify/mock"
 )

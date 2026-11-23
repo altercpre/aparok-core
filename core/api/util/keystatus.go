@@ -10,7 +10,7 @@ package util
 import (
 	"context"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // ApiVersion is the API version reported by the Anytype-Version response
@@ -46,7 +46,7 @@ const (
 	// Settings > API Keys walkthrough); move it to the dedicated key-scoping
 	// section when that page ships (design spec P1 §7) — a policy link that
 	// 404s would invert the signal's whole point.
-	KeyDeprecationLink = `<https://developers.altercpre.w8n.pw/docs/guides/get-started/authentication>; rel="deprecation"; type="text/html"`
+	KeyDeprecationLink = `<https://developers.anytype.io/docs/guides/get-started/authentication>; rel="deprecation"; type="text/html"`
 )
 
 // KeyStatus names the credential kind for the signal: legacy for nil-grant

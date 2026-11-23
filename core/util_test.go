@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/block/editor/chatobject"
-	"github.com/altercpre/aparok-core/core/block/object/idresolver"
+	"github.com/anyproto/anytype-heart/core/block/editor/chatobject"
+	"github.com/anyproto/anytype-heart/core/block/object/idresolver"
 )
 
 type testErrorType struct {

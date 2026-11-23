@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 // iconValue is a page/database/callout icon: emoji, custom emoji, or file.

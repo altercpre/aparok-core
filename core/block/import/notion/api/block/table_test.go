@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/block/import/notion/api"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
 )
 
 func Test_TableWithOneColumnAndRow(t *testing.T) {

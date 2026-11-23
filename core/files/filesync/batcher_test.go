@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonfile/fileproto"
+	"github.com/anyproto/any-sync/commonfile/fileproto"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

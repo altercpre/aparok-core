@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	anystorev1 "github.com/altercpre/aparok-store"
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-store/v2/anyenc"
+	anystorev1 "github.com/anyproto/any-store"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-store/v2/anyenc"
 
-	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
 )
 
 const (

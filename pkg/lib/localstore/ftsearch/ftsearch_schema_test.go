@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	tantivy "github.com/altercpre/tantivy-go"
+	"github.com/anyproto/any-sync/app"
+	tantivy "github.com/anyproto/tantivy-go"
 	"github.com/gofrs/flock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/wallet"
+	"github.com/anyproto/anytype-heart/core/wallet"
 )
 
 // schemaField mirrors one entry of the "schema" array in tantivy's meta.json

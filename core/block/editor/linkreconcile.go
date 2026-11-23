@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	"github.com/anyproto/any-sync/commonspace/spacestorage"
 )
 
 // reconcileRunner serializes the background store reconciles of a link-collection editor

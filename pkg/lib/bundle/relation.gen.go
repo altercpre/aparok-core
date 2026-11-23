@@ -5,8 +5,8 @@ source: pkg/lib/bundle/relations.json
 package bundle
 
 import (
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 const RelationChecksum = "71001c404294aa631e6656584c2f9f1f73d99abc2fb15c7c4018ebf1dc81dcdb"

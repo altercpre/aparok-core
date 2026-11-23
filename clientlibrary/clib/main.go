@@ -15,8 +15,8 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/altercpre/aparok-core/clientlibrary/service"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/clientlibrary/service"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 //export SetEventHandler

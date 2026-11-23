@@ -1,9 +1,9 @@
 package application
 
 import (
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // AccountRecover broadcasts the recovered wallet's account as an accountShow

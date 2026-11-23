@@ -5,10 +5,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	apimodel "github.com/altercpre/aparok-core/core/api/model"
-	"github.com/altercpre/aparok-core/core/api/pagination"
-	"github.com/altercpre/aparok-core/core/api/service"
-	"github.com/altercpre/aparok-core/core/api/util"
+	apimodel "github.com/anyproto/anytype-heart/core/api/model"
+	"github.com/anyproto/anytype-heart/core/api/pagination"
+	"github.com/anyproto/anytype-heart/core/api/service"
+	"github.com/anyproto/anytype-heart/core/api/util"
 )
 
 // GlobalSearchHandler searches and retrieves objects across all spaces

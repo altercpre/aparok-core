@@ -10,13 +10,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/debug/debugreporter"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/initialparams"
+	"github.com/anyproto/anytype-heart/core/debug/debugreporter"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/initialparams"
 )
 
 // recordingSender is a minimal event.Sender stub that captures Broadcast

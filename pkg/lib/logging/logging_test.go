@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/anyproto/any-sync/app/logger"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

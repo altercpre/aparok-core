@@ -1,7 +1,7 @@
 package chatmodel
 
 import (
-	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/anyproto/any-store/v2/query"
 )
 
 // StorageKeyField is the top-level field holding a chat message document's storage key, the

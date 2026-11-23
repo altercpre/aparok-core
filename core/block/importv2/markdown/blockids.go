@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/altercpre/aparok-core/core/block/simple/table"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/simple/table"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // stabilizeBlockIds replaces anymark's random block ids (bson.NewObjectId)

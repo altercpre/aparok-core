@@ -15,9 +15,9 @@ Scope: global
 */
 
 import (
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 const CName = "eventSender"

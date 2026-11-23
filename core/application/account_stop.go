@@ -7,14 +7,14 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/altercpre/aparok-sync/nodeconf"
+	"github.com/anyproto/any-sync/nodeconf"
 	"gopkg.in/yaml.v3"
 
-	"github.com/altercpre/aparok-core/core/aparok/config"
-	"github.com/altercpre/aparok-core/core/pushnotification"
-	walletComp "github.com/altercpre/aparok-core/core/wallet"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/util/anyerror"
+	"github.com/anyproto/anytype-heart/core/anytype/config"
+	"github.com/anyproto/anytype-heart/core/pushnotification"
+	walletComp "github.com/anyproto/anytype-heart/core/wallet"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/util/anyerror"
 )
 
 var (

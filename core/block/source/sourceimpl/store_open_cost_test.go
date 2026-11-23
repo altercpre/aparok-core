@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	anystore "github.com/altercpre/aparok-store"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	anystore "github.com/anyproto/any-store"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

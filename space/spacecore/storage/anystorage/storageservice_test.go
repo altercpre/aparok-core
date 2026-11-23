@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	anystore "github.com/altercpre/aparok-store"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	anystore "github.com/anyproto/any-store"
+	"github.com/anyproto/any-sync/commonspace/spacestorage"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

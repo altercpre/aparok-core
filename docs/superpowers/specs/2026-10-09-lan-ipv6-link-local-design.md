@@ -51,7 +51,7 @@ What already handles link-local correctly, verified in code: the bridge builds a
 
 ### 2. Desktop zeroconf: advertise and browse on the link (zeroconf fork + heart)
 
-Fork (`github.com/altercpre/zeroconf/v2`, replaced in `go.mod`):
+Fork (`github.com/anyproto/zeroconf/v2`, replaced in `go.mod`):
 
 - **Advertise per interface.** Add a server option, e.g. `ServerLinkLocalIPv6()`: when answering on `ifIndex`, `appendAddrs` adds that interface's own IPv6 link-local addresses (from `addrsForInterface`), and only those, on top of the fixed proxy list. The fixed list keeps carrying IPv4 as today. Never announce one interface's link-local on another interface.
 - **Browse with the receiving interface.** In `client.recv`, keep the control message: `n, cm, src, err = pConn.ReadFrom(b)` for the IPv6 conn (and enable `ipv6.FlagInterface` with `SetControlMessage` where the platform allows it; on Windows control messages are unavailable, see Risks). Carry `cm.IfIndex` with the parsed message to the entry and record each AAAA as a zoned address. Proposed shape: a new `ServiceEntry.AddrIPv6Zoned []netip.Addr` (`netip.Addr.WithZone`), keeping `AddrIPv6 []net.IP` untouched for compatibility. The zone is the receiving interface's decimal index (see §5).

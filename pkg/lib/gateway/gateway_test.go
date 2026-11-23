@@ -10,17 +10,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	"github.com/avast/retry-go/v4"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/files"
-	"github.com/altercpre/aparok-core/core/files/filedownloader/mock_filedownloader"
-	"github.com/altercpre/aparok-core/core/files/fileobject/mock_fileobject"
-	"github.com/altercpre/aparok-core/core/files/mock_files"
-	"github.com/altercpre/aparok-core/tests/testutil"
+	"github.com/anyproto/anytype-heart/core/files"
+	"github.com/anyproto/anytype-heart/core/files/filedownloader/mock_filedownloader"
+	"github.com/anyproto/anytype-heart/core/files/fileobject/mock_fileobject"
+	"github.com/anyproto/anytype-heart/core/files/mock_files"
+	"github.com/anyproto/anytype-heart/tests/testutil"
 )
 
 func TestCleanUpPathForLogging(t *testing.T) {

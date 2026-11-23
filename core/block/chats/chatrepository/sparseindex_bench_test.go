@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-store/v2/anyenc"
-	"github.com/altercpre/aparok-store/v2/query"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/query"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore/anystorehelper"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore/anystorehelper"
 )
 
 // The cost of getting filterReactionUnread wrong, at the collection size a busy chat reaches.

@@ -54,26 +54,26 @@ nix develop .
 > With direnv, you can also switch environments per project in your code editor: [emacs-direnv](https://github.com/wbolster/emacs-direnv)
 
 ### Install custom Go protobuf generators
-`make setup-protoc` to install custom Go protobuf generators (see [Protogen](https://github.com/altercpre/aparok-core/blob/main/docs/Protogen.md) for additional information)
+`make setup-protoc` to install custom Go protobuf generators (see [Protogen](https://github.com/anyproto/anytype-heart/blob/main/docs/Protogen.md) for additional information)
 
-### Build and install for the [desktop client](https://github.com/altercpre/anytype-ts)
+### Build and install for the [desktop client](https://github.com/anyproto/anytype-ts)
 `make install-dev-js` to install js protobuf plugins and then build the local server and copy it and protobuf binding into `../anytype-ts`
 
 Parameters:
-- `ANY_SYNC_NETWORK=/path/to/network.yml` — build using self-hosted [network configuration](https://tech.altercpre.w8n.pw/anytype-heart/configuration)
+- `ANY_SYNC_NETWORK=/path/to/network.yml` — build using self-hosted [network configuration](https://tech.anytype.io/anytype-heart/configuration)
 
 ### Build for iOS
-Instructions to set up environment for iOS: [here](https://github.com/altercpre/anytype-swift/blob/main/docs/Setup_For_Middleware.md)
+Instructions to set up environment for iOS: [here](https://github.com/anyproto/anytype-swift/blob/main/docs/Setup_For_Middleware.md)
 1. `make build-ios` to build the framework into `dist/ios` folder
 
    Parameters:
-    - `ANY_SYNC_NETWORK=/path/to/network.yml` — build using self-hosted [network configuration](https://tech.altercpre.w8n.pw/anytype-heart/configuration)
+    - `ANY_SYNC_NETWORK=/path/to/network.yml` — build using self-hosted [network configuration](https://tech.anytype.io/anytype-heart/configuration)
 2. `make protos-swift` to generate swift protobuf bindings into `dist/ios/pb`
 
 ### Build for Android
-Instructions to setup environment for Android: [here](https://github.com/altercpre/aparok-android/blob/main/docs/Setup_For_Middleware.md)
+Instructions to setup environment for Android: [here](https://github.com/anyproto/anytype-kotlin/blob/main/docs/Setup_For_Middleware.md)
 1. `make build-android` to build the library into `dist/android` folder
 
    Parameters:
-    - `ANY_SYNC_NETWORK=/path/to/network.yml` — build using self-hosted [network configuration](https://tech.altercpre.w8n.pw/anytype-heart/configuration)
+    - `ANY_SYNC_NETWORK=/path/to/network.yml` — build using self-hosted [network configuration](https://tech.anytype.io/anytype-heart/configuration)
 2. `make protos-java` to generate java protobuf bindings into `dist/android/pb`

@@ -12,14 +12,14 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
-	anycrypto "github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	anycrypto "github.com/anyproto/any-sync/util/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	apicore "github.com/altercpre/aparok-core/core/api/core"
-	"github.com/altercpre/aparok-core/core/block/source/sourceimpl"
-	"github.com/altercpre/aparok-core/pb"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
+	"github.com/anyproto/anytype-heart/core/block/source/sourceimpl"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 // fakeProvenanceTree serves changes the way objecttree.IterateFrom does:

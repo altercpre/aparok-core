@@ -14,10 +14,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/altercpre/aparok-core/core/api/pagination"
-	v2handler "github.com/altercpre/aparok-core/core/api/v2/handler"
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
+	"github.com/anyproto/anytype-heart/core/api/pagination"
+	v2handler "github.com/anyproto/anytype-heart/core/api/v2/handler"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
 )
 
 // C10 pagination bounds for /v2. The default page size is v2's own contract

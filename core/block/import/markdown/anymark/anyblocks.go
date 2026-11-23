@@ -6,9 +6,9 @@ import (
 
 	"github.com/gogo/protobuf/types"
 
-	"github.com/altercpre/aparok-core/pkg/lib/mill"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/util/pbtypes"
+	"github.com/anyproto/anytype-heart/pkg/lib/mill"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
 )
 
 func preprocessBlocks(blocks []*model.Block) (blocksOut []*model.Block) {

@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/cmd/apiv2eval/heartboot"
-	"github.com/altercpre/aparok-core/core/api/wrapper"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/cmd/apiv2eval/heartboot"
+	"github.com/anyproto/anytype-heart/core/api/wrapper"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 // typedDocument is the envelope member the eval's document struct leaves out.

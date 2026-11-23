@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 
-	"github.com/altercpre/aparok-core/space"
-	"github.com/altercpre/aparok-core/space/techspace"
+	"github.com/anyproto/anytype-heart/space"
+	"github.com/anyproto/anytype-heart/space/techspace"
 )
 
 const CName = "core.block.personalfavorites"

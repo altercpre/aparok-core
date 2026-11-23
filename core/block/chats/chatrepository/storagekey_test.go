@@ -9,15 +9,15 @@ import (
 	"strings"
 	"testing"
 
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-store/v2/anyenc"
-	"github.com/altercpre/aparok-store/v2/query"
-	"github.com/altercpre/lexid"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/query"
+	"github.com/anyproto/lexid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // cid returns a message id shaped like a change CID (59 characters), unique for i and differing

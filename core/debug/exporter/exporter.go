@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	anystore "github.com/altercpre/aparok-store"
-	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
-	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
-	"github.com/altercpre/aparok-sync/consensus/consensusproto"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	anystore "github.com/anyproto/any-store"
+	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
+	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
+	"github.com/anyproto/any-sync/consensus/consensusproto"
+	"github.com/anyproto/any-sync/util/crypto"
 	"golang.org/x/exp/slices"
 )
 

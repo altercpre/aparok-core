@@ -5,7 +5,7 @@ package v2model
 // Server-Sent Event, carrying space_id on every event.
 
 import (
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // The space stream's own event types. Message events reuse the per-chat

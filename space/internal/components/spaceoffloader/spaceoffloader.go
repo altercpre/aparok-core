@@ -23,16 +23,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/space/deletioncontroller"
-	"github.com/altercpre/aparok-core/space/internal/components/dependencies"
-	"github.com/altercpre/aparok-core/space/internal/components/spacestatus"
-	"github.com/altercpre/aparok-core/space/internal/spaceprocess/mode"
-	"github.com/altercpre/aparok-core/space/spacecore/storage"
-	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/anyproto/anytype-heart/space/deletioncontroller"
+	"github.com/anyproto/anytype-heart/space/internal/components/dependencies"
+	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus"
+	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/mode"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage"
+	"github.com/anyproto/anytype-heart/space/spaceinfo"
 )
 
 const CName = "client.components.spaceoffloader"

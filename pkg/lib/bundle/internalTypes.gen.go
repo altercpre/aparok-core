@@ -4,7 +4,7 @@ source: pkg/lib/bundle/internalTypes.json
 */
 package bundle
 
-import domain "github.com/altercpre/aparok-core/core/domain"
+import domain "github.com/anyproto/anytype-heart/core/domain"
 
 const InternalTypesChecksum = "b570a9c246c367bd1853b487263b1094fcca36928b08983da8e1e6f47c926554"
 

@@ -10,10 +10,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
-	"github.com/altercpre/aparok-core/core/domain/objectorigin"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 var update = flag.Bool("update", false, "regenerate golden files")
@@ -43,7 +43,7 @@ func TestGoldenBasicImport(t *testing.T) {
 	// given — a small workspace: front-matter, cross links, an image, a csv
 	// collection with its directory pages.
 	root := writeTree(t, map[string]string{
-		"index.md":        "---\nAuthor: Roman\nMood: [happy, calm]\ntype: Zettel\n---\n# Home\n\nSee [Note](notes/first.md) and ![pic](assets/logo.png)\n\n[Site](https://altercpre.w8n.pw)\n",
+		"index.md":        "---\nAuthor: Roman\nMood: [happy, calm]\ntype: Zettel\n---\n# Home\n\nSee [Note](notes/first.md) and ![pic](assets/logo.png)\n\n[Site](https://anytype.io)\n",
 		"notes/first.md":  "# First Note\n\nBack to [Home](../index.md)\n",
 		"assets/logo.png": "png-bytes",
 		"Tasks.csv":       "Name\n",

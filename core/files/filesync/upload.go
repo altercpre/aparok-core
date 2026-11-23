@@ -7,21 +7,21 @@ import (
 	"strings"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonfile/fileproto"
-	"github.com/altercpre/aparok-sync/commonfile/fileproto/fileprotoerr"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
-	"github.com/altercpre/aparok-sync/net"
-	"github.com/altercpre/aparok-sync/net/peer"
+	"github.com/anyproto/any-sync/commonfile/fileproto"
+	"github.com/anyproto/any-sync/commonfile/fileproto/fileprotoerr"
+	"github.com/anyproto/any-sync/commonspace/spacestorage"
+	"github.com/anyproto/any-sync/net"
+	"github.com/anyproto/any-sync/net/peer"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/event"
-	rpcstore2 "github.com/altercpre/aparok-core/core/files/filestorage/rpcstore"
-	"github.com/altercpre/aparok-core/core/files/filesync/filequeue"
-	"github.com/altercpre/aparok-core/core/syncstatus/filesyncstatus"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/event"
+	rpcstore2 "github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore"
+	"github.com/anyproto/anytype-heart/core/files/filesync/filequeue"
+	"github.com/anyproto/anytype-heart/core/syncstatus/filesyncstatus"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 type AddFileRequest struct {

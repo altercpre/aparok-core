@@ -33,22 +33,22 @@ import (
 	"strings"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/debugstat"
-	"github.com/altercpre/aparok-sync/commonspace/objecttreebuilder"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/debugstat"
+	"github.com/anyproto/any-sync/commonspace/objecttreebuilder"
 	"github.com/go-chi/chi/v5"
 	"github.com/gogo/protobuf/jsonpb"
 
-	"github.com/altercpre/aparok-core/core/block/cache"
-	"github.com/altercpre/aparok-core/core/block/editor/anystoredebug"
-	"github.com/altercpre/aparok-core/core/block/editor/state"
-	"github.com/altercpre/aparok-core/core/block/object/idresolver"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore/spaceindex"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/space"
+	"github.com/anyproto/anytype-heart/core/block/cache"
+	"github.com/anyproto/anytype-heart/core/block/editor/anystoredebug"
+	"github.com/anyproto/anytype-heart/core/block/editor/state"
+	"github.com/anyproto/anytype-heart/core/block/object/idresolver"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore/spaceindex"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/space"
 )
 
 const CName = "debug"
@@ -60,8 +60,8 @@ yamux://prod-any-sync-coordinator1.anyclub.org:443,
 yamux://prod-any-sync-coordinator1.anyclub.org:1443,
 yamux://prod-any-sync-coordinator1.toolpad.org:443,
 yamux://prod-any-sync-coordinator1.toolpad.org:1443,
-yamux://prod-any-sync-coordinator1.altercpre.w8n.pw:443,
-yamux://prod-any-sync-coordinator1.altercpre.w8n.pw:1443,
+yamux://prod-any-sync-coordinator1.anytype.io:443,
+yamux://prod-any-sync-coordinator1.anytype.io:1443,
 quic://prod-any-sync-coordinator1.anyclub.org:5430
 `
 

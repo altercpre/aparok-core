@@ -9,8 +9,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/altercpre/goheif"
-	"github.com/altercpre/goheif/heif"
+	"github.com/anyproto/goheif"
+	"github.com/anyproto/goheif/heif"
 
 	"github.com/kovidgoyal/imaging"
 )

@@ -17,9 +17,9 @@ import (
 	"go.abhg.dev/goldmark/wikilink"
 	"golang.org/x/net/html"
 
-	"github.com/altercpre/aparok-core/core/block/editor/table"
-	"github.com/altercpre/aparok-core/core/block/import/markdown/anymark/whitespace"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/editor/table"
+	"github.com/anyproto/anytype-heart/core/block/import/markdown/anymark/whitespace"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 var (

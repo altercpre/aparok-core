@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/space/deletioncontroller/mock_deletioncontroller"
-	"github.com/altercpre/aparok-core/space/internal/components/dependencies/mock_dependencies"
-	"github.com/altercpre/aparok-core/space/internal/components/spacestatus/mock_spacestatus"
-	"github.com/altercpre/aparok-core/space/spacecore/storage"
-	"github.com/altercpre/aparok-core/space/spacecore/storage/mock_storage"
-	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/anyproto/anytype-heart/space/deletioncontroller/mock_deletioncontroller"
+	"github.com/anyproto/anytype-heart/space/internal/components/dependencies/mock_dependencies"
+	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus/mock_spacestatus"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage/mock_storage"
+	"github.com/anyproto/anytype-heart/space/spaceinfo"
 )
 
 type fileOffloaderStub struct {

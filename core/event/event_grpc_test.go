@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pb/service"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pb/service"
 )
 
 // fakeStream implements service.ClientCommands_ListenSessionEventsServer; only

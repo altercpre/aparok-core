@@ -16,9 +16,9 @@ import (
 
 	"go.uber.org/zap"
 
-	apicore "github.com/altercpre/aparok-core/core/api/core"
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
 )
 
 // maxConcurrentSearchStreams caps open search streams process-wide,

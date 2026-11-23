@@ -1,7 +1,7 @@
 package dependencies
 
 import (
-	"github.com/altercpre/aparok-core/pkg/lib/threads"
+	"github.com/anyproto/anytype-heart/pkg/lib/threads"
 )
 
 type MigrationService interface {

@@ -1,7 +1,7 @@
 package spacecore
 
 import (
-	"github.com/altercpre/aparok-sync/commonspace/clientspaceproto"
+	"github.com/anyproto/any-sync/commonspace/clientspaceproto"
 )
 
 // The three steps of the SpaceExchangeV2 handshake, shared by the outbound

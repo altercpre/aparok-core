@@ -9,12 +9,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/block/import/common"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api/client"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api/property"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/core/block/import/common"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api/client"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api/property"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 func Test_handlePagePropertiesSelect(t *testing.T) {

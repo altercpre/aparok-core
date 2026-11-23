@@ -30,8 +30,8 @@ import (
 	"fmt"
 	"strings"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
 )
 
 // v2TypeShortcut is the flat type body. Every member maps to one slot of the

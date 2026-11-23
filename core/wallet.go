@@ -3,9 +3,9 @@ package core
 import (
 	"context"
 
-	"github.com/altercpre/aparok-core/core/application"
-	"github.com/altercpre/aparok-core/core/wallet"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/application"
+	"github.com/anyproto/anytype-heart/core/wallet"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func (mw *Middleware) WalletCreate(cctx context.Context, req *pb.RpcWalletCreateRequest) *pb.RpcWalletCreateResponse {

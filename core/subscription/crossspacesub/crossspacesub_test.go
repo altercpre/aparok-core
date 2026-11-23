@@ -14,11 +14,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/core/event/mock_event"
-	subscriptionservice "github.com/altercpre/aparok-core/core/subscription"
-	"github.com/altercpre/aparok-core/core/subscription/mock_subscription"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/core/event/mock_event"
+	subscriptionservice "github.com/anyproto/anytype-heart/core/subscription"
+	"github.com/anyproto/anytype-heart/core/subscription/mock_subscription"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func newBareCrossSpaceSub(t *testing.T, ms subscriptionservice.Service, pending ...string) *crossSpaceSubscription {

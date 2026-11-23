@@ -4,17 +4,17 @@ import (
 	"context"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/anyproto/any-sync/app/logger"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"golang.org/x/exp/slices"
 
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	mock_space "github.com/altercpre/aparok-core/space/clientspace/mock_clientspace"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	mock_space "github.com/anyproto/anytype-heart/space/clientspace/mock_clientspace"
 )
 
 func TestFixReadonlyInRelations(t *testing.T) {

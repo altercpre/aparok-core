@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"testing"
 
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-store/v2/anyenc"
-	"github.com/altercpre/aparok-store/v2/query"
-	"github.com/altercpre/aparok-store/v2/syncpool"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/query"
+	"github.com/anyproto/any-store/v2/syncpool"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 func listIdsFromFullTextQueueAll(ftqueue anystore.Collection, spaceIds []string, limit uint) ([]domain.FullID, error) {

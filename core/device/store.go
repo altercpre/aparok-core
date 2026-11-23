@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	anystore "github.com/altercpre/aparok-store/v2"
+	anystore "github.com/anyproto/any-store/v2"
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/util/keyvaluestore"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/util/keyvaluestore"
 )
 
 type Store interface {

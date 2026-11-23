@@ -4,15 +4,15 @@ import (
 	"context"
 	"sort"
 
-	anystore "github.com/altercpre/aparok-store/v2"
+	anystore "github.com/anyproto/any-store/v2"
 	"github.com/gogo/protobuf/types"
 
-	"github.com/altercpre/aparok-core/core/block/chats"
-	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
-	"github.com/altercpre/aparok-core/core/block/chats/chatrepository"
-	"github.com/altercpre/aparok-core/core/indexer"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/chats"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatrepository"
+	"github.com/anyproto/anytype-heart/core/indexer"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 func (mw *Middleware) ChatAddMessage(cctx context.Context, req *pb.RpcChatAddMessageRequest) *pb.RpcChatAddMessageResponse {

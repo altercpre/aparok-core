@@ -9,17 +9,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage/oldstorage"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	"github.com/anyproto/any-sync/commonspace/spacestorage"
+	"github.com/anyproto/any-sync/commonspace/spacestorage/oldstorage"
 	"github.com/globalsign/mgo/bson"
 	"github.com/mattn/go-sqlite3"
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain"
 )
 
 var ErrLocked = errors.New("space storage locked")

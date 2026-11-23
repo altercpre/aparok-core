@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/util/anyerror"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/util/anyerror"
 )
 
 var log = logging.Logger("import")

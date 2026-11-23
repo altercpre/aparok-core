@@ -19,12 +19,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage/oldstorage"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/commonspace/spacestorage/oldstorage"
 
-	"github.com/altercpre/aparok-core/space/spacecore/storage"
-	"github.com/altercpre/aparok-core/space/spacecore/storage/badgerstorage"
-	"github.com/altercpre/aparok-core/space/spacecore/storage/sqlitestorage"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage/badgerstorage"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage/sqlitestorage"
 )
 
 type SpaceStorageMode int

@@ -60,7 +60,7 @@ bundle representation of personal widgets.
   auto-widget code and both bundled relations were deleted. any-block still
   round-trips them.
 
-The codec (`github.com/altercpre/aparok-block/codec/anyblockjson`) exports
+The codec (`github.com/anyproto/any-block/codec/anyblockjson`) exports
 `Widget`, `Index`, the target spelling maps and predicates,
 `IndexFromWidgetObject` (fail-closed, writes nothing on any surprise) and
 `WidgetsSnapshot`. The four enum vocabularies (`widgetLayoutNames`,

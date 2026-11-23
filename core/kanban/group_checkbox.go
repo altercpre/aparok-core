@@ -3,8 +3,8 @@ package kanban
 import (
 	"fmt"
 
-	"github.com/altercpre/aparok-core/pkg/lib/database"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 type GroupCheckBox struct {

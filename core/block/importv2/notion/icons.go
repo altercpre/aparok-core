@@ -3,8 +3,8 @@ package notion
 import (
 	"strings"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 // Notion's built-in icon picker (API 2025-09-03) reports a NAMED icon:

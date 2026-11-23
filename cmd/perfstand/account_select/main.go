@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/altercpre/aparok-core/cmd/perfstand/internal"
+	"github.com/anyproto/anytype-heart/cmd/perfstand/internal"
 )
 
 const AccountSelect = "AccountSelect"

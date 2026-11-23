@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/block/cache/mock_cache"
-	"github.com/altercpre/aparok-core/core/block/editor"
-	"github.com/altercpre/aparok-core/core/block/editor/order"
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock/smarttest"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/core/block/cache/mock_cache"
+	"github.com/anyproto/anytype-heart/core/block/editor"
+	"github.com/anyproto/anytype-heart/core/block/editor/order"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock/smarttest"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 func TestReorder(t *testing.T) {

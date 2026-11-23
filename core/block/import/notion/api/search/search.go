@@ -8,9 +8,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/altercpre/aparok-core/core/block/import/notion/api/client"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api/database"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api/page"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api/client"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api/database"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api/page"
 )
 
 const (

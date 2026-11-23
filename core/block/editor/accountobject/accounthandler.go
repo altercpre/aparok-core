@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/altercpre/aparok-store/v2/anyenc"
-	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/query"
 
-	"github.com/altercpre/aparok-core/core/block/editor/storestate"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/block/editor/storestate"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 type accountHandler struct {

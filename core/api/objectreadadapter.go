@@ -5,18 +5,18 @@ import (
 	"errors"
 	"fmt"
 
-	anystore "github.com/altercpre/aparok-store"
-	"github.com/altercpre/aparok-sync/commonspace/headsync/headstorage"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	anystore "github.com/anyproto/any-store"
+	"github.com/anyproto/any-sync/commonspace/headsync/headstorage"
+	"github.com/anyproto/any-sync/commonspace/spacestorage"
 
-	apicore "github.com/altercpre/aparok-core/core/api/core"
-	"github.com/altercpre/aparok-core/core/block/cache"
-	"github.com/altercpre/aparok-core/core/block/editor/blockcollection"
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/space/clientspace"
-	"github.com/altercpre/aparok-core/util/pbtypes"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
+	"github.com/anyproto/anytype-heart/core/block/cache"
+	"github.com/anyproto/anytype-heart/core/block/editor/blockcollection"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
 )
 
 // objectReadAdapter implements apicore.ObjectReader over the block service's

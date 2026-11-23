@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pb/service"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pb/service"
 )
 
 type eventReceiver struct {

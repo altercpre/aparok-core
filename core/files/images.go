@@ -8,10 +8,10 @@ import (
 	uio "github.com/ipfs/boxo/ipld/unixfs/io"
 	ipld "github.com/ipfs/go-ipld-format"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/ipfs/helpers"
-	"github.com/altercpre/aparok-core/pkg/lib/mill/schema"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/storage"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/ipfs/helpers"
+	"github.com/anyproto/anytype-heart/pkg/lib/mill/schema"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/storage"
 )
 
 func (s *service) ImageAdd(ctx context.Context, spaceId string, options ...AddOption) (*AddResult, error) {

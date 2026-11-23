@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/event/mock_event"
-	"github.com/altercpre/aparok-core/core/files/filestorage/rpcstore/mock_rpcstore"
-	"github.com/altercpre/aparok-core/core/syncstatus/filesyncstatus"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/event/mock_event"
+	"github.com/anyproto/anytype-heart/core/files/filestorage/rpcstore/mock_rpcstore"
+	"github.com/anyproto/anytype-heart/core/syncstatus/filesyncstatus"
 )
 
 func TestUpdateStatus(t *testing.T) {

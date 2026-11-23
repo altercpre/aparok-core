@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-core/core/ai/llmclient"
-	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan"
-	"github.com/altercpre/aparok-core/core/block/importv2/typesuggest"
+	"github.com/anyproto/anytype-heart/core/ai/llmclient"
+	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan"
+	"github.com/anyproto/anytype-heart/core/block/importv2/typesuggest"
 )
 
 // defaultBudget bounds the whole plan step, retries included — an import

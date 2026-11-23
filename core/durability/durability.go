@@ -20,15 +20,15 @@ Flush order: space stores first (critical data), then objectstore (can be reinde
 import (
 	"time"
 
-	anystore "github.com/altercpre/aparok-store"
-	anystorev2 "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-sync/app"
+	anystore "github.com/anyproto/any-store"
+	anystorev2 "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-sync/app"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoreprovider"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/space/spacecore"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoreprovider"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/space/spacecore"
 )
 
 const CName = "durability"

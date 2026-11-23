@@ -3,11 +3,11 @@ package invitecleanup
 import (
 	"testing"
 
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/util/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 const testSpaceId = "spaceId"

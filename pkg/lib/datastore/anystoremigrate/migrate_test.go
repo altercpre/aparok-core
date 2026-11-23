@@ -8,14 +8,14 @@ import (
 	"sync"
 	"testing"
 
-	anystorev1 "github.com/altercpre/aparok-store"
-	v1enc "github.com/altercpre/aparok-store/anyenc"
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-store/v2/anyenc"
+	anystorev1 "github.com/anyproto/any-store"
+	v1enc "github.com/anyproto/any-store/anyenc"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-store/v2/anyenc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
 )
 
 var ctx = context.Background()

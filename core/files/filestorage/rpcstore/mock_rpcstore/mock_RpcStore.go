@@ -8,9 +8,9 @@ import (
 
 	context "context"
 
-	domain "github.com/altercpre/aparok-core/core/domain"
+	domain "github.com/anyproto/anytype-heart/core/domain"
 
-	fileproto "github.com/altercpre/aparok-sync/commonfile/fileproto"
+	fileproto "github.com/anyproto/any-sync/commonfile/fileproto"
 
 	mock "github.com/stretchr/testify/mock"
 )

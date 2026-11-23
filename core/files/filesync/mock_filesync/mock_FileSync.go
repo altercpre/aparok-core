@@ -5,11 +5,11 @@ package mock_filesync
 import (
 	context "context"
 
-	app "github.com/altercpre/aparok-sync/app"
+	app "github.com/anyproto/any-sync/app"
 
-	domain "github.com/altercpre/aparok-core/core/domain"
+	domain "github.com/anyproto/anytype-heart/core/domain"
 
-	filesync "github.com/altercpre/aparok-core/core/files/filesync"
+	filesync "github.com/anyproto/anytype-heart/core/files/filesync"
 
 	http "net/http"
 

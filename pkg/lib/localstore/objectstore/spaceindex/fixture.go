@@ -8,18 +8,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-store/v2/query"
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-store/v2/query"
+	"github.com/anyproto/any-sync/app"
 	"github.com/samber/lo"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/wallet"
-	"github.com/altercpre/aparok-core/core/wallet/mock_wallet"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
-	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoreprovider"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/ftsearch"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/wallet"
+	"github.com/anyproto/anytype-heart/core/wallet/mock_wallet"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoreprovider"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/ftsearch"
 )
 
 var ctx = context.Background()

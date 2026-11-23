@@ -3,7 +3,7 @@ package crossspacesub
 import (
 	"time"
 
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 const (

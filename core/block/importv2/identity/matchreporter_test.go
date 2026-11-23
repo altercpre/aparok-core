@@ -1,8 +1,8 @@
 package identity
 
 import (
-	"github.com/altercpre/aparok-core/core/block/importv2/persist"
-	"github.com/altercpre/aparok-core/core/block/importv2/resolve"
+	"github.com/anyproto/anytype-heart/core/block/importv2/persist"
+	"github.com/anyproto/anytype-heart/core/block/importv2/resolve"
 )
 
 // The resolver drops createdInContextRef into matched parents only through

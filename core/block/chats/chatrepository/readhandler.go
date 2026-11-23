@@ -1,10 +1,10 @@
 package chatrepository
 
 import (
-	"github.com/altercpre/aparok-store/v2/anyenc"
-	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/anyproto/any-store/v2/anyenc"
+	"github.com/anyproto/any-store/v2/query"
 
-	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/altercpre/aparok-core/pkg/lib/core/smartblock"
+	"github.com/anyproto/anytype-heart/pkg/lib/core/smartblock"
 )
 
 const uniqueKeySeparator = "-"

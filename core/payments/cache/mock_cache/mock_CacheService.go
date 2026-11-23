@@ -5,12 +5,12 @@ package mock_cache
 import (
 	context "context"
 
-	app "github.com/altercpre/aparok-sync/app"
-	cache "github.com/altercpre/aparok-core/core/payments/cache"
+	app "github.com/anyproto/any-sync/app"
+	cache "github.com/anyproto/anytype-heart/core/payments/cache"
 
 	mock "github.com/stretchr/testify/mock"
 
-	model "github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	model "github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 
 	time "time"
 )

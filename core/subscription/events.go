@@ -6,9 +6,9 @@ import (
 
 	"github.com/cheggaaa/mb/v3"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 // Neutral transition ops produced by coreSubs under the space mutex and

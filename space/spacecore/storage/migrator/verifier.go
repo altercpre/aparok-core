@@ -9,16 +9,16 @@ import (
 	"slices"
 	"time"
 
-	anystore "github.com/altercpre/aparok-store"
-	"github.com/altercpre/aparok-store/query"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
-	oldstorage2 "github.com/altercpre/aparok-sync/commonspace/spacestorage/oldstorage"
+	anystore "github.com/anyproto/any-store"
+	"github.com/anyproto/any-store/query"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/anyproto/any-sync/commonspace/spacestorage"
+	oldstorage2 "github.com/anyproto/any-sync/commonspace/spacestorage/oldstorage"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore/spaceresolverstore"
-	"github.com/altercpre/aparok-core/space/spacecore/oldstorage"
-	"github.com/altercpre/aparok-core/space/spacecore/storage"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore/spaceresolverstore"
+	"github.com/anyproto/anytype-heart/space/spacecore/oldstorage"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage"
 )
 
 type verifier struct {

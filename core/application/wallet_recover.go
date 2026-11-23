@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/core"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/core"
 )
 
 func (s *Service) WalletRecover(req *pb.RpcWalletRecoverRequest) error {

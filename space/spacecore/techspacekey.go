@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/altercpre/aparok-sync/commonspace/clientspaceproto"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/recordverifier"
-	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/anyproto/any-sync/commonspace/clientspaceproto"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/object/acl/recordverifier"
+	"github.com/anyproto/any-sync/consensus/consensusproto"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/space/spacedomain"
+	"github.com/anyproto/anytype-heart/space/spacedomain"
 )
 
 // GO-7492: a cold device has no space storage, so AllSpaceIds is empty and

@@ -11,16 +11,16 @@ import (
 	"testing"
 	"time"
 
-	anystore "github.com/altercpre/aparok-store"
-	"github.com/altercpre/aparok-sync/commonspace/spacepayloads"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
-	"github.com/altercpre/aparok-sync/util/crypto"
-	"github.com/altercpre/go-sqlite"
-	"github.com/altercpre/go-sqlite/sqlitex"
+	anystore "github.com/anyproto/any-store"
+	"github.com/anyproto/any-sync/commonspace/spacepayloads"
+	"github.com/anyproto/any-sync/commonspace/spacestorage"
+	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/anyproto/go-sqlite"
+	"github.com/anyproto/go-sqlite/sqlitex"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/space/spacedomain"
+	"github.com/anyproto/anytype-heart/space/spacedomain"
 )
 
 func newCreatePayload(t *testing.T) spacestorage.SpaceStorageCreatePayload {

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonfile/fileproto"
+	"github.com/anyproto/any-sync/commonfile/fileproto"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/ipfs/go-cid"
 	"github.com/ipfs/go-datastore"
@@ -18,8 +18,8 @@ import (
 	format "github.com/ipfs/go-ipld-format"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 type flatStore struct {

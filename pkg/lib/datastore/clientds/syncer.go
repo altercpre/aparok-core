@@ -7,7 +7,7 @@ import (
 
 	"github.com/dgraph-io/badger/v4"
 
-	"github.com/altercpre/aparok-core/util/badgerhelper"
+	"github.com/anyproto/anytype-heart/util/badgerhelper"
 )
 
 // SyncDbAfterInactivity shows the minimum time after db was changed to call db.Sync

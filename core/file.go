@@ -6,15 +6,15 @@ import (
 
 	"github.com/gogo/protobuf/types"
 
-	"github.com/altercpre/aparok-core/core/block"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/domain/objectorigin"
-	"github.com/altercpre/aparok-core/core/files/filedownloader"
-	"github.com/altercpre/aparok-core/core/files/fileobject"
-	"github.com/altercpre/aparok-core/core/files/fileoffloader"
-	"github.com/altercpre/aparok-core/core/files/filespaceusage"
-	"github.com/altercpre/aparok-core/core/files/reconciler"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/block"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
+	"github.com/anyproto/anytype-heart/core/files/filedownloader"
+	"github.com/anyproto/anytype-heart/core/files/fileobject"
+	"github.com/anyproto/anytype-heart/core/files/fileoffloader"
+	"github.com/anyproto/anytype-heart/core/files/filespaceusage"
+	"github.com/anyproto/anytype-heart/core/files/reconciler"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func (mw *Middleware) FileDownload(cctx context.Context, req *pb.RpcFileDownloadRequest) *pb.RpcFileDownloadResponse {

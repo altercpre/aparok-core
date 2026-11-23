@@ -16,12 +16,12 @@ Scope: global
 import (
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/nodeconf"
-	libslice "github.com/altercpre/aparok-sync/util/slice"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/nodeconf"
+	libslice "github.com/anyproto/any-sync/util/slice"
 	"golang.org/x/exp/slices"
 
-	"github.com/altercpre/aparok-core/util/slice"
+	"github.com/anyproto/anytype-heart/util/slice"
 )
 
 const CName = "client.space.peerstore"

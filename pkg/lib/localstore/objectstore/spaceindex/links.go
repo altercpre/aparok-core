@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-store/v2/query"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-store/v2/query"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 const (

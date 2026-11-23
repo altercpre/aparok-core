@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/api/filter/mock_filter"
-	apimodel "github.com/altercpre/aparok-core/core/api/model"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/api/filter/mock_filter"
+	apimodel "github.com/anyproto/anytype-heart/core/api/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 func createMockContext(queryString string) *gin.Context {

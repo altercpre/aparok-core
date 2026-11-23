@@ -6,7 +6,7 @@ import "C"
 import (
 	"net"
 
-	"github.com/altercpre/aparok-core/net/addrs"
+	"github.com/anyproto/anytype-heart/net/addrs"
 )
 
 type InterfaceAddr interface {

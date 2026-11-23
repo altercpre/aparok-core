@@ -4,19 +4,19 @@ import (
 	"context"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/commonfile/fileservice"
-	"github.com/altercpre/aparok-sync/coordinator/coordinatorclient/mock_coordinatorclient"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/commonfile/fileservice"
+	"github.com/anyproto/any-sync/coordinator/coordinatorclient/mock_coordinatorclient"
+	"github.com/anyproto/any-sync/util/crypto"
 	blocks "github.com/ipfs/go-block-format"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 
-	"github.com/altercpre/aparok-core/core/files/filestorage"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/space/mock_space"
-	"github.com/altercpre/aparok-core/tests/testutil"
+	"github.com/anyproto/anytype-heart/core/files/filestorage"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/space/mock_space"
+	"github.com/anyproto/anytype-heart/tests/testutil"
 )
 
 type fixture struct {

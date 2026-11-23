@@ -1,7 +1,7 @@
 package syncer
 
 import (
-	"github.com/altercpre/aparok-core/core/block/simple"
+	"github.com/anyproto/anytype-heart/core/block/simple"
 )
 
 type Factory struct {

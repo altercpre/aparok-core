@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/anyproto/any-store/v2/query"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/files/filesync/filequeue"
-	"github.com/altercpre/aparok-core/core/syncstatus/filesyncstatus"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/files/filesync/filequeue"
+	"github.com/anyproto/anytype-heart/core/syncstatus/filesyncstatus"
 )
 
 func TestAddToLimitedQueue(t *testing.T) {

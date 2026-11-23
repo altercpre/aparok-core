@@ -1,7 +1,7 @@
 package subscription
 
 import (
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 // EventMatcher dispatches subscription event messages to per-type callbacks.

@@ -352,7 +352,7 @@ Emit instead, only when the presented credential is a legacy unscoped key:
 ```
 Anytype-Key-Status: legacy
 Anytype-Notice: This API key is a legacy unscoped key with access to every space. It will keep working. Re-issue it as a scoped key in Settings > API Keys.
-Link: <https://developers.altercpre.w8n.pw/docs/api-keys>; rel="deprecation"; type="text/html"
+Link: <https://developers.anytype.io/docs/api-keys>; rel="deprecation"; type="text/html"
 ```
 
 `Anytype-Key-Status` names the *credential* (the thing that is actually
@@ -428,6 +428,6 @@ the UI). Land 1–5 in one release train.
 4. `ensureSpaceGrant` + global-route registry + conformance test.
 5. Fan-out constraint + `ensureSpace` backstop.
 6. `whoami`.
-7. Docs: developers.altercpre.w8n.pw key-scoping section; fix the Raycast
+7. Docs: developers.anytype.io key-scoping section; fix the Raycast
    "limited access" pairing copy; steer autonomous agents to `anytype-cli`
    bot accounts as the stronger boundary.

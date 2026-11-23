@@ -4,10 +4,10 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
 )
 
 // GO-7492 part 3: a LAN peer whose v2 exchange proves it holds our tech space

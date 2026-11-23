@@ -3,7 +3,7 @@
 package mock_clientspace
 
 import (
-	clientspace "github.com/altercpre/aparok-core/space/clientspace"
+	clientspace "github.com/anyproto/anytype-heart/space/clientspace"
 	mock "github.com/stretchr/testify/mock"
 )
 

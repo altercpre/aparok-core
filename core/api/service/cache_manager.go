@@ -3,8 +3,8 @@ package service
 import (
 	"sync"
 
-	apimodel "github.com/altercpre/aparok-core/core/api/model"
-	"github.com/altercpre/aparok-core/core/api/util"
+	apimodel "github.com/anyproto/anytype-heart/core/api/model"
+	"github.com/anyproto/anytype-heart/core/api/util"
 )
 
 // participantEntry caches the participant fields needed to enrich chat message

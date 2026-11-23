@@ -2,7 +2,7 @@
 
 Status: **draft**
 Depends on: AnyBlock JSON format version 2.0
-(`github.com/altercpre/aparok-block/format/v2/SPEC.md`).
+(`github.com/anyproto/any-block/format/v2/SPEC.md`).
 
 v1 (`/v1`) stays untouched for the deprecation window.
 
@@ -1542,7 +1542,7 @@ POST /v2/spaces/{space_id}/search/stream   # SSE; body = the space search reques
 ### Phase 5 — the task-tool wrapper (CLI + skill + on-device manifest)
 
 Built — `core/api/wrapper` (the tool table + manifest + runner) and
-`cmd/aparok` (the verb-set) + `cmd/aparok/SKILL.md`. The contract is §7.
+`cmd/anytype` (the verb-set) + `cmd/anytype/SKILL.md`. The contract is §7.
 
 The Phase-5 deliverable is the **task-tool wrapper**: the curated tool layer
 over `/v2`, delivered as (a) CLI verbs with AXI/Chow output conventions and
@@ -2047,7 +2047,7 @@ schemas follow C13.
    permanent delete.
 3. Benchmarks run once the harness + Phase 3a exist; gated items land in minor
    releases (additive to the closed op set).
-4. Phase 4, Phase 5 — shipped (`cmd/aparok` is the CLI). The v1 deprecation
+4. Phase 4, Phase 5 — shipped (`cmd/anytype` is the CLI). The v1 deprecation
    clock starts when the CLI ships in a release build.
 
 Each phase's exit criterion: its endpoints pass the harness's task set at

@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
-	anysyncpubsub "github.com/altercpre/aparok-sync/commonspace/pubsub"
-	"github.com/altercpre/aparok-sync/net/peer"
-	"github.com/altercpre/aparok-sync/net/rpc/rpctest"
-	"github.com/altercpre/aparok-sync/testutil/accounttest"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	anysyncpubsub "github.com/anyproto/any-sync/commonspace/pubsub"
+	"github.com/anyproto/any-sync/net/peer"
+	"github.com/anyproto/any-sync/net/rpc/rpctest"
+	"github.com/anyproto/any-sync/testutil/accounttest"
+	"github.com/anyproto/any-sync/util/crypto"
 	"github.com/stretchr/testify/require"
 )
 

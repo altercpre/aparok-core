@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/util/crypto"
 )
 
 const (

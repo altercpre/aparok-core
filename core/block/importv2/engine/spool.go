@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/altercpre/aparok-core/core/block/importv2"
+	"github.com/anyproto/anytype-heart/core/block/importv2"
 )
 
 // Spool is the pass-2 → pass-3 absorbing queue seam: pass 2 appends converted objects in emission

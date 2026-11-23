@@ -3,8 +3,8 @@ package core
 import (
 	"context"
 
-	"github.com/altercpre/aparok-core/core/publish"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/publish"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func (mw *Middleware) PublishingCreate(ctx context.Context, req *pb.RpcPublishingCreateRequest) *pb.RpcPublishingCreateResponse {

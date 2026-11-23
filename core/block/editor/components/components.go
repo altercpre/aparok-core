@@ -1,6 +1,6 @@
 package components
 
-import "github.com/altercpre/aparok-core/core/domain"
+import "github.com/anyproto/anytype-heart/core/domain"
 
 type SyncStatusHandler interface {
 	HandleSyncStatusUpdate(heads []string, status domain.ObjectSyncStatus, syncError domain.SyncError)

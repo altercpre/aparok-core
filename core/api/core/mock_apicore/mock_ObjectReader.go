@@ -5,7 +5,7 @@ package mock_apicore
 import (
 	context "context"
 
-	apicore "github.com/altercpre/aparok-core/core/api/core"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
 
 	mock "github.com/stretchr/testify/mock"
 )

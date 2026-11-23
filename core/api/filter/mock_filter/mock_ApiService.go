@@ -3,7 +3,7 @@
 package mock_filter
 
 import (
-	apimodel "github.com/altercpre/aparok-core/core/api/model"
+	apimodel "github.com/anyproto/anytype-heart/core/api/model"
 
 	mock "github.com/stretchr/testify/mock"
 )

@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
+	"github.com/anyproto/any-sync/util/crypto"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/space/spacedomain"
+	"github.com/anyproto/anytype-heart/space/spacedomain"
 )
 
 func Test_Payloads(t *testing.T) {

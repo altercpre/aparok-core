@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/altercpre/aparok-core/core/block/chats/chatmodel"
-	"github.com/altercpre/aparok-core/core/block/editor/storestate"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatmodel"
+	"github.com/anyproto/anytype-heart/core/block/editor/storestate"
 )
 
 func TestState(t *testing.T) {

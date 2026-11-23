@@ -7,19 +7,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/altercpre/go-naturaldate/v2"
+	"github.com/anyproto/go-naturaldate/v2"
 	"github.com/araddon/dateparse"
 
-	"github.com/altercpre/aparok-core/core/block/source"
-	"github.com/altercpre/aparok-core/core/block/source/sourceimpl"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/space"
-	"github.com/altercpre/aparok-core/util/dateutil"
-	"github.com/altercpre/aparok-core/util/pbtypes"
+	"github.com/anyproto/anytype-heart/core/block/source"
+	"github.com/anyproto/anytype-heart/core/block/source/sourceimpl"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/space"
+	"github.com/anyproto/anytype-heart/util/dateutil"
+	"github.com/anyproto/anytype-heart/util/pbtypes"
 )
 
 var literals []string

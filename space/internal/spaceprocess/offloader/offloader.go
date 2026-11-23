@@ -3,10 +3,10 @@ package offloader
 import (
 	"context"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 
-	"github.com/altercpre/aparok-core/space/internal/components/spaceoffloader"
-	"github.com/altercpre/aparok-core/space/internal/spaceprocess/mode"
+	"github.com/anyproto/anytype-heart/space/internal/components/spaceoffloader"
+	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/mode"
 )
 
 type Offloader interface {

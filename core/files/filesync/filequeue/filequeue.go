@@ -7,8 +7,8 @@ import (
 	"slices"
 	"time"
 
-	"github.com/altercpre/aparok-store/v2/query"
-	"github.com/altercpre/aparok-sync/app/logger"
+	"github.com/anyproto/any-store/v2/query"
+	"github.com/anyproto/any-sync/app/logger"
 	"github.com/globalsign/mgo/bson"
 )
 

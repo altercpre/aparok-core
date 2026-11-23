@@ -3,11 +3,11 @@ package objectcreator
 import (
 	"context"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
 
-	"github.com/altercpre/aparok-core/core/block/import/common"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/domain/objectorigin"
+	"github.com/anyproto/anytype-heart/core/block/import/common"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
 )
 
 type DataObject struct {

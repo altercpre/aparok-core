@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/net/addrs"
+	"github.com/anyproto/anytype-heart/net/addrs"
 )
 
 func ipNet(cidr string) *net.IPNet {

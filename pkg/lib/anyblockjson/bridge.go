@@ -1,5 +1,5 @@
 // Package anyblockjson is the Heart compatibility boundary for the portable
-// AnyBlock implementation owned by github.com/altercpre/aparok-block.
+// AnyBlock implementation owned by github.com/anyproto/any-block.
 //
 // Heart keeps its store resolvers and generated protobuf model. This package
 // converts only at that ownership boundary; format rules, schemas, validation,
@@ -13,11 +13,11 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/gogo/protobuf/types"
 
-	codec "github.com/altercpre/aparok-block/codec/anyblockjson"
-	externaldomain "github.com/altercpre/aparok-block/codec/anyblockjson/domain"
-	externalmodel "github.com/altercpre/aparok-block/format/v1/model"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	codec "github.com/anyproto/any-block/codec/anyblockjson"
+	externaldomain "github.com/anyproto/any-block/codec/anyblockjson/domain"
+	externalmodel "github.com/anyproto/any-block/format/v1/model"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 const (

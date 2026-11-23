@@ -7,20 +7,20 @@ import (
 	"slices"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
-	anysyncpubsub "github.com/altercpre/aparok-sync/commonspace/pubsub"
-	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
-	"github.com/altercpre/aparok-sync/net/pool"
-	"github.com/altercpre/aparok-sync/net/rpc/server"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/app"
+	anysyncpubsub "github.com/anyproto/any-sync/commonspace/pubsub"
+	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
+	"github.com/anyproto/any-sync/net/pool"
+	"github.com/anyproto/any-sync/net/rpc/server"
+	"github.com/anyproto/any-sync/util/crypto"
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/space"
-	"github.com/altercpre/aparok-core/space/spacecore"
-	"github.com/altercpre/aparok-core/space/spacecore/peerstore"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/space"
+	"github.com/anyproto/anytype-heart/space/spacecore"
+	"github.com/anyproto/anytype-heart/space/spacecore/peerstore"
 )
 
 const (

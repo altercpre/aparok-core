@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/altercpre/aparok-core/core/ai/llmclient"
-	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan"
-	"github.com/altercpre/aparok-core/core/block/importv2/typesuggest"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/ai/llmclient"
+	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan"
+	"github.com/anyproto/anytype-heart/core/block/importv2/typesuggest"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // Tier-3 planner: for context-starved runtimes (Apple FM ~4k

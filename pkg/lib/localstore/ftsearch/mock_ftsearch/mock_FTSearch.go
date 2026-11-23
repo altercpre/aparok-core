@@ -5,10 +5,10 @@ package mock_ftsearch
 import (
 	context "context"
 
-	app "github.com/altercpre/aparok-sync/app"
+	app "github.com/anyproto/any-sync/app"
 
-	ftsearch "github.com/altercpre/aparok-core/pkg/lib/localstore/ftsearch"
-	tantivycheck "github.com/altercpre/aparok-core/pkg/lib/localstore/ftsearch/tantivycheck"
+	ftsearch "github.com/anyproto/anytype-heart/pkg/lib/localstore/ftsearch"
+	tantivycheck "github.com/anyproto/anytype-heart/pkg/lib/localstore/ftsearch/tantivycheck"
 
 	mock "github.com/stretchr/testify/mock"
 )

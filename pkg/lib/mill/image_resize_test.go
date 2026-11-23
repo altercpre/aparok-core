@@ -16,7 +16,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/pkg/lib/mill/testdata"
+	"github.com/anyproto/anytype-heart/pkg/lib/mill/testdata"
 )
 
 var errFailedToFindExifMarker = fmt.Errorf("exif: failed to find exif intro marker")

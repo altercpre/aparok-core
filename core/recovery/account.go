@@ -3,9 +3,9 @@ package recovery
 import (
 	"errors"
 
-	"github.com/altercpre/aparok-sync/commonspace"
+	"github.com/anyproto/any-sync/commonspace"
 
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 // ErrAccountNotFound is a sentinel for upper layers to join into a start

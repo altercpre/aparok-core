@@ -6,11 +6,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	apicore "github.com/altercpre/aparok-core/core/api/core"
-	"github.com/altercpre/aparok-core/core/api/handler"
-	"github.com/altercpre/aparok-core/core/api/pagination"
-	apiv2 "github.com/altercpre/aparok-core/core/api/v2"
-	"github.com/altercpre/aparok-core/util/localorigin"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
+	"github.com/anyproto/anytype-heart/core/api/handler"
+	"github.com/anyproto/anytype-heart/core/api/pagination"
+	apiv2 "github.com/anyproto/anytype-heart/core/api/v2"
+	"github.com/anyproto/anytype-heart/util/localorigin"
 )
 
 const (
@@ -127,7 +127,7 @@ func createRateLimitMiddleware() gin.HandlerFunc {
 // registerDocumentationRoutes registers Swagger and OpenAPI documentation routes
 func (srv *Server) registerDocumentationRoutes(router *gin.Engine, openapiYAML []byte, openapiJSON []byte) {
 	router.GET("/swagger/*any", func(c *gin.Context) {
-		target := "https://developers.altercpre.w8n.pw/docs/reference"
+		target := "https://developers.anytype.io/docs/reference"
 		c.Redirect(http.StatusMovedPermanently, target)
 	})
 

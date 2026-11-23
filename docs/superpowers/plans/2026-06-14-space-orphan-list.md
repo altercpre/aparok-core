@@ -292,11 +292,11 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore/spaceindex"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore/spaceindex"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // OrphanReason explains why a root is orphaned. It is set on roots only; descendants carry
@@ -374,7 +374,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 // ids returns the ids of the items, for order-insensitive assertions.
@@ -887,9 +887,9 @@ func TestListOrphans_Ignored_Excluded_AndDropsSubtree(t *testing.T) {
 Add these imports to `orphanlist_test.go`:
 
 ```go
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 ```
 
 - [ ] **Step 10: Run the full objectgc suite**
@@ -1234,7 +1234,7 @@ func TestSetCreatedInContextIgnored_Reversible(t *testing.T) {
 ```
 
 Add the `state` import to `service_test.go`:
-`"github.com/altercpre/aparok-core/core/block/editor/state"`
+`"github.com/anyproto/anytype-heart/core/block/editor/state"`
 
 - [ ] **Step 2: Run it and watch it fail**
 
@@ -1321,7 +1321,7 @@ git add core/block/detailservice/ && git commit -m "GO-7323 Add detailservice.Se
 
 - [ ] **Step 1: Implement `ObjectCleanupSuggestions` in `core/object.go`**
 
-Append to `core/object.go` (imports needed: `github.com/altercpre/aparok-core/core/block/objectgc`, `github.com/altercpre/aparok-core/core/domain`, `github.com/gogo/protobuf/types`, `github.com/samber/lo`, `github.com/altercpre/aparok-core/util/slice`):
+Append to `core/object.go` (imports needed: `github.com/anyproto/anytype-heart/core/block/objectgc`, `github.com/anyproto/anytype-heart/core/domain`, `github.com/gogo/protobuf/types`, `github.com/samber/lo`, `github.com/anyproto/anytype-heart/util/slice`):
 
 ```go
 // defaultCleanupKeys is returned when the caller passes no keys.
@@ -1429,8 +1429,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 func TestCleanupKeys_EmptyRequest_UsesDefaultsPlusForced(t *testing.T) {

@@ -3,10 +3,10 @@ package linkpreview
 import (
 	"context"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	lru "github.com/hashicorp/golang-lru/v2"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 const (

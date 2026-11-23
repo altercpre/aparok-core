@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/altercpre/aparok-core/core/api/util"
+	"github.com/anyproto/anytype-heart/core/api/util"
 )
 
 // FilterOperator represents the logical operator for combining filters

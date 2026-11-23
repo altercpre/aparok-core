@@ -3,10 +3,10 @@ package core
 import (
 	"context"
 
-	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
+	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
 
-	"github.com/altercpre/aparok-core/core/pubsub"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/pubsub"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func (mw *Middleware) PubsubPublish(cctx context.Context, req *pb.RpcPubsubPublishRequest) *pb.RpcPubsubPublishResponse {

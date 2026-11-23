@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	textutil "github.com/altercpre/aparok-core/util/text"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	textutil "github.com/anyproto/anytype-heart/util/text"
 )
 
 // notionIdToken matches a bare Notion export id (the 32-hex suffix Notion

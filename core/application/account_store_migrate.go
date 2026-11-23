@@ -7,14 +7,14 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/aparok"
-	"github.com/altercpre/aparok-core/core/aparok/config"
-	"github.com/altercpre/aparok-core/core/application/accountdirlock"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/util/vcs"
+	"github.com/anyproto/anytype-heart/core/anytype"
+	"github.com/anyproto/anytype-heart/core/anytype/config"
+	"github.com/anyproto/anytype-heart/core/application/accountdirlock"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/util/vcs"
 )
 
 var (

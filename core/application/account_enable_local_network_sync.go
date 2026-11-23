@@ -1,9 +1,9 @@
 package application
 
 import (
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 
-	"github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
+	"github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
 )
 
 func (s *Service) EnableLocalNetworkSync() error {

@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"sync/atomic"
 
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 // ErrAlreadyInitialized is returned by Init when the process-global Params

@@ -10,7 +10,7 @@ package api
 // catches prose that arrives from a model comment rather than from a handler.
 //
 // v1 is deliberately not covered. Its document is already published at
-// developers.altercpre.w8n.pw; guarding it here would be a rewrite request for a
+// developers.anytype.io; guarding it here would be a rewrite request for a
 // document this package does not otherwise touch.
 
 import (

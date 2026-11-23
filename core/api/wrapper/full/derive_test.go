@@ -17,9 +17,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	v2service "github.com/altercpre/aparok-core/core/api/v2/service"
-	"github.com/altercpre/aparok-core/core/api/wrapper"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	v2service "github.com/anyproto/anytype-heart/core/api/v2/service"
+	"github.com/anyproto/anytype-heart/core/api/wrapper"
 )
 
 var update = flag.Bool("update", false, "rewrite the golden tools list")

@@ -3,7 +3,7 @@
 package mock_spacecore
 
 import (
-	commonspace "github.com/altercpre/aparok-sync/commonspace"
+	commonspace "github.com/anyproto/any-sync/commonspace"
 	mock "github.com/stretchr/testify/mock"
 )
 

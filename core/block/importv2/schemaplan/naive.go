@@ -3,7 +3,7 @@ package schemaplan
 import (
 	"context"
 
-	"github.com/altercpre/aparok-core/core/block/importv2/typesuggest"
+	"github.com/anyproto/anytype-heart/core/block/importv2/typesuggest"
 )
 
 // NewNaive wraps the typesuggest keyword/shape rules as a Planner: one type

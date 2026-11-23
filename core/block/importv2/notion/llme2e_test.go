@@ -20,12 +20,12 @@ import (
 	"gopkg.in/dnaeon/go-vcr.v4/pkg/cassette"
 	"gopkg.in/dnaeon/go-vcr.v4/pkg/recorder"
 
-	"github.com/altercpre/aparok-core/core/ai/llmclient"
-	importv2 "github.com/altercpre/aparok-core/core/block/importv2"
-	"github.com/altercpre/aparok-core/core/block/importv2/llmplan"
-	"github.com/altercpre/aparok-core/core/block/importv2/notion/client"
-	"github.com/altercpre/aparok-core/core/block/importv2/schemaplan"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/core/ai/llmclient"
+	importv2 "github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/anyproto/anytype-heart/core/block/importv2/llmplan"
+	"github.com/anyproto/anytype-heart/core/block/importv2/notion/client"
+	"github.com/anyproto/anytype-heart/core/block/importv2/schemaplan"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
 )
 
 // planArtifactPrefixes are the source-key prefixes of objects a plan brings

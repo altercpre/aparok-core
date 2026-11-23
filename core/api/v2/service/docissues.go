@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/altercpre/aparok-block/codec/anyblockjson"
+	"github.com/anyproto/any-block/codec/anyblockjson"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
 )
 
 // docissues.go turns the format's validation issues into the C6 shape and

@@ -5,10 +5,10 @@ package mock_invitecleanup
 import (
 	context "context"
 
-	app "github.com/altercpre/aparok-sync/app"
-	clientspace "github.com/altercpre/aparok-core/space/clientspace"
+	app "github.com/anyproto/any-sync/app"
+	clientspace "github.com/anyproto/anytype-heart/space/clientspace"
 
-	domain "github.com/altercpre/aparok-core/core/domain"
+	domain "github.com/anyproto/anytype-heart/core/domain"
 
 	mock "github.com/stretchr/testify/mock"
 )

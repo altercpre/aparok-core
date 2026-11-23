@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	"github.com/anyproto/any-sync/commonspace/spacestorage"
 
-	"github.com/altercpre/aparok-core/core/block/importv2"
-	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/anyproto/anytype-heart/core/block/importv2"
+	"github.com/anyproto/anytype-heart/core/domain"
 )
 
 // ledgerWriteTimeout bounds one detached effect write. Measured cost is

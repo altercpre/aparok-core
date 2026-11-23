@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
 )
 
 // routeSpeller re-spells the REST routes the document's prose names as the

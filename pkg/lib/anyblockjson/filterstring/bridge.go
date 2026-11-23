@@ -1,8 +1,8 @@
 // Package filterstring preserves Heart's former import path while the parser
-// is owned and implemented by github.com/altercpre/aparok-block.
+// is owned and implemented by github.com/anyproto/any-block.
 package filterstring
 
-import external "github.com/altercpre/aparok-block/codec/anyblockjson/filterstring"
+import external "github.com/anyproto/any-block/codec/anyblockjson/filterstring"
 
 const EBNF = external.EBNF
 

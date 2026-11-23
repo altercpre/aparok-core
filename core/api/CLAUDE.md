@@ -167,7 +167,7 @@ func ResourceActionHandler(s *service.Service) gin.HandlerFunc {
 
 2. **Mock Generation**: Use mockery with `.mockery.yaml` configuration
    ```yaml
-   github.com/altercpre/aparok-core/core/api/core:
+   github.com/anyproto/anytype-heart/core/api/core:
     interfaces:
       AccountService:
    ```

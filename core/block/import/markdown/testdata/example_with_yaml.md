@@ -9,8 +9,8 @@ End Date: 2023-06-01T14:30:00
 tags: [documentation, important, technical]
 completion: 75
 reviewed: false
-website: https://altercpre.w8n.pw
-email: contact@altercpre.w8n.pw
+website: https://anytype.io
+email: contact@anytype.io
 description: This is a longer description that contains more details about the project documentation. It should be imported as a longtext relation.
 Object Type: Task
 ---

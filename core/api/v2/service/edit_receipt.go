@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"maps"
 
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
 )
 
 // compactReceiptIDs uses the same export as a default GET, after all ops

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage/oldstorage"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	"github.com/anyproto/any-sync/commonspace/spacestorage/oldstorage"
 )
 
 func newTreeStorage(ss *spaceStorage, treeId string) (oldstorage.TreeStorage, error) {

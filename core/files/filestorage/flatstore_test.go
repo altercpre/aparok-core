@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/event/mock_event"
+	"github.com/anyproto/anytype-heart/core/event/mock_event"
 )
 
 func TestFlatstoreGarbageCollect(t *testing.T) {

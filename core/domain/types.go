@@ -1,6 +1,6 @@
 package domain
 
-import "github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
+import "github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
 
 type RelationKey string
 

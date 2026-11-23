@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/core"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/core"
 )
 
 const wordCount int = 12

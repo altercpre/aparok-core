@@ -3,7 +3,7 @@ package chatobject
 import (
 	"testing"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
 	"github.com/stretchr/testify/require"
 )
 

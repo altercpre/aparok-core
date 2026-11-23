@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/altercpre/aparok-core/core/aparok/account"
-	"github.com/altercpre/aparok-core/core/configfetcher"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/space/spacecore"
+	"github.com/anyproto/anytype-heart/core/anytype/account"
+	"github.com/anyproto/anytype-heart/core/configfetcher"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/space/spacecore"
 )
 
 var (

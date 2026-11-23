@@ -15,8 +15,8 @@ import (
 	"sort"
 	"strings"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	"github.com/altercpre/aparok-core/core/api/wrapper"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	"github.com/anyproto/anytype-heart/core/api/wrapper"
 )
 
 // The document shapes this file reads. Anything else in the document is

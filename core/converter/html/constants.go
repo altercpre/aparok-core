@@ -1,6 +1,6 @@
 package html
 
-import "github.com/altercpre/aparok-core/pkg/lib/pb/model"
+import "github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 
 const (
 	wrapCopyStart = `<html>

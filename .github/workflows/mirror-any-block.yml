@@ -40,8 +40,8 @@ jobs:
           [ -f "anytype-heart/$file" ] || continue
           sed -i -E '/"google\//! s#(import[[:space:]]+")([^"]*/)?([^"/]+\.proto")#\1format/v1/proto/\3#' "anytype-heart/$file"
           sed -i -E \
-            -e 's#^(option go_package = ")pkg/lib/pb/model(";)$#\1github.com/altercpre/aparok-block/format/v1/model\2#' \
-            -e 's#^(option go_package = ")pb(";)$#\1github.com/altercpre/aparok-block/format/v1/pb\2#' \
+            -e 's#^(option go_package = ")pkg/lib/pb/model(";)$#\1github.com/anyproto/any-block/format/v1/model\2#' \
+            -e 's#^(option go_package = ")pb(";)$#\1github.com/anyproto/any-block/format/v1/pb\2#' \
             "anytype-heart/$file"
         done
 
@@ -59,7 +59,7 @@ jobs:
             echo "::error file=$file::imports not mirrored to any-block: $(echo "$unmirrored" | tr '\n' ' ')"
             exit 1
           fi
-          if ! grep -q '^option go_package = "github.com/altercpre/aparok-block/format/v1/' "anytype-heart/$file"; then
+          if ! grep -q '^option go_package = "github.com/anyproto/any-block/format/v1/' "anytype-heart/$file"; then
             echo "::error file=$file::go_package was not remapped to any-block"
             exit 1
           fi
@@ -85,7 +85,7 @@ jobs:
       run: |
         set -eu
         cd any-block
-        git config --global user.email "association@altercpre.w8n.pw"
+        git config --global user.email "association@anytype.io"
         git config --global user.name "Any Association"
         git add format/v1/proto
         if git diff --cached --quiet; then

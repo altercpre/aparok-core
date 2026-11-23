@@ -20,9 +20,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoremigrate"
-	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoreprovider"
-	"github.com/altercpre/aparok-core/util/freespace"
+	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoremigrate"
+	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoreprovider"
+	"github.com/anyproto/anytype-heart/util/freespace"
 )
 
 type summary struct {

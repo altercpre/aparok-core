@@ -1,7 +1,7 @@
 package filesyncstatus
 
 import (
-	"github.com/altercpre/aparok-core/core/syncstatus/objectsyncstatus"
+	"github.com/anyproto/anytype-heart/core/syncstatus/objectsyncstatus"
 )
 
 type Status int

@@ -24,14 +24,14 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 
-	"github.com/altercpre/aparok-core/space/clientspace"
-	"github.com/altercpre/aparok-core/space/internal/components/builder"
-	"github.com/altercpre/aparok-core/space/internal/components/spacestatus"
-	spaceservice "github.com/altercpre/aparok-core/space/spacecore"
-	"github.com/altercpre/aparok-core/space/spacecore/storage"
-	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/anyproto/anytype-heart/space/internal/components/builder"
+	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus"
+	spaceservice "github.com/anyproto/anytype-heart/space/spacecore"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage"
+	"github.com/anyproto/anytype-heart/space/spaceinfo"
 )
 
 const CName = "client.components.spaceloader"

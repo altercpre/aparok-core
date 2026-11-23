@@ -155,15 +155,15 @@ jobs:
           INHOUSE_KEY: ${{ secrets.INHOUSE_KEY }}
         run: |
           GIT_SUMMARY=${{ steps.nightly_info.outputs.version }}
-          echo "FLAGS=-X github.com/altercpre/aparok-core/util/vcs.GitSummary=${GIT_SUMMARY} -X github.com/altercpre/aparok-core/metrics.DefaultInHouseKey=${INHOUSE_KEY} -X github.com/altercpre/aparok-core/util/unsplash.DefaultToken=${UNSPLASH_KEY}" >> $GITHUB_ENV
+          echo "FLAGS=-X github.com/anyproto/anytype-heart/util/vcs.GitSummary=${GIT_SUMMARY} -X github.com/anyproto/anytype-heart/metrics.DefaultInHouseKey=${INHOUSE_KEY} -X github.com/anyproto/anytype-heart/util/unsplash.DefaultToken=${UNSPLASH_KEY}" >> $GITHUB_ENV
 
           VERSION=${{ steps.nightly_info.outputs.version }}
-          echo "${{ secrets.STAGING_NODE_CONF }}" > ./core/aparok/config/nodes/custom.yml
+          echo "${{ secrets.STAGING_NODE_CONF }}" > ./core/anytype/config/nodes/custom.yml
 
           echo VERSION=${VERSION} >> $GITHUB_ENV
           echo BUILD_TAG_NETWORK=${{ github.event.inputs.build-tag-network || 'envproduction' }} >> $GITHUB_ENV
           echo MAVEN_ARTIFACT_VERSION=${VERSION} >> $GITHUB_ENV
-          echo GOPRIVATE=github.com/altercpre >> $GITHUB_ENV
+          echo GOPRIVATE=github.com/anyproto >> $GITHUB_ENV
           NDK28=$(ls -d ${ANDROID_HOME}/ndk/28.* 2>/dev/null | sort -V | tail -1)
           if [ -z "$NDK28" ]; then echo "ERROR: NDK 28.x not found"; ls ${ANDROID_HOME}/ndk/; exit 1; fi
           echo "Using NDK: $NDK28"

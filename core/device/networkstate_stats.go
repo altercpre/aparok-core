@@ -17,7 +17,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain"
 )
 
 // recoveryStats counts how the recovery mechanism is exercised. Every update

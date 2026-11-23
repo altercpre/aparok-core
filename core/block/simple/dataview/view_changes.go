@@ -3,9 +3,9 @@ package dataview
 import (
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/util/slice"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/util/slice"
 )
 
 func diffViewFields(a, b *model.BlockContentDataviewView) *pb.EventBlockDataviewViewUpdateFields {

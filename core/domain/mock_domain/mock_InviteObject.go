@@ -3,7 +3,7 @@
 package mock_domain
 
 import (
-	domain "github.com/altercpre/aparok-core/core/domain"
+	domain "github.com/anyproto/anytype-heart/core/domain"
 	mock "github.com/stretchr/testify/mock"
 )
 

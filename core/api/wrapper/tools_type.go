@@ -45,8 +45,8 @@ import (
 	"net/url"
 	"strings"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
 )
 
 // typePropertyFormats is the property-format enum the API PUBLISHES — the

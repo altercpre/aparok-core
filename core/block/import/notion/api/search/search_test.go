@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/altercpre/aparok-core/core/block/import/notion/api"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api/client"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api/database"
-	"github.com/altercpre/aparok-core/core/block/import/notion/api/files/mock_files"
-	"github.com/altercpre/aparok-core/core/block/process"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api/client"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api/database"
+	"github.com/anyproto/anytype-heart/core/block/import/notion/api/files/mock_files"
+	"github.com/anyproto/anytype-heart/core/block/process"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func Test_GetDatabaseSuccess(t *testing.T) {

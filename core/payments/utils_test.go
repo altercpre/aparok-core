@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	paymentserviceproto "github.com/altercpre/aparok-sync/paymentservice/paymentserviceproto"
+	paymentserviceproto "github.com/anyproto/any-sync/paymentservice/paymentserviceproto"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/nameservice"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/nameservice"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 func TestTierDataFieldParity(t *testing.T) {

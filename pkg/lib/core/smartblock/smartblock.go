@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 type SmartBlockType uint64

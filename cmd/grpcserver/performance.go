@@ -17,10 +17,10 @@ import (
 	"github.com/shirou/gopsutil/v4/cpu"
 	"github.com/shirou/gopsutil/v4/process"
 
-	"github.com/altercpre/aparok-core/core"
-	"github.com/altercpre/aparok-core/core/aparok/config"
-	"github.com/altercpre/aparok-core/core/aparok/config/loadenv"
-	"github.com/altercpre/aparok-core/util/vcs"
+	"github.com/anyproto/anytype-heart/core"
+	"github.com/anyproto/anytype-heart/core/anytype/config"
+	"github.com/anyproto/anytype-heart/core/anytype/config/loadenv"
+	"github.com/anyproto/anytype-heart/util/vcs"
 )
 
 var (
@@ -160,7 +160,7 @@ func writeHeapProfile(rev string) error {
 }
 
 func sendMetrics(metrics map[string]uint64) error {
-	url := "https://pushgateway.altercpre.w8n.pw/metrics/job/heart_tech"
+	url := "https://pushgateway.anytype.io/metrics/job/heart_tech"
 
 	var sb strings.Builder
 	for key, value := range metrics {

@@ -59,7 +59,7 @@ import (
 	"net/http"
 	"strings"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
 )
 
 // v2IdBearingBlockFields are the payload block fields whose entries carry a

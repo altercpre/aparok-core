@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/net/quicdemotion"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/net/quicdemotion"
 
-	"github.com/altercpre/aparok-core/core/device"
+	"github.com/anyproto/anytype-heart/core/device"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

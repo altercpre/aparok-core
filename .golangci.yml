@@ -92,7 +92,7 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/altercpre/aparok-core
+        - github.com/anyproto/anytype-heart
   exclusions:
     generated: disable
     paths:

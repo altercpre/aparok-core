@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/block/personalfavorites"
+	"github.com/anyproto/anytype-heart/core/block/personalfavorites"
 )
 
 func TestResolveOrder(t *testing.T) {

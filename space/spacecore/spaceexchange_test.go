@@ -3,8 +3,8 @@ package spacecore
 import (
 	"testing"
 
-	"github.com/altercpre/aparok-sync/commonspace/clientspaceproto"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/commonspace/clientspaceproto"
+	"github.com/anyproto/any-sync/util/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

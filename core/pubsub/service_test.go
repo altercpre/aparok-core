@@ -8,18 +8,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
-	anysyncpubsub "github.com/altercpre/aparok-sync/commonspace/pubsub"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	anysyncpubsub "github.com/anyproto/any-sync/commonspace/pubsub"
+	"github.com/anyproto/any-sync/util/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"storj.io/drpc"
 
-	"github.com/altercpre/aparok-core/core/event/mock_event"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/space"
-	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/anyproto/anytype-heart/core/event/mock_event"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/space"
+	"github.com/anyproto/anytype-heart/space/clientspace"
 )
 
 const testSpaceId = "space1"

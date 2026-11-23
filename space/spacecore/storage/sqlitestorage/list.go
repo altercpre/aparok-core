@@ -6,9 +6,9 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treestorage"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage/oldstorage"
-	"github.com/altercpre/aparok-sync/consensus/consensusproto"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treestorage"
+	"github.com/anyproto/any-sync/commonspace/spacestorage/oldstorage"
+	"github.com/anyproto/any-sync/consensus/consensusproto"
 )
 
 var ErrUnknownRecord = errors.New("record does not exist")

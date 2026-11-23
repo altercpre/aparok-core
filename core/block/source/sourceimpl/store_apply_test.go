@@ -7,21 +7,21 @@ import (
 	"sync/atomic"
 	"testing"
 
-	anystorev1 "github.com/altercpre/aparok-store"
-	anystore "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree/mock_objecttree"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	anystorev1 "github.com/anyproto/any-store"
+	anystore "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree/mock_objecttree"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
+	"github.com/anyproto/any-sync/util/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 	"golang.org/x/sys/unix"
 
-	"github.com/altercpre/aparok-core/core/block/editor/storestate"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/block/editor/storestate"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 var ctx = context.Background()

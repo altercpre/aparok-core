@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/altercpre/aparok-core/core/block/importv2"
-	notionclient "github.com/altercpre/aparok-core/core/block/importv2/notion/client"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/block/importv2"
+	notionclient "github.com/anyproto/anytype-heart/core/block/importv2/notion/client"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 // TestErrorCode pins the wire mapping the frontend depends on. This is the

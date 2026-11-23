@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	"github.com/altercpre/aparok-core/core/pubsub"
-	"github.com/altercpre/aparok-core/pb"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	"github.com/anyproto/anytype-heart/core/pubsub"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 // PublishChatStatus sends an ephemeral activity update for a chat or discussion.

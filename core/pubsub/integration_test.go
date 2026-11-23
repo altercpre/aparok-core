@@ -8,21 +8,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/ocache"
-	"github.com/altercpre/aparok-sync/commonspace"
-	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/syncacl"
-	anysyncpubsub "github.com/altercpre/aparok-sync/commonspace/pubsub"
-	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
-	"github.com/altercpre/aparok-sync/testutil/accounttest"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/ocache"
+	"github.com/anyproto/any-sync/commonspace"
+	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/object/acl/syncacl"
+	anysyncpubsub "github.com/anyproto/any-sync/commonspace/pubsub"
+	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
+	"github.com/anyproto/any-sync/testutil/accounttest"
 	"github.com/stretchr/testify/require"
 	"storj.io/drpc"
 
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/space/spacecore"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/space/spacecore"
 )
 
 type testACL struct {

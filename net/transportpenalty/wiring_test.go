@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/net/quicdemotion"
-	"github.com/altercpre/aparok-sync/nodeconf"
-	"github.com/altercpre/aparok-sync/nodeconf/mock_nodeconf"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/net/quicdemotion"
+	"github.com/anyproto/any-sync/nodeconf"
+	"github.com/anyproto/any-sync/nodeconf/mock_nodeconf"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
@@ -55,7 +55,7 @@ func TestService_RealQuicDemotion(t *testing.T) {
 	t.Run("registered before quicdemotion: Start panics", func(t *testing.T) {
 		// Init runs in registration order and app.MustComponent resolves by
 		// type regardless of it, so swapping the two Register calls in
-		// bootstrap is caught only by this and core/aparok's wiring test:
+		// bootstrap is caught only by this and core/anytype's wiring test:
 		// Seed and SetObserver run on quicdemotion's not-yet-created state.
 		repo := t.TempDir()
 		svc := New().(*service)

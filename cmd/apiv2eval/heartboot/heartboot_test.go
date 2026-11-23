@@ -118,7 +118,7 @@ func TestFindRepoRoot(t *testing.T) {
 	require.NoError(t, err)
 	data, err := os.ReadFile(root + "/go.mod")
 	require.NoError(t, err)
-	assert.Contains(t, string(data), "module github.com/altercpre/aparok-core")
+	assert.Contains(t, string(data), "module github.com/anyproto/anytype-heart")
 }
 
 // TestStartEndToEnd is the real thing: it builds the heart, creates an

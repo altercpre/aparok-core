@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonfile/fileproto"
+	"github.com/anyproto/any-sync/commonfile/fileproto"
 	blocks "github.com/ipfs/go-block-format"
 )
 

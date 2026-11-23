@@ -12,17 +12,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/ocache"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/ocache"
 	"github.com/dsoprea/go-exif/v3"
 	jpegstructure "github.com/dsoprea/go-jpeg-image-structure/v2"
 	"github.com/hbagdi/go-unsplash/unsplash"
 	"golang.org/x/oauth2"
 
-	"github.com/altercpre/aparok-core/core/aparok/config/loadenv"
-	"github.com/altercpre/aparok-core/pkg/lib/core"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/util/uri"
+	"github.com/anyproto/anytype-heart/core/anytype/config/loadenv"
+	"github.com/anyproto/anytype-heart/pkg/lib/core"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/util/uri"
 )
 
 var log = logging.Logger("unsplash")
@@ -33,7 +33,7 @@ const (
 	CName         = "unsplash"
 	cacheTTL      = time.Minute * 10
 	cacheGCPeriod = time.Minute * 5
-	anytypeURL    = "https://unsplash.altercpre.w8n.pw/"
+	anytypeURL    = "https://unsplash.anytype.io/"
 )
 
 type Unsplash interface {

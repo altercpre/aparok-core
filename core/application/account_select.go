@@ -8,18 +8,18 @@ import (
 	"runtime"
 	trace2 "runtime/trace"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/commonspace/spacesyncproto"
-	"github.com/altercpre/aparok-sync/net/secureservice/handshake"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/commonspace/spacesyncproto"
+	"github.com/anyproto/any-sync/net/secureservice/handshake"
 
-	"github.com/altercpre/aparok-core/core/aparok"
-	"github.com/altercpre/aparok-core/core/aparok/account"
-	walletComp "github.com/altercpre/aparok-core/core/wallet"
-	"github.com/altercpre/aparok-core/metrics"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/core"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/space"
+	"github.com/anyproto/anytype-heart/core/anytype"
+	"github.com/anyproto/anytype-heart/core/anytype/account"
+	walletComp "github.com/anyproto/anytype-heart/core/wallet"
+	"github.com/anyproto/anytype-heart/metrics"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/core"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/space"
 )
 
 var (

@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
-	"github.com/altercpre/aparok-sync/commonspace/pubsub/pubsubproto"
-	"github.com/altercpre/aparok-sync/net/peer"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/pubsub/pubsubproto"
+	"github.com/anyproto/any-sync/net/peer"
+	"github.com/anyproto/any-sync/util/crypto"
 )
 
 // The engine dep implementations below back pubsub with the same primitives

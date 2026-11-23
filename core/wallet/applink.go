@@ -16,11 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/util/crypto"
 
-	"github.com/altercpre/aparok-core/pkg/lib/crypto/symmetric"
-	"github.com/altercpre/aparok-core/pkg/lib/crypto/symmetric/gcm"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/pkg/lib/crypto/symmetric"
+	"github.com/anyproto/anytype-heart/pkg/lib/crypto/symmetric/gcm"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 const (

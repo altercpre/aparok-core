@@ -5,16 +5,16 @@ import (
 	"path/filepath"
 	"testing"
 
-	anystore "github.com/altercpre/aparok-store"
-	"github.com/altercpre/aparok-store/anyenc"
-	"github.com/altercpre/aparok-store/query"
-	anystorev2 "github.com/altercpre/aparok-store/v2"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/objecttree"
-	"github.com/altercpre/aparok-sync/commonspace/object/tree/treechangeproto"
+	anystore "github.com/anyproto/any-store"
+	"github.com/anyproto/any-store/anyenc"
+	"github.com/anyproto/any-store/query"
+	anystorev2 "github.com/anyproto/any-store/v2"
+	"github.com/anyproto/any-sync/commonspace/object/tree/objecttree"
+	"github.com/anyproto/any-sync/commonspace/object/tree/treechangeproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/block/editor/storestate"
+	"github.com/anyproto/anytype-heart/core/block/editor/storestate"
 )
 
 // recordingHook captures every change the replay walks over, which is exactly what the

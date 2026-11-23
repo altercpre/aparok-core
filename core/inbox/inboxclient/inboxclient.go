@@ -23,16 +23,16 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
-	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
-	anysyncinboxclient "github.com/altercpre/aparok-sync/coordinator/inboxclient"
-	"github.com/altercpre/aparok-sync/util/crypto"
-	"github.com/altercpre/aparok-sync/util/periodicsync"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
+	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
+	anysyncinboxclient "github.com/anyproto/any-sync/coordinator/inboxclient"
+	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/anyproto/any-sync/util/periodicsync"
 
-	"github.com/altercpre/aparok-core/core/wallet"
-	"github.com/altercpre/aparok-core/space/clientspace"
-	"github.com/altercpre/aparok-core/space/techspace"
+	"github.com/anyproto/anytype-heart/core/wallet"
+	"github.com/anyproto/anytype-heart/space/clientspace"
+	"github.com/anyproto/anytype-heart/space/techspace"
 
 	"go.uber.org/zap"
 )

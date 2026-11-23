@@ -3,8 +3,8 @@
 package mock_peerstatus
 
 import (
-	app "github.com/altercpre/aparok-sync/app"
-	localdiscovery "github.com/altercpre/aparok-core/space/spacecore/localdiscovery"
+	app "github.com/anyproto/any-sync/app"
+	localdiscovery "github.com/anyproto/anytype-heart/space/spacecore/localdiscovery"
 	mock "github.com/stretchr/testify/mock"
 )
 

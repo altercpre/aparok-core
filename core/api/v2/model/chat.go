@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/anyblockjson"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	textutil "github.com/altercpre/aparok-core/util/text"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/anyblockjson"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	textutil "github.com/anyproto/anytype-heart/util/text"
 )
 
 // Chat row kinds.

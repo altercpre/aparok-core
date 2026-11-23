@@ -3,11 +3,11 @@ package storage
 import (
 	"context"
 
-	anystore "github.com/altercpre/aparok-store"
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/commonspace/spacestorage"
+	anystore "github.com/anyproto/any-store"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/commonspace/spacestorage"
 
-	"github.com/altercpre/aparok-core/space/spacecore/storage/anystorage"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage/anystorage"
 )
 
 type SpaceStorageMode int

@@ -4,17 +4,17 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/altercpre/aparok-sync/accountservice"
-	"github.com/altercpre/aparok-sync/commonspace"
+	"github.com/anyproto/any-sync/accountservice"
+	"github.com/anyproto/any-sync/commonspace"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/core/block/object/objectcache"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/space/clientspace/keyvalueservice"
-	"github.com/altercpre/aparok-core/space/spacecore/keyvalueobserver"
-	"github.com/altercpre/aparok-core/space/spacedomain"
-	"github.com/altercpre/aparok-core/space/techspace"
+	"github.com/anyproto/anytype-heart/core/block/object/objectcache"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/space/clientspace/keyvalueservice"
+	"github.com/anyproto/anytype-heart/space/spacecore/keyvalueobserver"
+	"github.com/anyproto/anytype-heart/space/spacedomain"
+	"github.com/anyproto/anytype-heart/space/techspace"
 )
 
 type TechSpace struct {

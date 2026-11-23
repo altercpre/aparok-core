@@ -3,7 +3,7 @@
 package mock_parsers
 
 import (
-	common "github.com/altercpre/aparok-core/core/block/import/common"
+	common "github.com/anyproto/anytype-heart/core/block/import/common"
 	mock "github.com/stretchr/testify/mock"
 )
 

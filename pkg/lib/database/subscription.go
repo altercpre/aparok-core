@@ -8,7 +8,7 @@ import (
 	"github.com/cheggaaa/mb/v3"
 	"golang.org/x/exp/slices"
 
-	"github.com/altercpre/aparok-core/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain"
 )
 
 type subscription struct {

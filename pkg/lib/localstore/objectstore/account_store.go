@@ -1,9 +1,9 @@
 package objectstore
 
 import (
-	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
 
-	"github.com/altercpre/aparok-core/pkg/lib/datastore/anystoreprovider"
+	"github.com/anyproto/anytype-heart/pkg/lib/datastore/anystoreprovider"
 )
 
 const (

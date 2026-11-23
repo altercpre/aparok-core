@@ -7,13 +7,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	bookmarksvc "github.com/altercpre/aparok-core/core/block/bookmark"
-	"github.com/altercpre/aparok-core/core/block/editor/smartblock/smarttest"
-	simplebookmark "github.com/altercpre/aparok-core/core/block/simple/bookmark"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/core/domain/objectorigin"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	bookmarksvc "github.com/anyproto/anytype-heart/core/block/bookmark"
+	"github.com/anyproto/anytype-heart/core/block/editor/smartblock/smarttest"
+	simplebookmark "github.com/anyproto/anytype-heart/core/block/simple/bookmark"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/core/domain/objectorigin"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 type fakeBookmarkService struct {

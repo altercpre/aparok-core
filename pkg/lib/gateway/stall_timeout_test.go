@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/files"
-	"github.com/altercpre/aparok-core/core/files/mock_files"
+	"github.com/anyproto/anytype-heart/core/files"
+	"github.com/anyproto/anytype-heart/core/files/mock_files"
 )
 
 func TestStallTimeout(t *testing.T) {

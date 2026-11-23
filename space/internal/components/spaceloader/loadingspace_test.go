@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	anystore "github.com/altercpre/aparok-store"
+	anystore "github.com/anyproto/any-store"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/space/clientspace"
+	"github.com/anyproto/anytype-heart/space/clientspace"
 )
 
 type fakeSpaceServiceProvider struct {

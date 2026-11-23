@@ -11,7 +11,7 @@ import (
 	ipld "github.com/ipfs/go-ipld-format"
 	mh "github.com/multiformats/go-multihash"
 
-	"github.com/altercpre/aparok-core/pkg/lib/ipfs/helpers/resolver"
+	"github.com/anyproto/anytype-heart/pkg/lib/ipfs/helpers/resolver"
 )
 
 func LinksAtCid(ctx context.Context, dag ipld.DAGService, pathCid string) ([]*ipld.Link, error) {

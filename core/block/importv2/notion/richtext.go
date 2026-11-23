@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/addr"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	textutil "github.com/altercpre/aparok-core/util/text"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/addr"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	textutil "github.com/anyproto/anytype-heart/util/text"
 )
 
 // renderedText is a rich-text run sequence rendered to anytype form: text

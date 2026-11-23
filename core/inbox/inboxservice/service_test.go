@@ -5,17 +5,17 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
-	"github.com/altercpre/aparok-sync/coordinator/coordinatorproto"
+	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	"github.com/anyproto/any-sync/coordinator/coordinatorproto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/inbox/inboxclient/mock_inboxclient"
-	"github.com/altercpre/aparok-core/space/mock_space"
-	"github.com/altercpre/aparok-core/space/spaceinfo"
-	"github.com/altercpre/aparok-core/space/techspace"
-	"github.com/altercpre/aparok-core/space/techspace/mock_techspace"
+	"github.com/anyproto/anytype-heart/core/inbox/inboxclient/mock_inboxclient"
+	"github.com/anyproto/anytype-heart/space/mock_space"
+	"github.com/anyproto/anytype-heart/space/spaceinfo"
+	"github.com/anyproto/anytype-heart/space/techspace"
+	"github.com/anyproto/anytype-heart/space/techspace/mock_techspace"
 )
 
 type fixture struct {

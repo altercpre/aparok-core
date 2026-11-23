@@ -10,25 +10,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 
-	"github.com/altercpre/aparok-core/core/aparok/account"
-	"github.com/altercpre/aparok-core/core/aparok/config"
-	apicore "github.com/altercpre/aparok-core/core/api/core"
-	"github.com/altercpre/aparok-core/core/api/server"
-	"github.com/altercpre/aparok-core/core/block/cache"
-	"github.com/altercpre/aparok-core/core/block/chats/chatrepository"
-	"github.com/altercpre/aparok-core/core/block/chats/chatsubscription"
-	"github.com/altercpre/aparok-core/core/block/object/objectcreator"
-	"github.com/altercpre/aparok-core/core/block/template"
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/core/files/fileobject"
-	"github.com/altercpre/aparok-core/core/subscription"
-	"github.com/altercpre/aparok-core/core/subscription/crossspacesub"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/localstore/objectstore"
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/space"
+	"github.com/anyproto/anytype-heart/core/anytype/account"
+	"github.com/anyproto/anytype-heart/core/anytype/config"
+	apicore "github.com/anyproto/anytype-heart/core/api/core"
+	"github.com/anyproto/anytype-heart/core/api/server"
+	"github.com/anyproto/anytype-heart/core/block/cache"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatrepository"
+	"github.com/anyproto/anytype-heart/core/block/chats/chatsubscription"
+	"github.com/anyproto/anytype-heart/core/block/object/objectcreator"
+	"github.com/anyproto/anytype-heart/core/block/template"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/core/files/fileobject"
+	"github.com/anyproto/anytype-heart/core/subscription"
+	"github.com/anyproto/anytype-heart/core/subscription/crossspacesub"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/localstore/objectstore"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/space"
 )
 
 const (
@@ -107,12 +107,12 @@ func (s *apiService) Name() (name string) {
 //	@title							Anytype API
 //	@version						2025-11-08
 //	@description					This API enables seamless interaction with Anytype's resources - spaces, objects, properties, types, templates, and beyond.
-//	@termsOfService					https://altercpre.w8n.pw/terms_of_use
+//	@termsOfService					https://anytype.io/terms_of_use
 //	@contact.name					Anytype Support
-//	@contact.url					https://altercpre.w8n.pw/contact
-//	@contact.email					support@altercpre.w8n.pw
+//	@contact.url					https://anytype.io/contact
+//	@contact.email					support@anytype.io
 //	@license.name					Any Source Available License 1.0
-//	@license.url					https://github.com/altercpre/anytype-api/blob/main/LICENSE.md
+//	@license.url					https://github.com/anyproto/anytype-api/blob/main/LICENSE.md
 //	@host							http://127.0.0.1:31009
 //	@securitydefinitions.bearerauth	BearerAuth
 //	@externalDocs.description		OpenAPI

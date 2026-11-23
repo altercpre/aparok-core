@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/altercpre/aparok-core/core/notifications/mock_notifications"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/notifications/mock_notifications"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func TestService_NewQueue(t *testing.T) {

@@ -5,13 +5,13 @@ package mock_fileobject
 import (
 	context "context"
 
-	clientspace "github.com/altercpre/aparok-core/space/clientspace"
+	clientspace "github.com/anyproto/anytype-heart/space/clientspace"
 
-	domain "github.com/altercpre/aparok-core/core/domain"
+	domain "github.com/anyproto/anytype-heart/core/domain"
 
 	mock "github.com/stretchr/testify/mock"
 
-	state "github.com/altercpre/aparok-core/core/block/editor/state"
+	state "github.com/anyproto/anytype-heart/core/block/editor/state"
 
 )
 

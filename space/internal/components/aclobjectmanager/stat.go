@@ -1,6 +1,6 @@
 package aclobjectmanager
 
-import "github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+import "github.com/anyproto/any-sync/commonspace/object/acl/list"
 
 type accountStatus struct {
 	Permission string `json:"permission"`

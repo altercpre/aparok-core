@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/altercpre/aparok-core/util/debug"
+	"github.com/anyproto/anytype-heart/util/debug"
 )
 
 func (s *service) DebugRouter(r chi.Router) {

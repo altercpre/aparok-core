@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/api/wrapper"
+	"github.com/anyproto/anytype-heart/core/api/wrapper"
 )
 
 // TestVerbFlagsFromToolTable proves the CLI registers every tool argument

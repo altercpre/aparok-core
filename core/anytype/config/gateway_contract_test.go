@@ -1,8 +1,8 @@
 package config_test
 
 import (
-	"github.com/altercpre/aparok-core/core/aparok/config"
-	"github.com/altercpre/aparok-core/pkg/lib/gateway"
+	"github.com/anyproto/anytype-heart/core/anytype/config"
+	"github.com/anyproto/anytype-heart/pkg/lib/gateway"
 )
 
 // The gateway resolves its AddrStore by interface, so renaming either method on Config would

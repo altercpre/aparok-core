@@ -5,11 +5,11 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/altercpre/aparok-core/core/application"
-	"github.com/altercpre/aparok-core/core/block"
-	"github.com/altercpre/aparok-core/core/debug"
-	"github.com/altercpre/aparok-core/core/subscription"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/application"
+	"github.com/anyproto/anytype-heart/core/block"
+	"github.com/anyproto/anytype-heart/core/debug"
+	"github.com/anyproto/anytype-heart/core/subscription"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func (mw *Middleware) DebugTree(cctx context.Context, req *pb.RpcDebugTreeRequest) *pb.RpcDebugTreeResponse {

@@ -3,8 +3,8 @@
 package mock_kanban
 
 import (
-	app "github.com/altercpre/aparok-sync/app"
-	kanban "github.com/altercpre/aparok-core/core/kanban"
+	app "github.com/anyproto/any-sync/app"
+	kanban "github.com/anyproto/anytype-heart/core/kanban"
 	mock "github.com/stretchr/testify/mock"
 )
 

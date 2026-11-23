@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/accountservice"
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
-	"github.com/altercpre/aparok-sync/net/quicdemotion"
+	"github.com/anyproto/any-sync/accountservice"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
+	"github.com/anyproto/any-sync/net/quicdemotion"
 
-	"github.com/altercpre/aparok-core/core/device"
+	"github.com/anyproto/anytype-heart/core/device"
 	"go.uber.org/zap"
 )
 

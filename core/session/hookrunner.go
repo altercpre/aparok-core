@@ -3,9 +3,9 @@ package session
 import (
 	"sync"
 
-	"github.com/altercpre/aparok-sync/app"
+	"github.com/anyproto/any-sync/app"
 
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
 )
 
 const sessionHookRunner = "sessionHookRunner"

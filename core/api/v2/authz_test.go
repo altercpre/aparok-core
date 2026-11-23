@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/api/util"
+	"github.com/anyproto/anytype-heart/core/api/util"
 )
 
 // newGrantEngine builds a bare engine with a stub auth middleware carrying

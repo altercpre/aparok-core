@@ -5,13 +5,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/altercpre/aparok-sync/commonspace/spacepayloads"
-	"github.com/altercpre/aparok-sync/util/crypto"
+	"github.com/anyproto/any-sync/commonspace/spacepayloads"
+	"github.com/anyproto/any-sync/util/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/wallet/mock_wallet"
-	"github.com/altercpre/aparok-core/space/spacedomain"
+	"github.com/anyproto/anytype-heart/core/wallet/mock_wallet"
+	"github.com/anyproto/anytype-heart/space/spacedomain"
 )
 
 // TestDerivedSpaceIdStability pins the ids DeriveID returns for fixed keys.

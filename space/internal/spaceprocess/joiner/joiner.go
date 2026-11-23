@@ -3,17 +3,17 @@ package joiner
 import (
 	"context"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/app/logger"
-	"github.com/altercpre/aparok-sync/commonspace/acl/aclwaiter"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/app/logger"
+	"github.com/anyproto/any-sync/commonspace/acl/aclwaiter"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/space/internal/components/aclnotifications"
-	"github.com/altercpre/aparok-core/space/internal/components/spacestatus"
-	"github.com/altercpre/aparok-core/space/internal/spaceprocess/mode"
-	"github.com/altercpre/aparok-core/space/spaceinfo"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/space/internal/components/aclnotifications"
+	"github.com/anyproto/anytype-heart/space/internal/components/spacestatus"
+	"github.com/anyproto/anytype-heart/space/internal/spaceprocess/mode"
+	"github.com/anyproto/anytype-heart/space/spaceinfo"
 )
 
 type joiner struct {

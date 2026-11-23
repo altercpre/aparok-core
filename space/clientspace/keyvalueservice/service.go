@@ -27,13 +27,13 @@ import (
 	"math"
 	"sync"
 
-	"github.com/altercpre/aparok-sync/commonspace"
-	"github.com/altercpre/aparok-sync/commonspace/object/keyvalue/keyvaluestorage"
-	"github.com/altercpre/aparok-sync/commonspace/object/keyvalue/keyvaluestorage/innerstorage"
+	"github.com/anyproto/any-sync/commonspace"
+	"github.com/anyproto/any-sync/commonspace/object/keyvalue/keyvaluestorage"
+	"github.com/anyproto/any-sync/commonspace/object/keyvalue/keyvaluestorage/innerstorage"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/pkg/lib/logging"
-	"github.com/altercpre/aparok-core/space/spacecore/keyvalueobserver"
+	"github.com/anyproto/anytype-heart/pkg/lib/logging"
+	"github.com/anyproto/anytype-heart/space/spacecore/keyvalueobserver"
 )
 
 const CName = "core.keyvalueservice"

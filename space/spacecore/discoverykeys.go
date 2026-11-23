@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/altercpre/aparok-sync/commonspace/clientspaceproto"
-	"github.com/altercpre/aparok-sync/commonspace/object/accountdata"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/list"
-	"github.com/altercpre/aparok-sync/commonspace/object/acl/recordverifier"
+	"github.com/anyproto/any-sync/commonspace/clientspaceproto"
+	"github.com/anyproto/any-sync/commonspace/object/accountdata"
+	"github.com/anyproto/any-sync/commonspace/object/acl/list"
+	"github.com/anyproto/any-sync/commonspace/object/acl/recordverifier"
 	"go.uber.org/zap"
 
-	"github.com/altercpre/aparok-core/space/spacecore/storage"
+	"github.com/anyproto/anytype-heart/space/spacecore/storage"
 )
 
 // negativeRetryAfter bounds how often a space whose key could not be derived

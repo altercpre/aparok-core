@@ -6,13 +6,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/altercpre/aparok-store/v2/query"
+	"github.com/anyproto/any-store/v2/query"
 	"github.com/cheggaaa/mb/v3"
 
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/pb"
-	"github.com/altercpre/aparok-core/pkg/lib/bundle"
-	"github.com/altercpre/aparok-core/pkg/lib/database"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/pb"
+	"github.com/anyproto/anytype-heart/pkg/lib/bundle"
+	"github.com/anyproto/anytype-heart/pkg/lib/database"
 )
 
 // coreSub is the engine's single subscription primitive: an id scope (later

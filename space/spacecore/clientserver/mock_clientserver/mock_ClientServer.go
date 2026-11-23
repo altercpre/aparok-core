@@ -3,7 +3,7 @@
 package mock_clientserver
 
 import (
-	app "github.com/altercpre/aparok-sync/app"
+	app "github.com/anyproto/any-sync/app"
 
 	context "context"
 

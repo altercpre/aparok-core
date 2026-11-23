@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/altercpre/aparok-core/core/event"
-	"github.com/altercpre/aparok-core/pb"
+	"github.com/anyproto/anytype-heart/core/event"
+	"github.com/anyproto/anytype-heart/pb"
 )
 
 func nsToMs(n int64) int64 {

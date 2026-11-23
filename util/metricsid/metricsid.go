@@ -1,10 +1,10 @@
 package metricsid
 
 import (
-	"github.com/altercpre/aparok-sync/util/crypto"
-	"github.com/altercpre/aparok-sync/util/strkey"
+	"github.com/anyproto/any-sync/util/crypto"
+	"github.com/anyproto/any-sync/util/strkey"
 
-	"github.com/altercpre/aparok-core/util/privkey"
+	"github.com/anyproto/anytype-heart/util/privkey"
 )
 
 const (

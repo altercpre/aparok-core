@@ -8,20 +8,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altercpre/aparok-sync/app"
-	"github.com/altercpre/aparok-sync/net/pool/mock_pool"
+	"github.com/anyproto/any-sync/app"
+	"github.com/anyproto/any-sync/net/pool/mock_pool"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 	"go.uber.org/mock/gomock"
 
-	"github.com/altercpre/aparok-core/core/device/mock_device"
-	"github.com/altercpre/aparok-core/core/device/networkkey"
-	"github.com/altercpre/aparok-core/core/domain"
-	"github.com/altercpre/aparok-core/net/addrs"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
-	"github.com/altercpre/aparok-core/tests/testutil"
+	"github.com/anyproto/anytype-heart/core/device/mock_device"
+	"github.com/anyproto/anytype-heart/core/device/networkkey"
+	"github.com/anyproto/anytype-heart/core/domain"
+	"github.com/anyproto/anytype-heart/net/addrs"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/tests/testutil"
 )
 
 // spaceSyncerStub is a minimal spaceHeadSyncer that counts SyncAllSpaceHeads calls.

@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/altercpre/aparok-core/core/api/filter"
-	"github.com/altercpre/aparok-core/pkg/lib/pb/model"
+	"github.com/anyproto/anytype-heart/core/api/filter"
+	"github.com/anyproto/anytype-heart/pkg/lib/pb/model"
 )
 
 func TestFilterIntegration(t *testing.T) {

@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	v2model "github.com/altercpre/aparok-core/core/api/v2/model"
-	"github.com/altercpre/aparok-core/core/api/wrapper"
+	v2model "github.com/anyproto/anytype-heart/core/api/v2/model"
+	"github.com/anyproto/anytype-heart/core/api/wrapper"
 )
 
 // Executor runs the full table's tools over a client.
