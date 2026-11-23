@@ -469,12 +469,6 @@ func (mw *Middleware) MembershipV2GetStatus(ctx context.Context, req *pb.RpcMemb
 }
 
 func membershipV2GetStatus(ctx context.Context, ps payments.Service, err error, req *pb.RpcMembershipV2GetStatusRequest) *pb.RpcMembershipV2GetStatusResponse {
-	// Aparok: Sovereign, unlimited, zero-paywall tier (Co-Creator ID: 5)
-	return &pb.RpcMembershipV2GetStatusResponse{
-		Tier:     5,
-		DateEnds: 253402300799,
-		Status:   pb.MembershipStatus_ACTIVE,
-	}
 	var out *pb.RpcMembershipV2GetStatusResponse
 	if err == nil {
 		out, err = ps.V2GetStatus(ctx, req)
