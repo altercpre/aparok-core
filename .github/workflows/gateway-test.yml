@@ -24,4 +24,4 @@ jobs:
 
       - name: Run Gateway Range Seeking Test
         run: |
-          go test -v ./pkg/lib/gateway -run TestGetFile_RangeSeeking
+          go test -mod=mod -v ./pkg/lib/gateway -run TestGetFile_RangeSeeking
