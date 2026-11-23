@@ -1,0 +1,94 @@
+name: Core CI & Android Lib Build
+
+on:
+  push:
+    branches: [develop, main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+          check-latest: true
+
+      - name: Test Gateway Range Seeking
+        run: |
+          go test -v ./pkg/lib/gateway -run TestGetFile_RangeSeeking
+
+  build-android-lib:
+    needs: [test]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+          check-latest: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Install Android NDK
+        run: |
+          SDKMANAGER=$(which sdkmanager 2>/dev/null || echo "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager")
+          yes | "$SDKMANAGER" --licenses > /dev/null 2>&1 || true
+          "$SDKMANAGER" --install "ndk;28.1.13356709" > /dev/null 2>&1
+          NDK_PATH=$(ls -d ${ANDROID_HOME}/ndk/28.* 2>/dev/null | sort -V | tail -1)
+          echo "ANDROID_NDK_HOME=${NDK_PATH}" >> $GITHUB_ENV
+          echo "ANDROID_NDK_ROOT=${NDK_PATH}" >> $GITHUB_ENV
+
+      - name: Setup gomobile
+        run: |
+          mkdir -p deps
+          go install golang.org/x/mobile/cmd/gomobile@latest
+          go install golang.org/x/mobile/cmd/gobind@latest
+          gomobile init
+
+      - name: Download tantivy dependencies
+        run: |
+          make download-tantivy-all
+
+      - name: Build Android AAR
+        run: |
+          TAGS="nogrpcserver gomobile nowatchdog nosigar nomutexdeadlockdetector timetzdata rasterizesvg"
+          gomobile bind -tags "${TAGS}" -v -target=android -androidapi 26 -o lib.aar github.com/anyproto/anytype-heart/clientlibrary/service github.com/anyproto/anytype-heart/core
+          test -f lib.aar
+          ls -lh lib.aar
+
+      - name: Upload lib.aar artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: lib.aar
+          path: lib.aar
+
+      - name: Publish lib.aar to Core Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "v0.51.6-aparok"
+          name: "Aparok Core Middleware v0.51.6-aparok"
+          files: lib.aar
+          draft: false
+          prerelease: false
+          body: |
+            Sovereign build of Aparok Core middleware (lib.aar) built natively in CI.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
