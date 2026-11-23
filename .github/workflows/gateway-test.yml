@@ -9,6 +9,9 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      GONOSUMDB: "github.com/altercpre/*"
+      GOPROXY: "https://proxy.golang.org,direct"
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
