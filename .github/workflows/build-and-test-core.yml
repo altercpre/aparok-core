@@ -21,6 +21,10 @@ jobs:
           go-version: '1.26'
           check-latest: true
 
+      - name: Download tantivy dependencies
+        run: |
+          make download-tantivy-all
+
       - name: Test Gateway Range Seeking
         run: |
           go test -v ./pkg/lib/gateway -run TestGetFile_RangeSeeking
