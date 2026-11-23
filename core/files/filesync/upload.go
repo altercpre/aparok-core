@@ -35,6 +35,9 @@ type AddFileRequest struct {
 
 func (s *fileSync) AddFile(req AddFileRequest) error {
 	if s.cfg.IsLocalOnlyMode() {
+		for _, cb := range s.onStatusUpdated {
+			_ = cb(req.FileObjectId, req.FileId, filesyncstatus.Synced)
+		}
 		return nil
 	}
 	if !req.FileId.Valid() {

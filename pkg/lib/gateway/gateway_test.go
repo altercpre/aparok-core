@@ -204,3 +204,43 @@ func TestRetryReader(t *testing.T) {
 	assert.True(t, reader.readCalled > 1)
 	assert.True(t, reader.seekCalled > 1)
 }
+
+func TestGetFile_RangeSeeking(t *testing.T) {
+	fx := newFixture(t)
+
+	// Create 200 bytes of test content for Range seeking
+	raw := make([]byte, 200)
+	for i := range raw {
+		raw[i] = byte('A' + (i % 26))
+	}
+	const fileObjectId = "testVideoObjectId"
+
+	file := mock_files.NewMockFile(t)
+	file.EXPECT().Reader(mock.Anything).Return(strings.NewReader(string(raw)), nil)
+	file.EXPECT().Meta().Return(&files.FileMeta{
+		Media: "video/mp4",
+		Name:  "test_video.mp4",
+		Added: time.Now(),
+	})
+
+	fx.fileObjectService.EXPECT().GetFileData(mock.Anything, fileObjectId).Return(file, nil)
+
+	req, err := http.NewRequest(http.MethodGet, "http://"+fx.Addr()+"/file/"+fileObjectId, nil)
+	require.NoError(t, err)
+	req.Header.Set("Range", "bytes=0-100")
+
+	client := &http.Client{}
+	resp, err := client.Do(req)
+	require.NoError(t, err)
+	defer resp.Body.Close()
+
+	assert.Equal(t, http.StatusPartialContent, resp.StatusCode)
+	assert.Equal(t, "bytes 0-100/200", resp.Header.Get("Content-Range"))
+	assert.Equal(t, "video/mp4", resp.Header.Get("Content-Type"))
+
+	data, err := io.ReadAll(resp.Body)
+	require.NoError(t, err)
+	assert.Equal(t, 101, len(data))
+	assert.Equal(t, raw[0:101], data)
+}
+
