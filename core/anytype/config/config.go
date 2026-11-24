@@ -18,9 +18,7 @@ import (
 
 	//nolint:misspell
 	"github.com/anyproto/any-sync/commonspace/config"
-	"github.com/anyproto/any-sync/metric"
 	"github.com/anyproto/any-sync/net/rpc"
-	"github.com/anyproto/any-sync/net/rpc/debugserver"
 	"github.com/anyproto/any-sync/net/transport/quic"
 	"github.com/anyproto/any-sync/net/transport/yamux"
 	"github.com/anyproto/any-sync/nodeconf"
@@ -250,7 +248,6 @@ type FSConfig struct {
 }
 
 type DebugAPIConfig struct {
-	debugserver.Config
 	IsEnabled bool
 }
 
@@ -582,10 +579,6 @@ func (c *Config) GetSpace() config.Config {
 	}
 }
 
-func (c *Config) GetMetric() metric.Config {
-	return metric.Config{}
-}
-
 func (c *Config) GetDrpc() rpc.Config {
 	return rpc.Config{
 		Stream: rpc.StreamConfig{
@@ -598,10 +591,6 @@ func (c *Config) GetDebugAPIConfig() DebugAPIConfig {
 	return DebugAPIConfig{
 		IsEnabled: len(c.DebugAddr) != 0,
 	}
-}
-
-func (c *Config) GetDebugServer() debugserver.Config {
-	return debugserver.Config{ListenAddr: c.DebugAddr}
 }
 
 func (c *Config) GetNodeConfWithError() (conf nodeconf.Configuration, err error) {

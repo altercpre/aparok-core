@@ -10,7 +10,8 @@ BANNED_PACKAGES=(
 )
 
 echo "Checking package dependencies against banned telemetry and remote discovery..."
-DEPS=$(go list -deps ./clientlibrary/service ./core 2>/dev/null || true)
+TAGS="nogrpcserver gomobile nowatchdog nosigar nomutexdeadlockdetector timetzdata rasterizesvg"
+DEPS=$(go list -tags "${TAGS}" -deps ./clientlibrary/service ./core 2>/dev/null || true)
 
 VIOLATIONS=0
 for BANNED in "${BANNED_PACKAGES[@]}"; do
