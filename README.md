@@ -1,5 +1,5 @@
 # Aparok Core
-Core middleware library for Aparok clients — the encrypted, local-first engine powering all Aparok apps.
+Core middleware library for Aparok clients — local-first engine powering Aparok apps.
 
 ## Docs
 - [Build instructions](docs/Build.md)
@@ -22,7 +22,7 @@ Thank you for your desire to develop Aparok together!
 
 🧑‍💻 Check out our [contributing guide](https://github.com/altercpre/.github/blob/main/docs/CONTRIBUTING.md) to learn about asking questions, creating issues, or submitting pull requests.
 
-🫢 For security findings, please email [security@altercpre.w8n.pw](mailto:security@altercpre.w8n.pw) and refer to our [security guide](https://github.com/altercpre/.github/blob/main/docs/SECURITY.md) for more information.
+🫢 For security findings, please submit via [GitHub Private Vulnerability Reporting](https://github.com/altercpre/aparok-core/security/advisories/new) and refer to our [security guide](https://github.com/altercpre/.github/blob/main/docs/SECURITY.md) for more information.
 
 🤝 Follow us on [Github](https://github.com/altercpre) and join the [Contributors Community](https://github.com/orgs/altercpre/discussions).
 
