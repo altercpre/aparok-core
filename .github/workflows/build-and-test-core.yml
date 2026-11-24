@@ -25,6 +25,10 @@ jobs:
         run: |
           make download-tantivy-all
 
+      - name: Run Sovereign Offline Verification
+        run: |
+          bash scripts/verify-offline.sh
+
       - name: Test Gateway Range Seeking
         run: |
           go test -v ./pkg/lib/gateway -run TestGetFile_RangeSeeking
@@ -74,9 +78,11 @@ jobs:
       - name: Build Android AAR
         run: |
           TAGS="nogrpcserver gomobile nowatchdog nosigar nomutexdeadlockdetector timetzdata rasterizesvg"
-          gomobile bind -tags "${TAGS}" -v -target=android -androidapi 26 -o lib.aar github.com/anyproto/anytype-heart/clientlibrary/service github.com/anyproto/anytype-heart/core
+          gomobile bind -tags "${TAGS}" -javapkg io.aparok.mw -target=android/arm64,android/arm -trimpath -ldflags "-s -w" -androidapi 26 -o lib.aar github.com/anyproto/anytype-heart/clientlibrary/service github.com/anyproto/anytype-heart/core
           test -f lib.aar
           ls -lh lib.aar
+          sha256sum lib.aar > lib.aar.sha256
+          tar -czvf android_protos.tar.gz pb/protos/*.proto pkg/lib/pb/model/protos/*.proto
 
       - name: Upload lib.aar artifact
         uses: actions/upload-artifact@v4
@@ -89,7 +95,10 @@ jobs:
         with:
           tag_name: "v0.51.6-aparok"
           name: "Aparok Core Middleware v0.51.6-aparok"
-          files: lib.aar
+          files: |
+            lib.aar
+            lib.aar.sha256
+            android_protos.tar.gz
           draft: false
           prerelease: false
           body: |

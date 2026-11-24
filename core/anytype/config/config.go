@@ -91,7 +91,8 @@ type Config struct {
 }
 
 func (c *Config) IsLocalOnlyMode() bool {
-	return c.NetworkMode == pb.RpcAccount_LocalOnly
+	// Aparok sovereign offline mode is strictly local-only
+	return true
 }
 
 // Getters for persisted config fields (read from memory)
