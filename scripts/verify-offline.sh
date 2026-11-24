@@ -17,6 +17,9 @@ VIOLATIONS=0
 for BANNED in "${BANNED_PACKAGES[@]}"; do
     if echo "$DEPS" | grep -q "$BANNED"; then
         echo "FAIL: Banned package detected in dependencies: $BANNED"
+        echo "Tracer chain for $BANNED:"
+        go mod why -m "$BANNED" || true
+        go list -tags "${TAGS}" -deps -f '{{with .Imports}}{{range .}}{{printf "%s -> %s\n" $.ImportPath .}}{{end}}{{end}}' ./clientlibrary/service ./core 2>/dev/null | grep "$BANNED" || true
         VIOLATIONS=$((VIOLATIONS + 1))
     else
         echo "PASS: Clean - $BANNED not present in dependency graph."
