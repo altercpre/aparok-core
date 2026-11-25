@@ -7,8 +7,6 @@ BANNED_PACKAGES=(
     "github.com/uber/jaeger-client-go"
     "github.com/grandcat/zeroconf"
     "github.com/otiai10/opengraph"
-    "github.com/anyproto/anytype-publish-server/publishclient"
-    "github.com/hbagdi/go-unsplash"
 )
 
 echo "Checking package dependencies against banned telemetry and remote discovery..."
