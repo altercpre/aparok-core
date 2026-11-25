@@ -50,8 +50,6 @@ BANNED_COMPONENTS=(
     "debugserver\.New"
     "profiler\.New"
     "localdiscovery\.New"
-    "coordinatorclient\.New"
-    "nodeclient\.New"
     "unsplash\.New"
     "gallery\.New"
     "publish\.New"
