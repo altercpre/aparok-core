@@ -27,6 +27,7 @@ Content fetching uses a channel-based updater pattern:
 import (
 	"context"
 	"fmt"
+	neturl "net/url"
 	"path"
 	"strings"
 	"sync"
@@ -303,101 +304,27 @@ func (s *service) FetchBookmarkContent(spaceID string, url string, parseBlock bo
 	}
 }
 
-func (s *service) ContentUpdaters(spaceID string, url string, parseBlock bool) (chan func(contentBookmark *bookmark.ObjectContent), error) {
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*5)
-	defer cancel()
+func fallbackBookmarkTitle(rawUrl string) string {
+	u, err := neturl.Parse(rawUrl)
+	if err == nil && u.Hostname() != "" {
+		return u.Hostname()
+	}
+	return rawUrl
+}
 
+func (s *service) ContentUpdaters(spaceID string, url string, parseBlock bool) (chan func(contentBookmark *bookmark.ObjectContent), error) {
 	updaters := make(chan func(contentBookmark *bookmark.ObjectContent), 1)
 
-	data, body, isFile, err := s.linkPreview.Fetch(ctx, url, true)
-	if err != nil {
-		updaters <- func(c *bookmark.ObjectContent) {
-			if c.BookmarkContent == nil {
-				c.BookmarkContent = &model.BlockContentBookmark{}
-			}
-			c.BookmarkContent.State = model.BlockContentBookmark_Done
-			c.BookmarkContent.Url = url
-		}
-		close(updaters)
-		return updaters, fmt.Errorf("bookmark: can't fetch link: %w", err)
-	}
-
+	// Sovereign offline mode: zero outbound HTTP fetch, instant Done state with host fallback title
 	updaters <- func(c *bookmark.ObjectContent) {
-		c.BookmarkContent.State = model.BlockContentBookmark_Done
-	}
-
-	var wg sync.WaitGroup
-	wg.Add(1)
-	go func() {
-		defer wg.Done()
-		updaters <- func(c *bookmark.ObjectContent) {
-			if c.BookmarkContent == nil {
-				c.BookmarkContent = &model.BlockContentBookmark{}
-			}
-			c.BookmarkContent.Url = data.Url
-			c.BookmarkContent.Title = data.Title
-			c.BookmarkContent.Description = data.Description
-			c.BookmarkContent.Type = data.Type
+		if c.BookmarkContent == nil {
+			c.BookmarkContent = &model.BlockContentBookmark{}
 		}
-	}()
-
-	if data.ImageUrl != "" {
-		wg.Add(1)
-		go func() {
-			defer wg.Done()
-			hash, err := s.loadImage(spaceID, getFileNameFromURL(url, data.ImageUrl, "cover"), data.ImageUrl)
-			if err != nil {
-				log.Errorf("load image: %s", err)
-				return
-			}
-			updaters <- func(c *bookmark.ObjectContent) {
-				if c.BookmarkContent == nil {
-					c.BookmarkContent = &model.BlockContentBookmark{}
-				}
-				c.BookmarkContent.ImageHash = hash
-			}
-		}()
+		c.BookmarkContent.State = model.BlockContentBookmark_Done
+		c.BookmarkContent.Url = url
+		c.BookmarkContent.Title = fallbackBookmarkTitle(url)
 	}
-	if data.FaviconUrl != "" {
-		wg.Add(1)
-		go func() {
-			defer wg.Done()
-			hash, err := s.loadImage(spaceID, getFileNameFromURL(url, data.FaviconUrl, "icon"), data.FaviconUrl)
-			if err != nil {
-				log.Errorf("load favicon: %s", err)
-				return
-			}
-			updaters <- func(c *bookmark.ObjectContent) {
-				if c.BookmarkContent == nil {
-					c.BookmarkContent = &model.BlockContentBookmark{}
-				}
-				c.BookmarkContent.FaviconHash = hash
-			}
-		}()
-	}
-
-	if parseBlock {
-		wg.Add(1)
-		go func() {
-			defer wg.Done()
-			updaters <- func(c *bookmark.ObjectContent) {
-				if isFile {
-					s.handleFileBlock(c, url)
-					return
-				}
-				blocks, _, err := anymark.HTMLToBlocks(body, url)
-				if err != nil {
-					log.Errorf("parse blocks: %s", err)
-					return
-				}
-				c.Blocks = blocks
-			}
-		}()
-	}
-	go func() {
-		wg.Wait()
-		close(updaters)
-	}()
+	close(updaters)
 	return updaters, nil
 }
 

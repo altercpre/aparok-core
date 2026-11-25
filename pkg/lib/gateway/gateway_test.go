@@ -244,3 +244,51 @@ func TestGetFile_RangeSeeking(t *testing.T) {
 	assert.Equal(t, raw[0:101], data)
 }
 
+func TestGateway_SessionTokenAuthentication(t *testing.T) {
+	fx := newFixture(t)
+	token := "sovereign_secret_token_123"
+	fx.SetToken(token)
+
+	const fileObjectId = "testTokenFileId"
+	file := mock_files.NewMockFile(t)
+	file.EXPECT().Reader(mock.Anything).Return(strings.NewReader("hello file"), nil).Maybe()
+	file.EXPECT().Meta().Return(&files.FileMeta{
+		Media: "text/plain",
+		Name:  "test.txt",
+		Added: time.Now(),
+	}).Maybe()
+
+	fx.fileObjectService.EXPECT().GetFileData(mock.Anything, fileObjectId).Return(file, nil).Maybe()
+
+	// 1. Without token query -> 401 Unauthorized
+	req, err := http.NewRequest(http.MethodGet, "http://"+fx.Addr()+"/file/"+fileObjectId, nil)
+	require.NoError(t, err)
+	client := &http.Client{}
+	resp, err := client.Do(req)
+	require.NoError(t, err)
+	resp.Body.Close()
+	assert.Equal(t, http.StatusUnauthorized, resp.StatusCode)
+
+	// 2. With invalid token query -> 401 Unauthorized
+	reqBad, err := http.NewRequest(http.MethodGet, "http://"+fx.Addr()+"/file/"+fileObjectId+"?token=wrong", nil)
+	require.NoError(t, err)
+	respBad, err := client.Do(reqBad)
+	require.NoError(t, err)
+	respBad.Body.Close()
+	assert.Equal(t, http.StatusUnauthorized, respBad.StatusCode)
+
+	// 3. With valid token query -> 200 OK
+	reqGood, err := http.NewRequest(http.MethodGet, "http://"+fx.Addr()+"/file/"+fileObjectId+"?token="+token, nil)
+	require.NoError(t, err)
+	respGood, err := client.Do(reqGood)
+	require.NoError(t, err)
+	defer respGood.Body.Close()
+	assert.Equal(t, http.StatusOK, respGood.StatusCode)
+}
+
+func TestGateway_LoopbackOnlyBind(t *testing.T) {
+	fx := newFixture(t)
+	addr := fx.Addr()
+	assert.True(t, strings.HasPrefix(addr, "127.0.0.1:"), "Gateway must bind to 127.0.0.1 loopback only, got: %s", addr)
+}
+

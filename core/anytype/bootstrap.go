@@ -245,10 +245,6 @@ func Bootstrap(a *app.App, components ...app.Component) {
 	pubsubService := pubsub.New()
 
 	a.
-		// profiler is registered early so its Init wires the event sender
-		// before any storage component runs its own Init — storage corruption
-		// detection below relies on the Reporter being live.
-		Register(profiler.New()).
 		// Data storages
 		Register(debugstat.New()).
 		Register(anystoreprovider.New()).
@@ -299,7 +295,6 @@ func Bootstrap(a *app.App, components ...app.Component) {
 		Register(idresolver.New(200*time.Millisecond, 2*time.Second)).
 		Register(device.New()).
 		Register(transportpenalty.New()).
-		Register(localdiscovery.New()).
 		Register(peermanager.New()).
 		Register(anysyncpubsub.New(pubsubService.EngineDeps())).
 		// Cancel accepted publishes before the engine waits for its workers.
@@ -329,8 +324,6 @@ func Bootstrap(a *app.App, components ...app.Component) {
 		Register(reconciler.New()).
 		Register(fileobject.New()).
 		Register(inviteservice.New()).
-		Register(publish.New()).
-		Register(publishclient.New()).
 		Register(acl.New()).
 		Register(builtintemplate.New()).
 		Register(converter.NewLayoutConverter()).
@@ -354,11 +347,9 @@ func Bootstrap(a *app.App, components ...app.Component) {
 		Register(gateway.New()).
 		Register(export.New()).
 		Register(linkpreview.NewWithCache()).
-		Register(unsplash.New()).
 		Register(debug.New()).
 		Register(syncsubscriptions.New()).
 		Register(builtinobjects.New()).
-		Register(gallery.New()).
 		Register(bookmark.New()).
 		Register(importer.New()).
 		Register(importv2adapter.New()).

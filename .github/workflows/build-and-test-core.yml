@@ -2,7 +2,7 @@ name: Core CI & Android Lib Build
 
 on:
   push:
-    branches: [develop, main]
+    branches: [develop, main, 'mutation/**']
   workflow_dispatch:
 
 permissions:
@@ -29,12 +29,13 @@ jobs:
         run: |
           bash scripts/verify-offline.sh
 
-      - name: Test Gateway Range Seeking
+      - name: Test Sovereign Gateway
         run: |
-          go test -v ./pkg/lib/gateway -run TestGetFile_RangeSeeking
+          go test -v ./pkg/lib/gateway -run "TestGetFile_RangeSeeking|TestGateway_SessionTokenAuthentication|TestGateway_LoopbackOnlyBind|TestGetImage"
 
   build-android-lib:
     needs: [test]
+    if: (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/main') && !startsWith(github.ref, 'refs/heads/mutation/')
     runs-on: ubuntu-24.04
     timeout-minutes: 60
     steps:

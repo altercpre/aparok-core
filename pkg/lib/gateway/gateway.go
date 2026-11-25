@@ -67,6 +67,8 @@ func New() Gateway {
 // Gateway is a HTTP API for getting files and links from IPFS
 type Gateway interface {
 	Addr() string
+	Token() string
+	SetToken(token string)
 	app.ComponentRunnable
 	app.ComponentStatable
 }
@@ -80,6 +82,7 @@ type gateway struct {
 	limitCh           chan struct{}
 	fileStallTimeout  time.Duration
 	wellKnownPort     int
+	token             string
 
 	// lifecycleMu serializes whole start and stop operations against each other. mu alone is not
 	// enough: a stop has to drop it midway, to shut the HTTP server down without holding a lock the
@@ -205,6 +208,20 @@ func (g *gateway) Addr() string {
 	g.mu.Lock()
 	defer g.mu.Unlock()
 	return g.addr
+}
+
+// Token returns the session token required for requests
+func (g *gateway) Token() string {
+	g.mu.Lock()
+	defer g.mu.Unlock()
+	return g.token
+}
+
+// SetToken sets the session token required for requests
+func (g *gateway) SetToken(token string) {
+	g.mu.Lock()
+	defer g.mu.Unlock()
+	g.token = token
 }
 
 func (g *gateway) StateChange(state int) {
@@ -422,6 +439,10 @@ func (g *gateway) fileHandler(w http.ResponseWriter, r *http.Request) {
 	if !allowReadMethod(w, r) {
 		return
 	}
+	if g.token != "" && r.URL.Query().Get("token") != g.token {
+		http.Error(w, "unauthorized", http.StatusUnauthorized)
+		return
+	}
 
 	select {
 	case g.limitCh <- struct{}{}:
@@ -485,6 +506,10 @@ func (g *gateway) imageHandler(w http.ResponseWriter, r *http.Request) {
 	if !allowReadMethod(w, r) {
 		return
 	}
+	if g.token != "" && r.URL.Query().Get("token") != g.token {
+		http.Error(w, "unauthorized", http.StatusUnauthorized)
+		return
+	}
 
 	select {
 	case g.limitCh <- struct{}{}:
@@ -522,7 +547,7 @@ func (g *gateway) getImage(ctx context.Context, r *http.Request) (*getImageReade
 
 	retryOptions := []retry.Option{
 		retry.Context(ctx),
-		retry.Attempts(0),
+		retry.Attempts(3),
 		retry.Delay(200 * time.Millisecond),
 		retry.MaxDelay(2 * time.Second),
 		retry.DelayType(retry.BackOffDelay),
