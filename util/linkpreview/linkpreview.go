@@ -2,6 +2,7 @@ package linkpreview
 
 import (
 	"context"
+	"errors"
 	neturl "net/url"
 
 	"github.com/anyproto/any-sync/app"
@@ -14,7 +15,8 @@ const (
 )
 
 var (
-	log = logging.Logger(CName)
+	log            = logging.Logger(CName)
+	ErrPrivateLink = errors.New("private link")
 )
 
 func New() LinkPreview {
