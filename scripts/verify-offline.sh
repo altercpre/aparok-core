@@ -59,7 +59,7 @@ BANNED_COMPONENTS=(
 )
 
 for COMP in "${BANNED_COMPONENTS[@]}"; do
-    if grep -E "Register\(${COMP}\)" core/anytype/bootstrap.go; then
+    if grep -E "Register\(${COMP}" core/anytype/bootstrap.go; then
         echo "FAIL: Banned component registered in bootstrap.go: $COMP"
         VIOLATIONS=$((VIOLATIONS + 1))
     else
