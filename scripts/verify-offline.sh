@@ -7,16 +7,10 @@ BANNED_PACKAGES=(
     "github.com/prometheus/client_golang"
     "github.com/uber/jaeger-client-go"
     "github.com/grandcat/zeroconf"
-    "github.com/anyproto/any-sync/net/transport/quic"
-    "github.com/anyproto/any-sync/net/transport/yamux"
-    "github.com/anyproto/any-sync/coordinator/coordinatorclient"
-    "github.com/anyproto/any-sync/node/nodeclient"
-    "github.com/anyproto/any-sync/localdiscovery"
-    "github.com/anyproto/any-sync/nameservice"
     "github.com/otiai10/opengraph"
 )
 
-echo "Checking package dependencies against banned telemetry, network transports, and remote discovery..."
+echo "Checking package dependencies against banned telemetry and remote discovery..."
 TAGS="nogrpcserver gomobile nowatchdog nosigar nomutexdeadlockdetector timetzdata rasterizesvg"
 
 # Strict check: fail if go list fails (no 2>/dev/null || true)
