@@ -129,7 +129,7 @@ func ProbeStorage(targetDir string) (string, error) {
 	if err := syscall.Statfs(targetDir, &stat); err == nil {
 		freeBytes := stat.Bavail * uint64(stat.Bsize)
 		if freeBytes < 50*1024*1024 {
-			return "", fmt.Sprintf("insufficient free space: %d MB available, need at least 50 MB", freeBytes/(1024*1024))
+			return "", fmt.Errorf("insufficient free space: %d MB available, need at least 50 MB", freeBytes/(1024*1024))
 		}
 	}
 
