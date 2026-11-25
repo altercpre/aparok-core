@@ -4,10 +4,11 @@ set -euo pipefail
 echo "=== Aparok Core Sovereign Offline Verification (R6 Strict Gate) ==="
 
 BANNED_PACKAGES=(
-    "github.com/prometheus/client_golang"
     "github.com/uber/jaeger-client-go"
     "github.com/grandcat/zeroconf"
     "github.com/otiai10/opengraph"
+    "github.com/anyproto/anytype-publish-server/publishclient"
+    "github.com/hbagdi/go-unsplash"
 )
 
 echo "Checking package dependencies against banned telemetry and remote discovery..."
@@ -27,6 +28,15 @@ for BANNED in "${BANNED_PACKAGES[@]}"; do
         echo "PASS: Clean - $BANNED not present in dependency graph."
     fi
 done
+
+echo "Checking direct imports of prometheus in core and service..."
+DIRECT_IMPORTS=$(go list -tags "${TAGS}" -f '{{range .Imports}}{{println .}}{{end}}' ./clientlibrary/service ./core)
+if grep -F "github.com/prometheus/client_golang" <<< "$DIRECT_IMPORTS" >/dev/null; then
+    echo "FAIL: prometheus directly imported by core or clientlibrary/service"
+    VIOLATIONS=$((VIOLATIONS + 1))
+else
+    echo "PASS: Zero direct prometheus imports in core and clientlibrary/service"
+fi
 
 echo "Checking for local-only mode enforcement..."
 if grep -q "IsLocalOnlyMode() bool" core/anytype/config/config.go; then
