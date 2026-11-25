@@ -18,7 +18,7 @@ DEPS=$(go list -tags "${TAGS}" -deps ./clientlibrary/service ./core)
 
 VIOLATIONS=0
 for BANNED in "${BANNED_PACKAGES[@]}"; do
-    if echo "$DEPS" | grep -q "$BANNED"; then
+    if grep -F "$BANNED" <<< "$DEPS" >/dev/null; then
         echo "FAIL: Banned package detected in dependencies: $BANNED"
         echo "Tracer chain for $BANNED:"
         go list -tags "${TAGS}" -deps -f '{{with .Imports}}{{range .}}{{printf "%s -> %s\n" $.ImportPath .}}{{end}}{{end}}' ./clientlibrary/service ./core | grep "$BANNED" || true
