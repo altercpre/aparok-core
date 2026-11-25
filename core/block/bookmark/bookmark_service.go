@@ -30,14 +30,12 @@ import (
 	neturl "net/url"
 	"path"
 	"strings"
-	"sync"
 	"time"
 
 	"github.com/anyproto/any-sync/app"
 	"github.com/globalsign/mgo/bson"
 
 	"github.com/anyproto/anytype-heart/core/block/editor/state"
-	"github.com/anyproto/anytype-heart/core/block/import/markdown/anymark"
 	"github.com/anyproto/anytype-heart/core/block/simple/bookmark"
 	"github.com/anyproto/anytype-heart/core/block/template"
 	"github.com/anyproto/anytype-heart/core/domain"
